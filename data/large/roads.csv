@@ -1,0 +1,2401 @@
+road_id,from_id,to_id,road_name,travel_time_min,congestion_level,congestion_category,road_type,Status
+1,1,41,Fort Avenue 01,4,3,Moderate,Main Road,Open
+2,41,1,Fort Avenue 01,4,3,Moderate,Main Road,Close
+3,41,81,Fort Road 02,4,4,High,Main Road,Open
+4,81,41,Fort Road 02,4,4,High,Main Road,Open
+5,81,121,Fort Mawatha 03,4,4,High,Main Road,Open
+6,121,81,Fort Mawatha 03,4,4,High,Main Road,Close
+7,121,161,Fort Connector 04,3,3,Moderate,Main Road,Open
+8,161,121,Fort Connector 04,3,3,Moderate,Main Road,Close
+9,161,201,Fort-Galle Face Link,4,4,High,Main Road,Open
+10,201,161,Fort-Galle Face Link,4,4,High,Main Road,Close
+11,201,241,Galle Face Avenue 06,4,3,Moderate,Main Road,Open
+12,241,201,Galle Face Avenue 06,4,3,Moderate,Main Road,Open
+13,241,281,Galle Face Road 07,4,3,Moderate,Main Road,Open
+14,281,241,Galle Face Road 07,4,3,Moderate,Main Road,Open
+15,281,321,Galle Face Mawatha 08,4,3,Moderate,Main Road,Open
+16,321,281,Galle Face Mawatha 08,4,3,Moderate,Main Road,Close
+17,321,361,Galle Face Connector 09,4,4,High,Main Road,Open
+18,361,321,Galle Face Connector 09,4,4,High,Main Road,Open
+19,361,401,Galle Face-Kollupitiya Link,4,4,High,Main Road,Open
+20,401,361,Galle Face-Kollupitiya Link,4,4,High,Main Road,Open
+21,401,441,Kollupitiya Avenue 11,3,2,Low,Main Road,Open
+22,441,401,Kollupitiya Avenue 11,3,2,Low,Main Road,Close
+23,441,481,Kollupitiya Road 12,4,4,High,Coastal Road,Open
+24,481,441,Kollupitiya Road 12,4,4,High,Coastal Road,Open
+25,481,521,Kollupitiya Mawatha 13,3,3,Moderate,Express Route,Open
+26,521,481,Kollupitiya Mawatha 13,3,3,Moderate,Express Route,Close
+27,521,561,Kollupitiya Connector 14,4,4,High,Main Road,Open
+28,561,521,Kollupitiya Connector 14,4,4,High,Main Road,Close
+29,561,601,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Open
+30,601,561,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Close
+31,601,641,Wellawatte Avenue 16,3,2,Low,Main Road,Open
+32,641,601,Wellawatte Avenue 16,3,2,Low,Main Road,Close
+33,641,681,Wellawatte Road 17,3,2,Low,Main Road,Open
+34,681,641,Wellawatte Road 17,3,2,Low,Main Road,Open
+35,681,721,Wellawatte Mawatha 18,3,3,Moderate,Coastal Road,Open
+36,721,681,Wellawatte Mawatha 18,3,3,Moderate,Coastal Road,Open
+37,721,761,Wellawatte Connector 19,2,2,Low,Express Route,Open
+38,761,721,Wellawatte Connector 19,2,2,Low,Express Route,Close
+39,761,801,Wellawatte-Dehiwala Link,3,2,Low,Main Road,Open
+40,801,761,Wellawatte-Dehiwala Link,3,2,Low,Main Road,Close
+41,801,841,Dehiwala Avenue 21,3,2,Low,Main Road,Open
+42,841,801,Dehiwala Avenue 21,3,2,Low,Main Road,Close
+43,841,881,Dehiwala Road 22,3,2,Low,Main Road,Open
+44,881,841,Dehiwala Road 22,3,2,Low,Main Road,Close
+45,881,921,Dehiwala Mawatha 23,4,3,Moderate,Main Road,Open
+46,921,881,Dehiwala Mawatha 23,4,3,Moderate,Main Road,Close
+47,921,961,Dehiwala Connector 24,3,3,Moderate,Express Route,Open
+48,961,921,Dehiwala Connector 24,3,3,Moderate,Express Route,Close
+49,961,962,Dehiwala Link 25,2,4,High,Express Route,Open
+50,962,961,Dehiwala Link 25,2,4,High,Express Route,Open
+51,962,922,Dehiwala Avenue 26,3,2,Low,Main Road,Open
+52,922,962,Dehiwala Avenue 26,3,2,Low,Main Road,Open
+53,922,882,Dehiwala Road 27,4,4,High,Main Road,Open
+54,882,922,Dehiwala Road 27,4,4,High,Main Road,Close
+55,882,842,Dehiwala Mawatha 28,4,4,High,Coastal Road,Open
+56,842,882,Dehiwala Mawatha 28,4,4,High,Coastal Road,Open
+57,842,802,Dehiwala Connector 29,3,2,Low,Main Road,Open
+58,802,842,Dehiwala Connector 29,3,2,Low,Main Road,Open
+59,802,762,Dehiwala-Wellawatte Link,4,4,High,Main Road,Open
+60,762,802,Dehiwala-Wellawatte Link,4,4,High,Main Road,Open
+61,762,722,Wellawatte Avenue 31,4,4,High,Main Road,Open
+62,722,762,Wellawatte Avenue 31,4,4,High,Main Road,Close
+63,722,682,Wellawatte Road 32,3,4,High,Express Route,Open
+64,682,722,Wellawatte Road 32,3,4,High,Express Route,Open
+65,682,642,Wellawatte Mawatha 33,4,3,Moderate,Main Road,Open
+66,642,682,Wellawatte Mawatha 33,4,3,Moderate,Main Road,Close
+67,642,602,Wellawatte Connector 34,4,4,High,Main Road,Open
+68,602,642,Wellawatte Connector 34,4,4,High,Main Road,Close
+69,602,562,Wellawatte-Kollupitiya Link,4,4,High,Main Road,Open
+70,562,602,Wellawatte-Kollupitiya Link,4,4,High,Main Road,Close
+71,562,522,Kollupitiya Avenue 36,4,4,High,Coastal Road,Open
+72,522,562,Kollupitiya Avenue 36,4,4,High,Coastal Road,Close
+73,522,482,Kollupitiya Road 37,3,3,Moderate,Express Route,Open
+74,482,522,Kollupitiya Road 37,3,3,Moderate,Express Route,Close
+75,482,442,Kollupitiya Mawatha 38,5,4,High,Mountain Road,Open
+76,442,482,Kollupitiya Mawatha 38,5,4,High,Mountain Road,Close
+77,442,402,Kollupitiya Connector 39,4,3,Moderate,Main Road,Open
+78,402,442,Kollupitiya Connector 39,4,3,Moderate,Main Road,Close
+79,402,362,Kollupitiya-Galle Face Link,3,3,Moderate,Coastal Road,Open
+80,362,402,Kollupitiya-Galle Face Link,3,3,Moderate,Coastal Road,Close
+81,362,322,Galle Face Avenue 01,3,2,Low,Main Road,Open
+82,322,362,Galle Face Avenue 01,3,2,Low,Main Road,Open
+83,322,282,Galle Face Road 02,4,4,High,Main Road,Open
+84,282,322,Galle Face Road 02,4,4,High,Main Road,Close
+85,282,242,Galle Face Mawatha 03,3,2,Low,Main Road,Open
+86,242,282,Galle Face Mawatha 03,3,2,Low,Main Road,Close
+87,242,202,Galle Face Connector 04,5,3,Moderate,Mountain Road,Open
+88,202,242,Galle Face Connector 04,5,3,Moderate,Mountain Road,Close
+89,202,162,Galle Face-Fort Link,4,3,Moderate,Main Road,Open
+90,162,202,Galle Face-Fort Link,4,3,Moderate,Main Road,Close
+91,162,122,Fort Avenue 06,3,2,Low,Main Road,Open
+92,122,162,Fort Avenue 06,3,2,Low,Main Road,Close
+93,122,82,Fort Road 07,4,4,High,Main Road,Open
+94,82,122,Fort Road 07,4,4,High,Main Road,Close
+95,82,42,Fort Mawatha 08,3,2,Low,Coastal Road,Open
+96,42,82,Fort Mawatha 08,3,2,Low,Coastal Road,Open
+97,42,43,Fort Connector 09,3,3,Moderate,Main Road,Open
+98,43,42,Fort Connector 09,3,3,Moderate,Main Road,Close
+99,43,83,Fort Link 10,4,4,High,Main Road,Open
+100,83,43,Fort Link 10,4,4,High,Main Road,Open
+101,83,123,Fort Avenue 11,4,3,Moderate,Main Road,Open
+102,123,83,Fort Avenue 11,4,3,Moderate,Main Road,Close
+103,123,163,Fort Road 12,3,2,Low,Main Road,Open
+104,163,123,Fort Road 12,3,2,Low,Main Road,Close
+105,163,203,Fort-Galle Face Link,3,2,Low,Main Road,Open
+106,203,163,Fort-Galle Face Link,3,2,Low,Main Road,Close
+107,203,243,Galle Face Connector 14,4,3,Moderate,Main Road,Open
+108,243,203,Galle Face Connector 14,4,3,Moderate,Main Road,Close
+109,243,283,Galle Face Link 15,3,3,Moderate,Main Road,Open
+110,283,243,Galle Face Link 15,3,3,Moderate,Main Road,Close
+111,283,323,Galle Face Avenue 16,4,3,Moderate,Main Road,Open
+112,323,283,Galle Face Avenue 16,4,3,Moderate,Main Road,Close
+113,323,363,Galle Face Road 17,4,3,Moderate,Main Road,Open
+114,363,323,Galle Face Road 17,4,3,Moderate,Main Road,Close
+115,363,403,Galle Face-Kollupitiya Link,3,3,Moderate,Coastal Road,Open
+116,403,363,Galle Face-Kollupitiya Link,3,3,Moderate,Coastal Road,Open
+117,403,443,Kollupitiya Connector 19,4,4,High,Main Road,Open
+118,443,403,Kollupitiya Connector 19,4,4,High,Main Road,Close
+119,443,483,Kollupitiya Link 20,4,4,High,Main Road,Open
+120,483,443,Kollupitiya Link 20,4,4,High,Main Road,Close
+121,483,523,Kollupitiya Avenue 21,3,3,Moderate,Main Road,Open
+122,523,483,Kollupitiya Avenue 21,3,3,Moderate,Main Road,Close
+123,523,563,Kollupitiya Road 22,4,3,Moderate,Main Road,Open
+124,563,523,Kollupitiya Road 22,4,3,Moderate,Main Road,Close
+125,563,603,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Open
+126,603,563,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Open
+127,603,643,Wellawatte Connector 24,5,4,High,Mountain Road,Open
+128,643,603,Wellawatte Connector 24,5,4,High,Mountain Road,Close
+129,643,683,Wellawatte Link 25,3,2,Low,Main Road,Open
+130,683,643,Wellawatte Link 25,3,2,Low,Main Road,Close
+131,683,723,Wellawatte Avenue 26,4,3,Moderate,Main Road,Open
+132,723,683,Wellawatte Avenue 26,4,3,Moderate,Main Road,Close
+133,723,763,Wellawatte Road 27,4,3,Moderate,Main Road,Open
+134,763,723,Wellawatte Road 27,4,3,Moderate,Main Road,Close
+135,763,803,Wellawatte-Dehiwala Link,3,2,Low,Main Road,Open
+136,803,763,Wellawatte-Dehiwala Link,3,2,Low,Main Road,Close
+137,803,843,Dehiwala Connector 29,4,4,High,Main Road,Open
+138,843,803,Dehiwala Connector 29,4,4,High,Main Road,Close
+139,843,883,Dehiwala Link 30,4,3,Moderate,Main Road,Open
+140,883,843,Dehiwala Link 30,4,3,Moderate,Main Road,Close
+141,883,923,Dehiwala Avenue 31,4,2,Low,Mountain Road,Open
+142,923,883,Dehiwala Avenue 31,4,2,Low,Mountain Road,Open
+143,923,963,Dehiwala Road 32,4,4,High,Main Road,Open
+144,963,923,Dehiwala Road 32,4,4,High,Main Road,Close
+145,963,964,Dehiwala Mawatha 33,3,4,High,Main Road,Open
+146,964,963,Dehiwala Mawatha 33,3,4,High,Main Road,Close
+147,964,924,Dehiwala Connector 34,4,3,Moderate,Main Road,Open
+148,924,964,Dehiwala Connector 34,4,3,Moderate,Main Road,Open
+149,924,884,Dehiwala Link 35,4,4,High,Main Road,Open
+150,884,924,Dehiwala Link 35,4,4,High,Main Road,Close
+151,884,844,Dehiwala Avenue 36,4,3,Moderate,Main Road,Open
+152,844,884,Dehiwala Avenue 36,4,3,Moderate,Main Road,Open
+153,844,804,Dehiwala Road 37,4,3,Moderate,Main Road,Open
+154,804,844,Dehiwala Road 37,4,3,Moderate,Main Road,Open
+155,804,764,Dehiwala-Wellawatte Link,3,3,Moderate,Main Road,Open
+156,764,804,Dehiwala-Wellawatte Link,3,3,Moderate,Main Road,Open
+157,764,724,Wellawatte Connector 39,4,3,Moderate,Main Road,Open
+158,724,764,Wellawatte Connector 39,4,3,Moderate,Main Road,Close
+159,724,684,Wellawatte Link 40,3,3,Moderate,Express Route,Open
+160,684,724,Wellawatte Link 40,3,3,Moderate,Express Route,Close
+161,684,644,Wellawatte Avenue 01,4,4,High,Main Road,Open
+162,644,684,Wellawatte Avenue 01,4,4,High,Main Road,Open
+163,644,604,Wellawatte Road 02,3,2,Low,Coastal Road,Open
+164,604,644,Wellawatte Road 02,3,2,Low,Coastal Road,Open
+165,604,564,Wellawatte-Kollupitiya Link,4,2,Low,Mountain Road,Open
+166,564,604,Wellawatte-Kollupitiya Link,4,2,Low,Mountain Road,Open
+167,564,524,Kollupitiya Connector 04,4,4,High,Main Road,Open
+168,524,564,Kollupitiya Connector 04,4,4,High,Main Road,Close
+169,524,484,Kollupitiya Link 05,4,3,Moderate,Main Road,Open
+170,484,524,Kollupitiya Link 05,4,3,Moderate,Main Road,Open
+171,484,444,Kollupitiya Avenue 06,3,4,High,Express Route,Open
+172,444,484,Kollupitiya Avenue 06,3,4,High,Express Route,Open
+173,444,404,Kollupitiya Road 07,3,3,Moderate,Coastal Road,Open
+174,404,444,Kollupitiya Road 07,3,3,Moderate,Coastal Road,Close
+175,404,364,Kollupitiya-Galle Face Link,4,3,Moderate,Main Road,Open
+176,364,404,Kollupitiya-Galle Face Link,4,3,Moderate,Main Road,Open
+177,364,324,Galle Face Connector 09,4,3,Moderate,Main Road,Open
+178,324,364,Galle Face Connector 09,4,3,Moderate,Main Road,Close
+179,324,284,Galle Face Link 10,3,2,Low,Main Road,Open
+180,284,324,Galle Face Link 10,3,2,Low,Main Road,Close
+181,284,244,Galle Face Avenue 11,4,4,High,Main Road,Open
+182,244,284,Galle Face Avenue 11,4,4,High,Main Road,Open
+183,244,204,Galle Face Road 12,4,4,High,Main Road,Open
+184,204,244,Galle Face Road 12,4,4,High,Main Road,Close
+185,204,164,Galle Face-Fort Link,4,4,High,Main Road,Open
+186,164,204,Galle Face-Fort Link,4,4,High,Main Road,Close
+187,164,124,Fort Connector 14,4,4,High,Main Road,Open
+188,124,164,Fort Connector 14,4,4,High,Main Road,Close
+189,124,84,Fort Link 15,4,3,Moderate,Main Road,Open
+190,84,124,Fort Link 15,4,3,Moderate,Main Road,Open
+191,84,44,Fort Avenue 16,4,4,High,Main Road,Open
+192,44,84,Fort Avenue 16,4,4,High,Main Road,Close
+193,44,45,Fort Road 17,2,3,Moderate,Express Route,Open
+194,45,44,Fort Road 17,2,3,Moderate,Express Route,Close
+195,45,85,Fort Mawatha 18,3,2,Low,Main Road,Open
+196,85,45,Fort Mawatha 18,3,2,Low,Main Road,Open
+197,85,125,Fort Connector 19,4,3,Moderate,Main Road,Open
+198,125,85,Fort Connector 19,4,3,Moderate,Main Road,Close
+199,125,165,Fort Link 20,4,3,Moderate,Main Road,Open
+200,165,125,Fort Link 20,4,3,Moderate,Main Road,Open
+201,165,205,Fort-Galle Face Link,3,2,Low,Main Road,Open
+202,205,165,Fort-Galle Face Link,3,2,Low,Main Road,Close
+203,205,245,Galle Face Road 22,4,4,High,Main Road,Open
+204,245,205,Galle Face Road 22,4,4,High,Main Road,Close
+205,245,285,Galle Face Mawatha 23,4,4,High,Main Road,Open
+206,285,245,Galle Face Mawatha 23,4,4,High,Main Road,Close
+207,285,325,Galle Face Connector 24,4,4,High,Main Road,Open
+208,325,285,Galle Face Connector 24,4,4,High,Main Road,Close
+209,325,365,Galle Face Link 25,4,3,Moderate,Main Road,Open
+210,365,325,Galle Face Link 25,4,3,Moderate,Main Road,Close
+211,365,405,Galle Face-Kollupitiya Link,4,4,High,Main Road,Open
+212,405,365,Galle Face-Kollupitiya Link,4,4,High,Main Road,Close
+213,405,445,Kollupitiya Road 27,3,2,Low,Main Road,Open
+214,445,405,Kollupitiya Road 27,3,2,Low,Main Road,Close
+215,445,485,Kollupitiya Mawatha 28,4,3,Moderate,Main Road,Open
+216,485,445,Kollupitiya Mawatha 28,4,3,Moderate,Main Road,Close
+217,485,525,Kollupitiya Connector 29,3,2,Low,Main Road,Open
+218,525,485,Kollupitiya Connector 29,3,2,Low,Main Road,Open
+219,525,565,Kollupitiya Link 30,4,4,High,Main Road,Open
+220,565,525,Kollupitiya Link 30,4,4,High,Main Road,Close
+221,565,605,Kollupitiya-Wellawatte Link,4,4,High,Main Road,Open
+222,605,565,Kollupitiya-Wellawatte Link,4,4,High,Main Road,Close
+223,605,645,Wellawatte Road 32,3,2,Low,Main Road,Open
+224,645,605,Wellawatte Road 32,3,2,Low,Main Road,Close
+225,645,685,Wellawatte Mawatha 33,3,2,Low,Main Road,Open
+226,685,645,Wellawatte Mawatha 33,3,2,Low,Main Road,Open
+227,685,725,Wellawatte Connector 34,4,4,High,Main Road,Open
+228,725,685,Wellawatte Connector 34,4,4,High,Main Road,Open
+229,725,765,Wellawatte Link 35,4,4,High,Main Road,Open
+230,765,725,Wellawatte Link 35,4,4,High,Main Road,Close
+231,765,805,Wellawatte-Dehiwala Link,3,4,High,Coastal Road,Open
+232,805,765,Wellawatte-Dehiwala Link,3,4,High,Coastal Road,Open
+233,805,845,Dehiwala Road 37,4,4,High,Main Road,Open
+234,845,805,Dehiwala Road 37,4,4,High,Main Road,Open
+235,845,885,Dehiwala Mawatha 38,4,3,Moderate,Main Road,Open
+236,885,845,Dehiwala Mawatha 38,4,3,Moderate,Main Road,Close
+237,885,925,Dehiwala Connector 39,4,4,High,Main Road,Open
+238,925,885,Dehiwala Connector 39,4,4,High,Main Road,Open
+239,925,965,Dehiwala Link 40,3,2,Low,Main Road,Open
+240,965,925,Dehiwala Link 40,3,2,Low,Main Road,Close
+241,965,966,Dehiwala Avenue 01,2,4,High,Express Route,Open
+242,966,965,Dehiwala Avenue 01,2,4,High,Express Route,Open
+243,966,926,Dehiwala Road 02,3,4,High,Express Route,Open
+244,926,966,Dehiwala Road 02,3,4,High,Express Route,Close
+245,926,886,Dehiwala Mawatha 03,3,2,Low,Main Road,Open
+246,886,926,Dehiwala Mawatha 03,3,2,Low,Main Road,Close
+247,886,846,Dehiwala Connector 04,3,3,Moderate,Coastal Road,Open
+248,846,886,Dehiwala Connector 04,3,3,Moderate,Coastal Road,Close
+249,846,806,Dehiwala Link 05,4,4,High,Main Road,Open
+250,806,846,Dehiwala Link 05,4,4,High,Main Road,Close
+251,806,766,Dehiwala-Wellawatte Link,4,4,High,Main Road,Open
+252,766,806,Dehiwala-Wellawatte Link,4,4,High,Main Road,Open
+253,766,726,Wellawatte Road 07,3,2,Low,Main Road,Open
+254,726,766,Wellawatte Road 07,3,2,Low,Main Road,Close
+255,726,686,Wellawatte Mawatha 08,4,3,Moderate,Mountain Road,Open
+256,686,726,Wellawatte Mawatha 08,4,3,Moderate,Mountain Road,Close
+257,686,646,Wellawatte Connector 09,4,3,Moderate,Main Road,Open
+258,646,686,Wellawatte Connector 09,4,3,Moderate,Main Road,Close
+259,646,606,Wellawatte Link 10,4,3,Moderate,Main Road,Open
+260,606,646,Wellawatte Link 10,4,3,Moderate,Main Road,Close
+261,606,566,Wellawatte-Kollupitiya Link,4,2,Low,Mountain Road,Open
+262,566,606,Wellawatte-Kollupitiya Link,4,2,Low,Mountain Road,Close
+263,566,526,Kollupitiya Road 12,4,3,Moderate,Main Road,Open
+264,526,566,Kollupitiya Road 12,4,3,Moderate,Main Road,Close
+265,526,486,Kollupitiya Mawatha 13,4,3,Moderate,Main Road,Open
+266,486,526,Kollupitiya Mawatha 13,4,3,Moderate,Main Road,Close
+267,486,446,Kollupitiya Connector 14,3,2,Low,Main Road,Open
+268,446,486,Kollupitiya Connector 14,3,2,Low,Main Road,Open
+269,446,406,Kollupitiya Link 15,3,3,Moderate,Coastal Road,Open
+270,406,446,Kollupitiya Link 15,3,3,Moderate,Coastal Road,Close
+271,406,366,Kollupitiya-Galle Face Link,4,3,Moderate,Main Road,Open
+272,366,406,Kollupitiya-Galle Face Link,4,3,Moderate,Main Road,Open
+273,366,326,Galle Face Road 17,3,4,High,Express Route,Open
+274,326,366,Galle Face Road 17,3,4,High,Express Route,Close
+275,326,286,Galle Face Mawatha 18,4,4,High,Main Road,Open
+276,286,326,Galle Face Mawatha 18,4,4,High,Main Road,Close
+277,286,246,Galle Face Connector 19,4,3,Moderate,Main Road,Open
+278,246,286,Galle Face Connector 19,4,3,Moderate,Main Road,Open
+279,246,206,Galle Face Link 20,3,4,High,Coastal Road,Open
+280,206,246,Galle Face Link 20,3,4,High,Coastal Road,Close
+281,206,166,Galle Face-Fort Link,3,3,Moderate,Express Route,Open
+282,166,206,Galle Face-Fort Link,3,3,Moderate,Express Route,Open
+283,166,126,Fort Road 22,4,3,Moderate,Main Road,Open
+284,126,166,Fort Road 22,4,3,Moderate,Main Road,Open
+285,126,86,Fort Mawatha 23,4,3,Moderate,Main Road,Open
+286,86,126,Fort Mawatha 23,4,3,Moderate,Main Road,Open
+287,86,46,Fort Connector 24,3,2,Low,Coastal Road,Open
+288,46,86,Fort Connector 24,3,2,Low,Coastal Road,Open
+289,46,47,Fort Link 25,3,2,Low,Main Road,Open
+290,47,46,Fort Link 25,3,2,Low,Main Road,Close
+291,47,87,Fort Avenue 26,4,3,Moderate,Main Road,Open
+292,87,47,Fort Avenue 26,4,3,Moderate,Main Road,Close
+293,87,127,Fort Road 27,4,3,Moderate,Main Road,Open
+294,127,87,Fort Road 27,4,3,Moderate,Main Road,Close
+295,127,167,Fort Mawatha 28,3,2,Low,Main Road,Open
+296,167,127,Fort Mawatha 28,3,2,Low,Main Road,Close
+297,167,207,Fort-Galle Face Link,4,4,High,Main Road,Open
+298,207,167,Fort-Galle Face Link,4,4,High,Main Road,Close
+299,207,247,Galle Face Link 30,2,2,Low,Express Route,Open
+300,247,207,Galle Face Link 30,2,2,Low,Express Route,Close
+301,247,287,Galle Face Avenue 31,3,3,Moderate,Express Route,Open
+302,287,247,Galle Face Avenue 31,3,3,Moderate,Express Route,Close
+303,287,327,Galle Face Road 32,4,3,Moderate,Main Road,Open
+304,327,287,Galle Face Road 32,4,3,Moderate,Main Road,Close
+305,327,367,Galle Face Mawatha 33,5,4,High,Mountain Road,Open
+306,367,327,Galle Face Mawatha 33,5,4,High,Mountain Road,Open
+307,367,407,Galle Face-Kollupitiya Link,4,4,High,Main Road,Open
+308,407,367,Galle Face-Kollupitiya Link,4,4,High,Main Road,Close
+309,407,447,Kollupitiya Link 35,3,3,Moderate,Express Route,Open
+310,447,407,Kollupitiya Link 35,3,3,Moderate,Express Route,Close
+311,447,487,Kollupitiya Avenue 36,4,3,Moderate,Main Road,Open
+312,487,447,Kollupitiya Avenue 36,4,3,Moderate,Main Road,Close
+313,487,527,Kollupitiya Road 37,3,2,Low,Main Road,Open
+314,527,487,Kollupitiya Road 37,3,2,Low,Main Road,Close
+315,527,567,Kollupitiya Mawatha 38,4,3,Moderate,Main Road,Open
+316,567,527,Kollupitiya Mawatha 38,4,3,Moderate,Main Road,Close
+317,567,607,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Open
+318,607,567,Kollupitiya-Wellawatte Link,3,2,Low,Main Road,Close
+319,607,647,Wellawatte Link 40,4,3,Moderate,Main Road,Open
+320,647,607,Wellawatte Link 40,4,3,Moderate,Main Road,Open
+321,647,687,Wellawatte Avenue 01,4,4,High,Main Road,Open
+322,687,647,Wellawatte Avenue 01,4,4,High,Main Road,Close
+323,687,727,Wellawatte Road 02,4,3,Moderate,Main Road,Open
+324,727,687,Wellawatte Road 02,4,3,Moderate,Main Road,Open
+325,727,767,Wellawatte Mawatha 03,4,4,High,Main Road,Open
+326,767,727,Wellawatte Mawatha 03,4,4,High,Main Road,Close
+327,767,807,Wellawatte-Dehiwala Link,4,4,High,Main Road,Open
+328,807,767,Wellawatte-Dehiwala Link,4,4,High,Main Road,Open
+329,807,847,Dehiwala Link 05,3,2,Low,Main Road,Open
+330,847,807,Dehiwala Link 05,3,2,Low,Main Road,Open
+331,847,887,Dehiwala Avenue 06,4,4,High,Main Road,Open
+332,887,847,Dehiwala Avenue 06,4,4,High,Main Road,Close
+333,887,927,Dehiwala Road 07,4,3,Moderate,Main Road,Open
+334,927,887,Dehiwala Road 07,4,3,Moderate,Main Road,Close
+335,927,967,Dehiwala Mawatha 08,4,4,High,Main Road,Open
+336,967,927,Dehiwala Mawatha 08,4,4,High,Main Road,Close
+337,967,968,Dehiwala Connector 09,3,4,High,Main Road,Open
+338,968,967,Dehiwala Connector 09,3,4,High,Main Road,Open
+339,968,928,Dehiwala Link 10,4,4,High,Main Road,Open
+340,928,968,Dehiwala Link 10,4,4,High,Main Road,Close
+341,928,888,Dehiwala Avenue 11,3,2,Low,Main Road,Open
+342,888,928,Dehiwala Avenue 11,3,2,Low,Main Road,Close
+343,888,848,Dehiwala Road 12,3,2,Low,Main Road,Open
+344,848,888,Dehiwala Road 12,3,2,Low,Main Road,Close
+345,848,808,Dehiwala Mawatha 13,3,3,Moderate,Main Road,Open
+346,808,848,Dehiwala Mawatha 13,3,3,Moderate,Main Road,Close
+347,808,768,Dehiwala-Wellawatte Link,4,3,Moderate,Main Road,Open
+348,768,808,Dehiwala-Wellawatte Link,4,3,Moderate,Main Road,Close
+349,768,728,Wellawatte Link 15,4,4,High,Main Road,Open
+350,728,768,Wellawatte Link 15,4,4,High,Main Road,Close
+351,728,688,Wellawatte Avenue 16,3,2,Low,Coastal Road,Open
+352,688,728,Wellawatte Avenue 16,3,2,Low,Coastal Road,Open
+353,688,648,Wellawatte Road 17,4,4,High,Main Road,Open
+354,648,688,Wellawatte Road 17,4,4,High,Main Road,Close
+355,648,608,Wellawatte Mawatha 18,2,2,Low,Express Route,Open
+356,608,648,Wellawatte Mawatha 18,2,2,Low,Express Route,Close
+357,608,568,Wellawatte-Kollupitiya Link,4,4,High,Main Road,Open
+358,568,608,Wellawatte-Kollupitiya Link,4,4,High,Main Road,Close
+359,568,528,Kollupitiya Link 20,4,3,Moderate,Main Road,Open
+360,528,568,Kollupitiya Link 20,4,3,Moderate,Main Road,Close
+361,528,488,Kollupitiya Avenue 21,4,3,Moderate,Main Road,Open
+362,488,528,Kollupitiya Avenue 21,4,3,Moderate,Main Road,Close
+363,488,448,Kollupitiya Road 22,4,3,Moderate,Main Road,Open
+364,448,488,Kollupitiya Road 22,4,3,Moderate,Main Road,Close
+365,448,408,Kollupitiya Mawatha 23,4,3,Moderate,Main Road,Open
+366,408,448,Kollupitiya Mawatha 23,4,3,Moderate,Main Road,Open
+367,408,368,Kollupitiya-Galle Face Link,4,4,High,Main Road,Open
+368,368,408,Kollupitiya-Galle Face Link,4,4,High,Main Road,Close
+369,368,328,Galle Face Link 25,4,4,High,Main Road,Open
+370,328,368,Galle Face Link 25,4,4,High,Main Road,Open
+371,328,288,Galle Face Avenue 26,4,4,High,Main Road,Open
+372,288,328,Galle Face Avenue 26,4,4,High,Main Road,Open
+373,288,248,Galle Face Road 27,4,4,High,Main Road,Open
+374,248,288,Galle Face Road 27,4,4,High,Main Road,Open
+375,248,208,Galle Face Mawatha 28,3,2,Low,Main Road,Open
+376,208,248,Galle Face Mawatha 28,3,2,Low,Main Road,Open
+377,208,168,Galle Face-Fort Link,4,3,Moderate,Main Road,Open
+378,168,208,Galle Face-Fort Link,4,3,Moderate,Main Road,Close
+379,168,128,Fort Link 30,3,2,Low,Main Road,Open
+380,128,168,Fort Link 30,3,2,Low,Main Road,Close
+381,128,88,Fort Avenue 31,4,3,Moderate,Main Road,Open
+382,88,128,Fort Avenue 31,4,3,Moderate,Main Road,Close
+383,88,48,Fort Road 32,4,4,High,Main Road,Open
+384,48,88,Fort Road 32,4,4,High,Main Road,Close
+385,48,49,Fort-Pettah Link,3,4,High,Main Road,Open
+386,49,48,Fort-Pettah Link,3,4,High,Main Road,Open
+387,49,89,Pettah Connector 34,4,4,High,Main Road,Open
+388,89,49,Pettah Connector 34,4,4,High,Main Road,Open
+389,89,129,Pettah Link 35,4,3,Moderate,Main Road,Open
+390,129,89,Pettah Link 35,4,3,Moderate,Main Road,Close
+391,129,169,Pettah Avenue 36,4,4,High,Main Road,Open
+392,169,129,Pettah Avenue 36,4,4,High,Main Road,Close
+393,169,209,Pettah-Maradana Link,4,4,High,Main Road,Open
+394,209,169,Pettah-Maradana Link,4,4,High,Main Road,Close
+395,209,249,Maradana Mawatha 38,3,2,Low,Main Road,Open
+396,249,209,Maradana Mawatha 38,3,2,Low,Main Road,Close
+397,249,289,Maradana Connector 39,5,3,Moderate,Mountain Road,Open
+398,289,249,Maradana Connector 39,5,3,Moderate,Mountain Road,Open
+399,289,329,Maradana Link 40,4,3,Moderate,Main Road,Open
+400,329,289,Maradana Link 40,4,3,Moderate,Main Road,Close
+401,329,369,Maradana Avenue 01,4,3,Moderate,Main Road,Open
+402,369,329,Maradana Avenue 01,4,3,Moderate,Main Road,Close
+403,369,409,Maradana-Bambalapitiya Link,4,3,Moderate,Main Road,Open
+404,409,369,Maradana-Bambalapitiya Link,4,3,Moderate,Main Road,Close
+405,409,449,Bambalapitiya Mawatha 03,4,3,Moderate,Main Road,Open
+406,449,409,Bambalapitiya Mawatha 03,4,3,Moderate,Main Road,Close
+407,449,489,Bambalapitiya Connector 04,4,4,High,Main Road,Open
+408,489,449,Bambalapitiya Connector 04,4,4,High,Main Road,Open
+409,489,529,Bambalapitiya Link 05,4,4,High,Main Road,Open
+410,529,489,Bambalapitiya Link 05,4,4,High,Main Road,Open
+411,529,569,Bambalapitiya Avenue 06,4,4,High,Main Road,Open
+412,569,529,Bambalapitiya Avenue 06,4,4,High,Main Road,Open
+413,569,609,Bambalapitiya-Kirulapone Link,4,4,High,Main Road,Open
+414,609,569,Bambalapitiya-Kirulapone Link,4,4,High,Main Road,Close
+415,609,649,Kirulapone Mawatha 08,3,2,Low,Main Road,Open
+416,649,609,Kirulapone Mawatha 08,3,2,Low,Main Road,Open
+417,649,689,Kirulapone Connector 09,3,2,Low,Main Road,Open
+418,689,649,Kirulapone Connector 09,3,2,Low,Main Road,Open
+419,689,729,Kirulapone Link 10,3,3,Moderate,Coastal Road,Open
+420,729,689,Kirulapone Link 10,3,3,Moderate,Coastal Road,Close
+421,729,769,Kirulapone Avenue 11,4,4,High,Main Road,Open
+422,769,729,Kirulapone Avenue 11,4,4,High,Main Road,Close
+423,769,809,Kirulapone-Ratmalana Link,5,3,Moderate,Mountain Road,Open
+424,809,769,Kirulapone-Ratmalana Link,5,3,Moderate,Mountain Road,Open
+425,809,849,Ratmalana Mawatha 13,4,3,Moderate,Main Road,Open
+426,849,809,Ratmalana Mawatha 13,4,3,Moderate,Main Road,Close
+427,849,889,Ratmalana Connector 14,2,3,Moderate,Express Route,Open
+428,889,849,Ratmalana Connector 14,2,3,Moderate,Express Route,Close
+429,889,929,Ratmalana Link 15,3,2,Low,Main Road,Open
+430,929,889,Ratmalana Link 15,3,2,Low,Main Road,Close
+431,929,969,Ratmalana Avenue 16,3,3,Moderate,Main Road,Open
+432,969,929,Ratmalana Avenue 16,3,3,Moderate,Main Road,Close
+433,969,970,Ratmalana Road 17,3,3,Moderate,Main Road,Open
+434,970,969,Ratmalana Road 17,3,3,Moderate,Main Road,Close
+435,970,930,Ratmalana Mawatha 18,3,3,Moderate,Main Road,Open
+436,930,970,Ratmalana Mawatha 18,3,3,Moderate,Main Road,Close
+437,930,890,Ratmalana Connector 19,4,2,Low,Mountain Road,Open
+438,890,930,Ratmalana Connector 19,4,2,Low,Mountain Road,Close
+439,890,850,Ratmalana Link 20,3,2,Low,Main Road,Open
+440,850,890,Ratmalana Link 20,3,2,Low,Main Road,Close
+441,850,810,Ratmalana Avenue 21,4,3,Moderate,Main Road,Open
+442,810,850,Ratmalana Avenue 21,4,3,Moderate,Main Road,Close
+443,810,770,Ratmalana-Kirulapone Link,4,4,High,Main Road,Open
+444,770,810,Ratmalana-Kirulapone Link,4,4,High,Main Road,Close
+445,770,730,Kirulapone Mawatha 23,4,3,Moderate,Main Road,Open
+446,730,770,Kirulapone Mawatha 23,4,3,Moderate,Main Road,Close
+447,730,690,Kirulapone Connector 24,3,3,Moderate,Coastal Road,Open
+448,690,730,Kirulapone Connector 24,3,3,Moderate,Coastal Road,Close
+449,690,650,Kirulapone Link 25,4,3,Moderate,Main Road,Open
+450,650,690,Kirulapone Link 25,4,3,Moderate,Main Road,Close
+451,650,610,Kirulapone Avenue 26,3,2,Low,Main Road,Open
+452,610,650,Kirulapone Avenue 26,3,2,Low,Main Road,Close
+453,610,570,Kirulapone-Bambalapitiya Link,5,4,High,Mountain Road,Open
+454,570,610,Kirulapone-Bambalapitiya Link,5,4,High,Mountain Road,Open
+455,570,530,Bambalapitiya Mawatha 28,3,2,Low,Main Road,Open
+456,530,570,Bambalapitiya Mawatha 28,3,2,Low,Main Road,Close
+457,530,490,Bambalapitiya Connector 29,4,4,High,Main Road,Open
+458,490,530,Bambalapitiya Connector 29,4,4,High,Main Road,Close
+459,490,450,Bambalapitiya Link 30,5,4,High,Mountain Road,Open
+460,450,490,Bambalapitiya Link 30,5,4,High,Mountain Road,Close
+461,450,410,Bambalapitiya Avenue 31,3,2,Low,Main Road,Open
+462,410,450,Bambalapitiya Avenue 31,3,2,Low,Main Road,Close
+463,410,370,Bambalapitiya-Maradana Link,3,2,Low,Main Road,Open
+464,370,410,Bambalapitiya-Maradana Link,3,2,Low,Main Road,Open
+465,370,330,Maradana Mawatha 33,4,3,Moderate,Main Road,Open
+466,330,370,Maradana Mawatha 33,4,3,Moderate,Main Road,Open
+467,330,290,Maradana Connector 34,4,4,High,Coastal Road,Open
+468,290,330,Maradana Connector 34,4,4,High,Coastal Road,Close
+469,290,250,Maradana Link 35,3,3,Moderate,Main Road,Open
+470,250,290,Maradana Link 35,3,3,Moderate,Main Road,Open
+471,250,210,Maradana Avenue 36,5,4,High,Main Road,Open
+472,210,250,Maradana Avenue 36,5,4,High,Main Road,Close
+473,210,170,Maradana-Pettah Link,4,3,Moderate,Main Road,Open
+474,170,210,Maradana-Pettah Link,4,3,Moderate,Main Road,Close
+475,170,130,Pettah Mawatha 38,4,4,High,Main Road,Open
+476,130,170,Pettah Mawatha 38,4,4,High,Main Road,Open
+477,130,90,Pettah Connector 39,4,4,High,Main Road,Open
+478,90,130,Pettah Connector 39,4,4,High,Main Road,Close
+479,90,50,Pettah Link 40,4,4,High,Main Road,Open
+480,50,90,Pettah Link 40,4,4,High,Main Road,Close
+481,50,51,Pettah Avenue 01,3,4,High,Main Road,Open
+482,51,50,Pettah Avenue 01,3,4,High,Main Road,Close
+483,51,91,Pettah Road 02,3,2,Low,Main Road,Open
+484,91,51,Pettah Road 02,3,2,Low,Main Road,Close
+485,91,131,Pettah Mawatha 03,4,3,Moderate,Main Road,Open
+486,131,91,Pettah Mawatha 03,4,3,Moderate,Main Road,Close
+487,131,171,Pettah Connector 04,4,4,High,Main Road,Open
+488,171,131,Pettah Connector 04,4,4,High,Main Road,Open
+489,171,211,Pettah-Maradana Link,4,4,High,Coastal Road,Open
+490,211,171,Pettah-Maradana Link,4,4,High,Coastal Road,Close
+491,211,251,Maradana Avenue 06,4,3,Moderate,Main Road,Open
+492,251,211,Maradana Avenue 06,4,3,Moderate,Main Road,Open
+493,251,291,Maradana Road 07,4,4,High,Main Road,Open
+494,291,251,Maradana Road 07,4,4,High,Main Road,Close
+495,291,331,Maradana Mawatha 08,4,4,High,Main Road,Open
+496,331,291,Maradana Mawatha 08,4,4,High,Main Road,Close
+497,331,371,Maradana Connector 09,4,4,High,Main Road,Open
+498,371,331,Maradana Connector 09,4,4,High,Main Road,Open
+499,371,411,Maradana-Bambalapitiya Link,4,4,High,Main Road,Open
+500,411,371,Maradana-Bambalapitiya Link,4,4,High,Main Road,Open
+501,411,451,Bambalapitiya Avenue 11,4,3,Moderate,Main Road,Open
+502,451,411,Bambalapitiya Avenue 11,4,3,Moderate,Main Road,Open
+503,451,491,Bambalapitiya Road 12,4,3,Moderate,Main Road,Open
+504,491,451,Bambalapitiya Road 12,4,3,Moderate,Main Road,Close
+505,491,531,Bambalapitiya Mawatha 13,3,4,High,Express Route,Open
+506,531,491,Bambalapitiya Mawatha 13,3,4,High,Express Route,Close
+507,531,571,Bambalapitiya Connector 14,3,2,Low,Main Road,Open
+508,571,531,Bambalapitiya Connector 14,3,2,Low,Main Road,Open
+509,571,611,Bambalapitiya-Kirulapone Link,4,3,Moderate,Main Road,Open
+510,611,571,Bambalapitiya-Kirulapone Link,4,3,Moderate,Main Road,Open
+511,611,651,Kirulapone Avenue 16,3,2,Low,Main Road,Open
+512,651,611,Kirulapone Avenue 16,3,2,Low,Main Road,Open
+513,651,691,Kirulapone Road 17,3,2,Low,Main Road,Open
+514,691,651,Kirulapone Road 17,3,2,Low,Main Road,Open
+515,691,731,Kirulapone Mawatha 18,4,3,Moderate,Main Road,Open
+516,731,691,Kirulapone Mawatha 18,4,3,Moderate,Main Road,Close
+517,731,771,Kirulapone Connector 19,4,4,High,Main Road,Open
+518,771,731,Kirulapone Connector 19,4,4,High,Main Road,Open
+519,771,811,Kirulapone-Ratmalana Link,4,3,Moderate,Main Road,Open
+520,811,771,Kirulapone-Ratmalana Link,4,3,Moderate,Main Road,Open
+521,811,851,Ratmalana Avenue 21,4,3,Moderate,Main Road,Open
+522,851,811,Ratmalana Avenue 21,4,3,Moderate,Main Road,Close
+523,851,891,Ratmalana Road 22,4,4,High,Main Road,Open
+524,891,851,Ratmalana Road 22,4,4,High,Main Road,Open
+525,891,931,Ratmalana Mawatha 23,3,2,Low,Coastal Road,Open
+526,931,891,Ratmalana Mawatha 23,3,2,Low,Coastal Road,Close
+527,931,971,Ratmalana Connector 24,3,2,Low,Main Road,Open
+528,971,931,Ratmalana Connector 24,3,2,Low,Main Road,Close
+529,971,972,Ratmalana Link 25,3,4,High,Main Road,Open
+530,972,971,Ratmalana Link 25,3,4,High,Main Road,Open
+531,972,932,Ratmalana Avenue 26,4,4,High,Main Road,Open
+532,932,972,Ratmalana Avenue 26,4,4,High,Main Road,Open
+533,932,892,Ratmalana Road 27,4,4,High,Main Road,Open
+534,892,932,Ratmalana Road 27,4,4,High,Main Road,Close
+535,892,852,Ratmalana Mawatha 28,4,4,High,Main Road,Open
+536,852,892,Ratmalana Mawatha 28,4,4,High,Main Road,Close
+537,852,812,Ratmalana Connector 29,4,3,Moderate,Main Road,Open
+538,812,852,Ratmalana Connector 29,4,3,Moderate,Main Road,Close
+539,812,772,Ratmalana-Kirulapone Link,4,3,Moderate,Main Road,Open
+540,772,812,Ratmalana-Kirulapone Link,4,3,Moderate,Main Road,Close
+541,772,732,Kirulapone Avenue 31,4,4,High,Main Road,Open
+542,732,772,Kirulapone Avenue 31,4,4,High,Main Road,Close
+543,732,692,Kirulapone Road 32,4,3,Moderate,Main Road,Open
+544,692,732,Kirulapone Road 32,4,3,Moderate,Main Road,Open
+545,692,652,Kirulapone Mawatha 33,4,4,High,Main Road,Open
+546,652,692,Kirulapone Mawatha 33,4,4,High,Main Road,Close
+547,652,612,Kirulapone Connector 34,4,3,Moderate,Main Road,Open
+548,612,652,Kirulapone Connector 34,4,3,Moderate,Main Road,Close
+549,612,572,Kirulapone-Bambalapitiya Link,3,2,Low,Main Road,Open
+550,572,612,Kirulapone-Bambalapitiya Link,3,2,Low,Main Road,Close
+551,572,532,Bambalapitiya Avenue 36,3,2,Low,Main Road,Open
+552,532,572,Bambalapitiya Avenue 36,3,2,Low,Main Road,Close
+553,532,492,Bambalapitiya Road 37,3,2,Low,Main Road,Open
+554,492,532,Bambalapitiya Road 37,3,2,Low,Main Road,Close
+555,492,452,Bambalapitiya Mawatha 38,4,4,High,Main Road,Open
+556,452,492,Bambalapitiya Mawatha 38,4,4,High,Main Road,Close
+557,452,412,Bambalapitiya Connector 39,2,2,Low,Express Route,Open
+558,412,452,Bambalapitiya Connector 39,2,2,Low,Express Route,Open
+559,412,372,Bambalapitiya-Maradana Link,4,3,Moderate,Main Road,Open
+560,372,412,Bambalapitiya-Maradana Link,4,3,Moderate,Main Road,Open
+561,372,332,Maradana Avenue 01,4,3,Moderate,Main Road,Open
+562,332,372,Maradana Avenue 01,4,3,Moderate,Main Road,Close
+563,332,292,Maradana Road 02,3,3,Moderate,Express Route,Open
+564,292,332,Maradana Road 02,3,3,Moderate,Express Route,Close
+565,292,252,Maradana Mawatha 03,3,2,Low,Main Road,Open
+566,252,292,Maradana Mawatha 03,3,2,Low,Main Road,Open
+567,252,212,Maradana Connector 04,3,2,Low,Main Road,Open
+568,212,252,Maradana Connector 04,3,2,Low,Main Road,Open
+569,212,172,Maradana-Pettah Link,4,4,High,Main Road,Open
+570,172,212,Maradana-Pettah Link,4,4,High,Main Road,Close
+571,172,132,Pettah Avenue 06,4,4,High,Main Road,Open
+572,132,172,Pettah Avenue 06,4,4,High,Main Road,Close
+573,132,92,Pettah Road 07,4,3,Moderate,Main Road,Open
+574,92,132,Pettah Road 07,4,3,Moderate,Main Road,Close
+575,92,52,Pettah Mawatha 08,4,4,High,Main Road,Open
+576,52,92,Pettah Mawatha 08,4,4,High,Main Road,Close
+577,52,53,Pettah Connector 09,2,2,Low,Main Road,Open
+578,53,52,Pettah Connector 09,2,2,Low,Main Road,Close
+579,53,93,Pettah Link 10,4,3,Moderate,Main Road,Open
+580,93,53,Pettah Link 10,4,3,Moderate,Main Road,Close
+581,93,133,Pettah Avenue 11,3,2,Low,Main Road,Open
+582,133,93,Pettah Avenue 11,3,2,Low,Main Road,Close
+583,133,173,Pettah Road 12,4,4,High,Main Road,Open
+584,173,133,Pettah Road 12,4,4,High,Main Road,Close
+585,173,213,Pettah-Maradana Link,3,3,Moderate,Main Road,Open
+586,213,173,Pettah-Maradana Link,3,3,Moderate,Main Road,Close
+587,213,253,Maradana Connector 14,4,4,High,Coastal Road,Open
+588,253,213,Maradana Connector 14,4,4,High,Coastal Road,Close
+589,253,293,Maradana Link 15,4,4,High,Main Road,Open
+590,293,253,Maradana Link 15,4,4,High,Main Road,Open
+591,293,333,Maradana Avenue 16,2,2,Low,Express Route,Open
+592,333,293,Maradana Avenue 16,2,2,Low,Express Route,Close
+593,333,373,Maradana Road 17,4,3,Moderate,Main Road,Open
+594,373,333,Maradana Road 17,4,3,Moderate,Main Road,Close
+595,373,413,Maradana-Bambalapitiya Link,4,4,High,Main Road,Open
+596,413,373,Maradana-Bambalapitiya Link,4,4,High,Main Road,Open
+597,413,453,Bambalapitiya Connector 19,2,2,Low,Express Route,Open
+598,453,413,Bambalapitiya Connector 19,2,2,Low,Express Route,Open
+599,453,493,Bambalapitiya Link 20,4,3,Moderate,Main Road,Open
+600,493,453,Bambalapitiya Link 20,4,3,Moderate,Main Road,Close
+601,493,533,Bambalapitiya Avenue 21,4,3,Moderate,Main Road,Open
+602,533,493,Bambalapitiya Avenue 21,4,3,Moderate,Main Road,Close
+603,533,573,Bambalapitiya Road 22,4,4,High,Main Road,Open
+604,573,533,Bambalapitiya Road 22,4,4,High,Main Road,Close
+605,573,613,Bambalapitiya-Kirulapone Link,3,3,Moderate,Main Road,Open
+606,613,573,Bambalapitiya-Kirulapone Link,3,3,Moderate,Main Road,Open
+607,613,653,Kirulapone Connector 24,3,2,Low,Main Road,Open
+608,653,613,Kirulapone Connector 24,3,2,Low,Main Road,Open
+609,653,693,Kirulapone Link 25,4,3,Moderate,Main Road,Open
+610,693,653,Kirulapone Link 25,4,3,Moderate,Main Road,Open
+611,693,733,Kirulapone Avenue 26,4,3,Moderate,Main Road,Open
+612,733,693,Kirulapone Avenue 26,4,3,Moderate,Main Road,Close
+613,733,773,Kirulapone Road 27,4,4,High,Main Road,Open
+614,773,733,Kirulapone Road 27,4,4,High,Main Road,Open
+615,773,813,Kirulapone-Ratmalana Link,2,2,Low,Express Route,Open
+616,813,773,Kirulapone-Ratmalana Link,2,2,Low,Express Route,Close
+617,813,853,Ratmalana Connector 29,4,4,High,Main Road,Open
+618,853,813,Ratmalana Connector 29,4,4,High,Main Road,Close
+619,853,893,Ratmalana Link 30,3,2,Low,Main Road,Open
+620,893,853,Ratmalana Link 30,3,2,Low,Main Road,Close
+621,893,933,Ratmalana Avenue 31,3,2,Low,Main Road,Open
+622,933,893,Ratmalana Avenue 31,3,2,Low,Main Road,Close
+623,933,973,Ratmalana Road 32,4,4,High,Main Road,Open
+624,973,933,Ratmalana Road 32,4,4,High,Main Road,Close
+625,973,974,Ratmalana Mawatha 33,3,3,Moderate,Main Road,Open
+626,974,973,Ratmalana Mawatha 33,3,3,Moderate,Main Road,Close
+627,974,934,Ratmalana Connector 34,5,4,High,Mountain Road,Open
+628,934,974,Ratmalana Connector 34,5,4,High,Mountain Road,Open
+629,934,894,Ratmalana Link 35,4,3,Moderate,Main Road,Open
+630,894,934,Ratmalana Link 35,4,3,Moderate,Main Road,Open
+631,894,854,Ratmalana Avenue 36,4,4,High,Main Road,Open
+632,854,894,Ratmalana Avenue 36,4,4,High,Main Road,Open
+633,854,814,Ratmalana Road 37,4,4,High,Main Road,Open
+634,814,854,Ratmalana Road 37,4,4,High,Main Road,Close
+635,814,774,Ratmalana-Kirulapone Link,4,3,Moderate,Main Road,Open
+636,774,814,Ratmalana-Kirulapone Link,4,3,Moderate,Main Road,Close
+637,774,734,Kirulapone Connector 39,3,2,Low,Main Road,Open
+638,734,774,Kirulapone Connector 39,3,2,Low,Main Road,Open
+639,734,694,Kirulapone Link 40,4,4,High,Main Road,Open
+640,694,734,Kirulapone Link 40,4,4,High,Main Road,Close
+641,694,654,Kirulapone Avenue 01,4,4,High,Main Road,Open
+642,654,694,Kirulapone Avenue 01,4,4,High,Main Road,Close
+643,654,614,Kirulapone Road 02,3,4,High,Express Route,Open
+644,614,654,Kirulapone Road 02,3,4,High,Express Route,Open
+645,614,574,Kirulapone-Bambalapitiya Link,3,2,Low,Coastal Road,Open
+646,574,614,Kirulapone-Bambalapitiya Link,3,2,Low,Coastal Road,Open
+647,574,534,Bambalapitiya Connector 04,4,4,High,Main Road,Open
+648,534,574,Bambalapitiya Connector 04,4,4,High,Main Road,Close
+649,534,494,Bambalapitiya Link 05,3,3,Moderate,Main Road,Open
+650,494,534,Bambalapitiya Link 05,3,3,Moderate,Main Road,Open
+651,494,454,Bambalapitiya Avenue 06,4,3,Moderate,Main Road,Open
+652,454,494,Bambalapitiya Avenue 06,4,3,Moderate,Main Road,Open
+653,454,414,Bambalapitiya Road 07,4,4,High,Main Road,Open
+654,414,454,Bambalapitiya Road 07,4,4,High,Main Road,Open
+655,414,374,Bambalapitiya-Maradana Link,4,4,High,Main Road,Open
+656,374,414,Bambalapitiya-Maradana Link,4,4,High,Main Road,Close
+657,374,334,Maradana Connector 09,4,4,High,Main Road,Open
+658,334,374,Maradana Connector 09,4,4,High,Main Road,Close
+659,334,294,Maradana Link 10,4,3,Moderate,Main Road,Open
+660,294,334,Maradana Link 10,4,3,Moderate,Main Road,Open
+661,294,254,Maradana Avenue 11,4,3,Moderate,Main Road,Open
+662,254,294,Maradana Avenue 11,4,3,Moderate,Main Road,Close
+663,254,214,Maradana Road 12,4,4,High,Main Road,Open
+664,214,254,Maradana Road 12,4,4,High,Main Road,Close
+665,214,174,Maradana-Pettah Link,4,4,High,Main Road,Open
+666,174,214,Maradana-Pettah Link,4,4,High,Main Road,Open
+667,174,134,Pettah Connector 14,3,3,Moderate,Express Route,Open
+668,134,174,Pettah Connector 14,3,3,Moderate,Express Route,Close
+669,134,94,Pettah Link 15,3,2,Low,Main Road,Open
+670,94,134,Pettah Link 15,3,2,Low,Main Road,Close
+671,94,54,Pettah Avenue 16,3,2,Low,Main Road,Open
+672,54,94,Pettah Avenue 16,3,2,Low,Main Road,Open
+673,54,55,Pettah Road 17,2,2,Low,Main Road,Open
+674,55,54,Pettah Road 17,2,2,Low,Main Road,Open
+675,55,95,Pettah Mawatha 18,4,4,High,Main Road,Open
+676,95,55,Pettah Mawatha 18,4,4,High,Main Road,Close
+677,95,135,Pettah Connector 19,4,3,Moderate,Main Road,Open
+678,135,95,Pettah Connector 19,4,3,Moderate,Main Road,Close
+679,135,175,Pettah Link 20,4,4,High,Main Road,Open
+680,175,135,Pettah Link 20,4,4,High,Main Road,Open
+681,175,215,Pettah-Maradana Link,4,3,Moderate,Main Road,Open
+682,215,175,Pettah-Maradana Link,4,3,Moderate,Main Road,Close
+683,215,255,Maradana Road 22,4,4,High,Main Road,Open
+684,255,215,Maradana Road 22,4,4,High,Main Road,Close
+685,255,295,Maradana Mawatha 23,4,4,High,Main Road,Open
+686,295,255,Maradana Mawatha 23,4,4,High,Main Road,Open
+687,295,335,Maradana Connector 24,4,4,High,Main Road,Open
+688,335,295,Maradana Connector 24,4,4,High,Main Road,Close
+689,335,375,Maradana Link 25,3,2,Low,Main Road,Open
+690,375,335,Maradana Link 25,3,2,Low,Main Road,Close
+691,375,415,Maradana-Bambalapitiya Link,4,3,Moderate,Main Road,Open
+692,415,375,Maradana-Bambalapitiya Link,4,3,Moderate,Main Road,Close
+693,415,455,Bambalapitiya Road 27,4,3,Moderate,Main Road,Open
+694,455,415,Bambalapitiya Road 27,4,3,Moderate,Main Road,Open
+695,455,495,Bambalapitiya Mawatha 28,3,2,Low,Main Road,Open
+696,495,455,Bambalapitiya Mawatha 28,3,2,Low,Main Road,Close
+697,495,535,Bambalapitiya Connector 29,4,4,High,Main Road,Open
+698,535,495,Bambalapitiya Connector 29,4,4,High,Main Road,Close
+699,535,575,Bambalapitiya Link 30,4,4,High,Main Road,Open
+700,575,535,Bambalapitiya Link 30,4,4,High,Main Road,Open
+701,575,615,Bambalapitiya-Kirulapone Link,3,2,Low,Coastal Road,Open
+702,615,575,Bambalapitiya-Kirulapone Link,3,2,Low,Coastal Road,Close
+703,615,655,Kirulapone Road 32,4,3,Moderate,Main Road,Open
+704,655,615,Kirulapone Road 32,4,3,Moderate,Main Road,Close
+705,655,695,Kirulapone Mawatha 33,3,3,Moderate,Main Road,Open
+706,695,655,Kirulapone Mawatha 33,3,3,Moderate,Main Road,Open
+707,695,735,Kirulapone Connector 34,4,4,High,Main Road,Open
+708,735,695,Kirulapone Connector 34,4,4,High,Main Road,Close
+709,735,775,Kirulapone Link 35,4,4,High,Main Road,Open
+710,775,735,Kirulapone Link 35,4,4,High,Main Road,Close
+711,775,815,Kirulapone-Ratmalana Link,3,2,Low,Main Road,Open
+712,815,775,Kirulapone-Ratmalana Link,3,2,Low,Main Road,Close
+713,815,855,Ratmalana Road 37,3,3,Moderate,Coastal Road,Open
+714,855,815,Ratmalana Road 37,3,3,Moderate,Coastal Road,Close
+715,855,895,Ratmalana Mawatha 38,3,4,High,Express Route,Open
+716,895,855,Ratmalana Mawatha 38,3,4,High,Express Route,Close
+717,895,935,Ratmalana Connector 39,4,3,Moderate,Main Road,Open
+718,935,895,Ratmalana Connector 39,4,3,Moderate,Main Road,Close
+719,935,975,Ratmalana Link 40,4,4,High,Main Road,Open
+720,975,935,Ratmalana Link 40,4,4,High,Main Road,Close
+721,975,976,Ratmalana Avenue 01,2,2,Low,Main Road,Open
+722,976,975,Ratmalana Avenue 01,2,2,Low,Main Road,Close
+723,976,936,Ratmalana Road 02,4,4,High,Main Road,Open
+724,936,976,Ratmalana Road 02,4,4,High,Main Road,Close
+725,936,896,Ratmalana Mawatha 03,2,3,Moderate,Express Route,Open
+726,896,936,Ratmalana Mawatha 03,2,3,Moderate,Express Route,Close
+727,896,856,Ratmalana Connector 04,4,3,Moderate,Main Road,Open
+728,856,896,Ratmalana Connector 04,4,3,Moderate,Main Road,Close
+729,856,816,Ratmalana Link 05,3,3,Moderate,Express Route,Open
+730,816,856,Ratmalana Link 05,3,3,Moderate,Express Route,Close
+731,816,776,Ratmalana-Kirulapone Link,3,2,Low,Main Road,Open
+732,776,816,Ratmalana-Kirulapone Link,3,2,Low,Main Road,Open
+733,776,736,Kirulapone Road 07,4,4,High,Main Road,Open
+734,736,776,Kirulapone Road 07,4,4,High,Main Road,Close
+735,736,696,Kirulapone Mawatha 08,3,2,Low,Main Road,Open
+736,696,736,Kirulapone Mawatha 08,3,2,Low,Main Road,Close
+737,696,656,Kirulapone Connector 09,4,4,High,Main Road,Open
+738,656,696,Kirulapone Connector 09,4,4,High,Main Road,Close
+739,656,616,Kirulapone Link 10,4,3,Moderate,Main Road,Open
+740,616,656,Kirulapone Link 10,4,3,Moderate,Main Road,Open
+741,616,576,Kirulapone-Bambalapitiya Link,4,4,High,Main Road,Open
+742,576,616,Kirulapone-Bambalapitiya Link,4,4,High,Main Road,Open
+743,576,536,Bambalapitiya Road 12,4,3,Moderate,Main Road,Open
+744,536,576,Bambalapitiya Road 12,4,3,Moderate,Main Road,Open
+745,536,496,Bambalapitiya Mawatha 13,4,3,Moderate,Main Road,Open
+746,496,536,Bambalapitiya Mawatha 13,4,3,Moderate,Main Road,Open
+747,496,456,Bambalapitiya Connector 14,4,3,Moderate,Main Road,Open
+748,456,496,Bambalapitiya Connector 14,4,3,Moderate,Main Road,Open
+749,456,416,Bambalapitiya Link 15,3,2,Low,Main Road,Open
+750,416,456,Bambalapitiya Link 15,3,2,Low,Main Road,Close
+751,416,376,Bambalapitiya-Maradana Link,4,4,High,Main Road,Open
+752,376,416,Bambalapitiya-Maradana Link,4,4,High,Main Road,Close
+753,376,336,Maradana Road 17,4,4,High,Main Road,Open
+754,336,376,Maradana Road 17,4,4,High,Main Road,Open
+755,336,296,Maradana Mawatha 18,4,3,Moderate,Main Road,Open
+756,296,336,Maradana Mawatha 18,4,3,Moderate,Main Road,Close
+757,296,256,Maradana Connector 19,4,3,Moderate,Main Road,Open
+758,256,296,Maradana Connector 19,4,3,Moderate,Main Road,Close
+759,256,216,Maradana Link 20,4,3,Moderate,Main Road,Open
+760,216,256,Maradana Link 20,4,3,Moderate,Main Road,Close
+761,216,176,Maradana-Pettah Link,3,2,Low,Main Road,Open
+762,176,216,Maradana-Pettah Link,3,2,Low,Main Road,Close
+763,176,136,Pettah Road 22,4,3,Moderate,Main Road,Open
+764,136,176,Pettah Road 22,4,3,Moderate,Main Road,Close
+765,136,96,Pettah Mawatha 23,3,2,Low,Main Road,Open
+766,96,136,Pettah Mawatha 23,3,2,Low,Main Road,Close
+767,96,56,Pettah Connector 24,4,3,Moderate,Main Road,Open
+768,56,96,Pettah Connector 24,4,3,Moderate,Main Road,Close
+769,56,57,Pettah-Grandpass Link,3,3,Moderate,Main Road,Open
+770,57,56,Pettah-Grandpass Link,3,3,Moderate,Main Road,Close
+771,57,97,Grandpass Avenue 26,4,3,Moderate,Main Road,Open
+772,97,57,Grandpass Avenue 26,4,3,Moderate,Main Road,Close
+773,97,137,Grandpass Road 27,4,3,Moderate,Main Road,Open
+774,137,97,Grandpass Road 27,4,3,Moderate,Main Road,Close
+775,137,177,Grandpass Mawatha 28,5,3,Moderate,Mountain Road,Open
+776,177,137,Grandpass Mawatha 28,5,3,Moderate,Mountain Road,Close
+777,177,217,Grandpass-Borella Link,3,2,Low,Main Road,Open
+778,217,177,Grandpass-Borella Link,3,2,Low,Main Road,Close
+779,217,257,Borella Link 30,4,3,Moderate,Main Road,Open
+780,257,217,Borella Link 30,4,3,Moderate,Main Road,Close
+781,257,297,Borella Avenue 31,4,4,High,Main Road,Open
+782,297,257,Borella Avenue 31,4,4,High,Main Road,Close
+783,297,337,Borella Road 32,4,3,Moderate,Main Road,Open
+784,337,297,Borella Road 32,4,3,Moderate,Main Road,Close
+785,337,377,Borella Mawatha 33,5,4,High,Mountain Road,Open
+786,377,337,Borella Mawatha 33,5,4,High,Mountain Road,Close
+787,377,417,Borella-Narahenpita Link,3,3,Moderate,Express Route,Open
+788,417,377,Borella-Narahenpita Link,3,3,Moderate,Express Route,Open
+789,417,457,Narahenpita Link 35,4,4,High,Main Road,Open
+790,457,417,Narahenpita Link 35,4,4,High,Main Road,Open
+791,457,497,Narahenpita Avenue 36,4,4,High,Main Road,Open
+792,497,457,Narahenpita Avenue 36,4,4,High,Main Road,Close
+793,497,537,Narahenpita Road 37,4,3,Moderate,Main Road,Open
+794,537,497,Narahenpita Road 37,4,3,Moderate,Main Road,Open
+795,537,577,Narahenpita Mawatha 38,4,2,Low,Mountain Road,Open
+796,577,537,Narahenpita Mawatha 38,4,2,Low,Mountain Road,Close
+797,577,617,Narahenpita-Nugegoda Link,4,4,High,Main Road,Open
+798,617,577,Narahenpita-Nugegoda Link,4,4,High,Main Road,Close
+799,617,657,Nugegoda Link 40,4,2,Low,Main Road,Open
+800,657,617,Nugegoda Link 40,4,2,Low,Main Road,Close
+801,657,697,Nugegoda Avenue 01,3,3,Moderate,Coastal Road,Open
+802,697,657,Nugegoda Avenue 01,3,3,Moderate,Coastal Road,Close
+803,697,737,Nugegoda Road 02,3,4,High,Express Route,Open
+804,737,697,Nugegoda Road 02,3,4,High,Express Route,Open
+805,737,777,Nugegoda Mawatha 03,4,3,Moderate,Main Road,Open
+806,777,737,Nugegoda Mawatha 03,4,3,Moderate,Main Road,Close
+807,777,817,Nugegoda-Boralesgamuwa Link,3,2,Low,Main Road,Open
+808,817,777,Nugegoda-Boralesgamuwa Link,3,2,Low,Main Road,Open
+809,817,857,Boralesgamuwa Link 05,3,2,Low,Main Road,Open
+810,857,817,Boralesgamuwa Link 05,3,2,Low,Main Road,Close
+811,857,897,Boralesgamuwa Avenue 06,4,3,Moderate,Main Road,Open
+812,897,857,Boralesgamuwa Avenue 06,4,3,Moderate,Main Road,Close
+813,897,937,Boralesgamuwa Road 07,3,2,Low,Main Road,Open
+814,937,897,Boralesgamuwa Road 07,3,2,Low,Main Road,Open
+815,937,977,Boralesgamuwa Mawatha 08,3,2,Low,Main Road,Open
+816,977,937,Boralesgamuwa Mawatha 08,3,2,Low,Main Road,Close
+817,977,978,Boralesgamuwa Connector 09,3,4,High,Main Road,Open
+818,978,977,Boralesgamuwa Connector 09,3,4,High,Main Road,Open
+819,978,938,Boralesgamuwa Link 10,4,3,Moderate,Main Road,Open
+820,938,978,Boralesgamuwa Link 10,4,3,Moderate,Main Road,Close
+821,938,898,Boralesgamuwa Avenue 11,4,3,Moderate,Main Road,Open
+822,898,938,Boralesgamuwa Avenue 11,4,3,Moderate,Main Road,Open
+823,898,858,Boralesgamuwa Road 12,4,4,High,Main Road,Open
+824,858,898,Boralesgamuwa Road 12,4,4,High,Main Road,Close
+825,858,818,Boralesgamuwa Mawatha 13,4,4,High,Main Road,Open
+826,818,858,Boralesgamuwa Mawatha 13,4,4,High,Main Road,Close
+827,818,778,Boralesgamuwa-Nugegoda Link,4,3,Moderate,Main Road,Open
+828,778,818,Boralesgamuwa-Nugegoda Link,4,3,Moderate,Main Road,Close
+829,778,738,Nugegoda Link 15,3,2,Low,Main Road,Open
+830,738,778,Nugegoda Link 15,3,2,Low,Main Road,Close
+831,738,698,Nugegoda Avenue 16,4,3,Moderate,Main Road,Open
+832,698,738,Nugegoda Avenue 16,4,3,Moderate,Main Road,Open
+833,698,658,Nugegoda Road 17,4,4,High,Main Road,Open
+834,658,698,Nugegoda Road 17,4,4,High,Main Road,Close
+835,658,618,Nugegoda Mawatha 18,4,4,High,Main Road,Open
+836,618,658,Nugegoda Mawatha 18,4,4,High,Main Road,Close
+837,618,578,Nugegoda-Narahenpita Link,4,4,High,Main Road,Open
+838,578,618,Nugegoda-Narahenpita Link,4,4,High,Main Road,Close
+839,578,538,Narahenpita Link 20,4,4,High,Main Road,Open
+840,538,578,Narahenpita Link 20,4,4,High,Main Road,Close
+841,538,498,Narahenpita Avenue 21,4,3,Moderate,Main Road,Open
+842,498,538,Narahenpita Avenue 21,4,3,Moderate,Main Road,Open
+843,498,458,Narahenpita Road 22,4,4,High,Main Road,Open
+844,458,498,Narahenpita Road 22,4,4,High,Main Road,Close
+845,458,418,Narahenpita Mawatha 23,4,4,High,Main Road,Open
+846,418,458,Narahenpita Mawatha 23,4,4,High,Main Road,Close
+847,418,378,Narahenpita-Borella Link,4,3,Moderate,Main Road,Open
+848,378,418,Narahenpita-Borella Link,4,3,Moderate,Main Road,Close
+849,378,338,Borella Link 25,4,3,Moderate,Main Road,Open
+850,338,378,Borella Link 25,4,3,Moderate,Main Road,Close
+851,338,298,Borella Avenue 26,4,4,High,Coastal Road,Open
+852,298,338,Borella Avenue 26,4,4,High,Coastal Road,Open
+853,298,258,Borella Road 27,4,4,High,Main Road,Open
+854,258,298,Borella Road 27,4,4,High,Main Road,Close
+855,258,218,Borella Mawatha 28,4,4,High,Main Road,Open
+856,218,258,Borella Mawatha 28,4,4,High,Main Road,Close
+857,218,178,Borella-Grandpass Link,4,4,High,Main Road,Open
+858,178,218,Borella-Grandpass Link,4,4,High,Main Road,Open
+859,178,138,Grandpass Link 30,3,3,Moderate,Main Road,Open
+860,138,178,Grandpass Link 30,3,3,Moderate,Main Road,Close
+861,138,98,Grandpass Avenue 31,4,4,High,Main Road,Open
+862,98,138,Grandpass Avenue 31,4,4,High,Main Road,Close
+863,98,58,Grandpass Road 32,4,3,Moderate,Main Road,Open
+864,58,98,Grandpass Road 32,4,3,Moderate,Main Road,Close
+865,58,59,Grandpass Mawatha 33,3,4,High,Main Road,Open
+866,59,58,Grandpass Mawatha 33,3,4,High,Main Road,Close
+867,59,99,Grandpass Connector 34,2,2,Low,Express Route,Open
+868,99,59,Grandpass Connector 34,2,2,Low,Express Route,Close
+869,99,139,Grandpass Link 35,4,4,High,Main Road,Open
+870,139,99,Grandpass Link 35,4,4,High,Main Road,Close
+871,139,179,Grandpass Avenue 36,3,2,Low,Main Road,Open
+872,179,139,Grandpass Avenue 36,3,2,Low,Main Road,Close
+873,179,219,Grandpass-Borella Link,3,3,Moderate,Main Road,Open
+874,219,179,Grandpass-Borella Link,3,3,Moderate,Main Road,Close
+875,219,259,Borella Mawatha 38,4,3,Moderate,Main Road,Open
+876,259,219,Borella Mawatha 38,4,3,Moderate,Main Road,Close
+877,259,299,Borella Connector 39,3,2,Low,Coastal Road,Open
+878,299,259,Borella Connector 39,3,2,Low,Coastal Road,Open
+879,299,339,Borella Link 40,4,4,High,Main Road,Open
+880,339,299,Borella Link 40,4,4,High,Main Road,Close
+881,339,379,Borella Avenue 01,3,2,Low,Main Road,Open
+882,379,339,Borella Avenue 01,3,2,Low,Main Road,Open
+883,379,419,Borella-Narahenpita Link,4,2,Low,Mountain Road,Open
+884,419,379,Borella-Narahenpita Link,4,2,Low,Mountain Road,Open
+885,419,459,Narahenpita Mawatha 03,5,4,High,Mountain Road,Open
+886,459,419,Narahenpita Mawatha 03,5,4,High,Mountain Road,Close
+887,459,499,Narahenpita Connector 04,4,4,High,Main Road,Open
+888,499,459,Narahenpita Connector 04,4,4,High,Main Road,Close
+889,499,539,Narahenpita Link 05,3,4,High,Express Route,Open
+890,539,499,Narahenpita Link 05,3,4,High,Express Route,Open
+891,539,579,Narahenpita Avenue 06,4,3,Moderate,Main Road,Open
+892,579,539,Narahenpita Avenue 06,4,3,Moderate,Main Road,Open
+893,579,619,Narahenpita-Nugegoda Link,4,3,Moderate,Main Road,Open
+894,619,579,Narahenpita-Nugegoda Link,4,3,Moderate,Main Road,Close
+895,619,659,Nugegoda Mawatha 08,4,4,High,Main Road,Open
+896,659,619,Nugegoda Mawatha 08,4,4,High,Main Road,Close
+897,659,699,Nugegoda Connector 09,4,4,High,Main Road,Open
+898,699,659,Nugegoda Connector 09,4,4,High,Main Road,Open
+899,699,739,Nugegoda Link 10,4,3,Moderate,Main Road,Open
+900,739,699,Nugegoda Link 10,4,3,Moderate,Main Road,Close
+901,739,779,Nugegoda Avenue 11,4,4,High,Main Road,Open
+902,779,739,Nugegoda Avenue 11,4,4,High,Main Road,Close
+903,779,819,Nugegoda-Boralesgamuwa Link,5,4,High,Mountain Road,Open
+904,819,779,Nugegoda-Boralesgamuwa Link,5,4,High,Mountain Road,Close
+905,819,859,Boralesgamuwa Mawatha 13,4,3,Moderate,Main Road,Open
+906,859,819,Boralesgamuwa Mawatha 13,4,3,Moderate,Main Road,Close
+907,859,899,Boralesgamuwa Connector 14,3,2,Low,Main Road,Open
+908,899,859,Boralesgamuwa Connector 14,3,2,Low,Main Road,Close
+909,899,939,Boralesgamuwa Link 15,4,3,Moderate,Main Road,Open
+910,939,899,Boralesgamuwa Link 15,4,3,Moderate,Main Road,Close
+911,939,979,Boralesgamuwa Avenue 16,4,3,Moderate,Main Road,Open
+912,979,939,Boralesgamuwa Avenue 16,4,3,Moderate,Main Road,Close
+913,979,980,Boralesgamuwa Road 17,2,3,Moderate,Main Road,Open
+914,980,979,Boralesgamuwa Road 17,2,3,Moderate,Main Road,Open
+915,980,940,Boralesgamuwa Mawatha 18,4,2,Low,Mountain Road,Open
+916,940,980,Boralesgamuwa Mawatha 18,4,2,Low,Mountain Road,Close
+917,940,900,Boralesgamuwa Connector 19,4,4,High,Main Road,Open
+918,900,940,Boralesgamuwa Connector 19,4,4,High,Main Road,Open
+919,900,860,Boralesgamuwa Link 20,4,3,Moderate,Main Road,Open
+920,860,900,Boralesgamuwa Link 20,4,3,Moderate,Main Road,Close
+921,860,820,Boralesgamuwa Avenue 21,4,4,High,Main Road,Open
+922,820,860,Boralesgamuwa Avenue 21,4,4,High,Main Road,Open
+923,820,780,Boralesgamuwa-Nugegoda Link,3,2,Low,Main Road,Open
+924,780,820,Boralesgamuwa-Nugegoda Link,3,2,Low,Main Road,Close
+925,780,740,Nugegoda Mawatha 23,5,4,High,Mountain Road,Open
+926,740,780,Nugegoda Mawatha 23,5,4,High,Mountain Road,Close
+927,740,700,Nugegoda Connector 24,4,3,Moderate,Main Road,Open
+928,700,740,Nugegoda Connector 24,4,3,Moderate,Main Road,Close
+929,700,660,Nugegoda Link 25,4,4,High,Main Road,Open
+930,660,700,Nugegoda Link 25,4,4,High,Main Road,Open
+931,660,620,Nugegoda Avenue 26,3,3,Moderate,Express Route,Open
+932,620,660,Nugegoda Avenue 26,3,3,Moderate,Express Route,Close
+933,620,580,Nugegoda-Narahenpita Link,4,4,High,Coastal Road,Open
+934,580,620,Nugegoda-Narahenpita Link,4,4,High,Coastal Road,Close
+935,580,540,Narahenpita Mawatha 28,3,2,Low,Main Road,Open
+936,540,580,Narahenpita Mawatha 28,3,2,Low,Main Road,Close
+937,540,500,Narahenpita Connector 29,3,3,Moderate,Coastal Road,Open
+938,500,540,Narahenpita Connector 29,3,3,Moderate,Coastal Road,Close
+939,500,460,Narahenpita Link 30,4,3,Moderate,Main Road,Open
+940,460,500,Narahenpita Link 30,4,3,Moderate,Main Road,Close
+941,460,420,Narahenpita Avenue 31,4,3,Moderate,Main Road,Open
+942,420,460,Narahenpita Avenue 31,4,3,Moderate,Main Road,Close
+943,420,380,Narahenpita-Borella Link,3,3,Moderate,Coastal Road,Open
+944,380,420,Narahenpita-Borella Link,3,3,Moderate,Coastal Road,Open
+945,380,340,Borella Mawatha 33,4,3,Moderate,Main Road,Open
+946,340,380,Borella Mawatha 33,4,3,Moderate,Main Road,Close
+947,340,300,Borella Connector 34,4,4,High,Main Road,Open
+948,300,340,Borella Connector 34,4,4,High,Main Road,Open
+949,300,260,Borella Link 35,4,3,Moderate,Main Road,Open
+950,260,300,Borella Link 35,4,3,Moderate,Main Road,Close
+951,260,220,Borella Avenue 36,4,2,Low,Main Road,Open
+952,220,260,Borella Avenue 36,4,2,Low,Main Road,Close
+953,220,180,Borella-Grandpass Link,4,4,High,Main Road,Open
+954,180,220,Borella-Grandpass Link,4,4,High,Main Road,Close
+955,180,140,Grandpass Mawatha 38,3,2,Low,Main Road,Open
+956,140,180,Grandpass Mawatha 38,3,2,Low,Main Road,Close
+957,140,100,Grandpass Connector 39,4,2,Low,Mountain Road,Open
+958,100,140,Grandpass Connector 39,4,2,Low,Mountain Road,Close
+959,100,60,Grandpass Link 40,4,4,High,Coastal Road,Open
+960,60,100,Grandpass Link 40,4,4,High,Coastal Road,Open
+961,60,61,Grandpass Avenue 01,3,3,Moderate,Main Road,Open
+962,61,60,Grandpass Avenue 01,3,3,Moderate,Main Road,Close
+963,61,101,Grandpass Road 02,3,4,High,Express Route,Open
+964,101,61,Grandpass Road 02,3,4,High,Express Route,Close
+965,101,141,Grandpass Mawatha 03,4,4,High,Main Road,Open
+966,141,101,Grandpass Mawatha 03,4,4,High,Main Road,Open
+967,141,181,Grandpass Connector 04,4,4,High,Main Road,Open
+968,181,141,Grandpass Connector 04,4,4,High,Main Road,Close
+969,181,221,Grandpass-Borella Link,4,4,High,Main Road,Open
+970,221,181,Grandpass-Borella Link,4,4,High,Main Road,Open
+971,221,261,Borella Avenue 06,3,2,Low,Main Road,Open
+972,261,221,Borella Avenue 06,3,2,Low,Main Road,Close
+973,261,301,Borella Road 07,3,2,Low,Main Road,Open
+974,301,261,Borella Road 07,3,2,Low,Main Road,Open
+975,301,341,Borella Mawatha 08,4,3,Moderate,Main Road,Open
+976,341,301,Borella Mawatha 08,4,3,Moderate,Main Road,Close
+977,341,381,Borella Connector 09,3,2,Low,Main Road,Open
+978,381,341,Borella Connector 09,3,2,Low,Main Road,Close
+979,381,421,Borella-Narahenpita Link,3,2,Low,Main Road,Open
+980,421,381,Borella-Narahenpita Link,3,2,Low,Main Road,Close
+981,421,461,Narahenpita Avenue 11,3,4,High,Coastal Road,Open
+982,461,421,Narahenpita Avenue 11,3,4,High,Coastal Road,Close
+983,461,501,Narahenpita Road 12,4,3,Moderate,Main Road,Open
+984,501,461,Narahenpita Road 12,4,3,Moderate,Main Road,Open
+985,501,541,Narahenpita Mawatha 13,2,2,Low,Express Route,Open
+986,541,501,Narahenpita Mawatha 13,2,2,Low,Express Route,Close
+987,541,581,Narahenpita Connector 14,4,3,Moderate,Main Road,Open
+988,581,541,Narahenpita Connector 14,4,3,Moderate,Main Road,Open
+989,581,621,Narahenpita-Nugegoda Link,4,4,High,Main Road,Open
+990,621,581,Narahenpita-Nugegoda Link,4,4,High,Main Road,Close
+991,621,661,Nugegoda Avenue 16,4,3,Moderate,Main Road,Open
+992,661,621,Nugegoda Avenue 16,4,3,Moderate,Main Road,Close
+993,661,701,Nugegoda Road 17,4,4,High,Main Road,Open
+994,701,661,Nugegoda Road 17,4,4,High,Main Road,Close
+995,701,741,Nugegoda Mawatha 18,4,4,High,Main Road,Open
+996,741,701,Nugegoda Mawatha 18,4,4,High,Main Road,Open
+997,741,781,Nugegoda Connector 19,4,3,Moderate,Main Road,Open
+998,781,741,Nugegoda Connector 19,4,3,Moderate,Main Road,Close
+999,781,821,Nugegoda-Boralesgamuwa Link,4,3,Moderate,Main Road,Open
+1000,821,781,Nugegoda-Boralesgamuwa Link,4,3,Moderate,Main Road,Close
+1001,821,861,Boralesgamuwa Avenue 21,3,2,Low,Main Road,Open
+1002,861,821,Boralesgamuwa Avenue 21,3,2,Low,Main Road,Close
+1003,861,901,Boralesgamuwa Road 22,4,4,High,Main Road,Open
+1004,901,861,Boralesgamuwa Road 22,4,4,High,Main Road,Close
+1005,901,941,Boralesgamuwa Mawatha 23,4,3,Moderate,Main Road,Open
+1006,941,901,Boralesgamuwa Mawatha 23,4,3,Moderate,Main Road,Close
+1007,941,981,Boralesgamuwa Connector 24,3,2,Low,Coastal Road,Open
+1008,981,941,Boralesgamuwa Connector 24,3,2,Low,Coastal Road,Close
+1009,981,982,Boralesgamuwa Link 25,2,2,Low,Main Road,Open
+1010,982,981,Boralesgamuwa Link 25,2,2,Low,Main Road,Open
+1011,982,942,Boralesgamuwa Avenue 26,3,2,Low,Main Road,Open
+1012,942,982,Boralesgamuwa Avenue 26,3,2,Low,Main Road,Close
+1013,942,902,Boralesgamuwa Road 27,4,3,Moderate,Main Road,Open
+1014,902,942,Boralesgamuwa Road 27,4,3,Moderate,Main Road,Open
+1015,902,862,Boralesgamuwa Mawatha 28,3,3,Moderate,Express Route,Open
+1016,862,902,Boralesgamuwa Mawatha 28,3,3,Moderate,Express Route,Close
+1017,862,822,Boralesgamuwa Connector 29,4,4,High,Main Road,Open
+1018,822,862,Boralesgamuwa Connector 29,4,4,High,Main Road,Close
+1019,822,782,Boralesgamuwa-Nugegoda Link,4,4,High,Coastal Road,Open
+1020,782,822,Boralesgamuwa-Nugegoda Link,4,4,High,Coastal Road,Close
+1021,782,742,Nugegoda Avenue 31,4,4,High,Main Road,Open
+1022,742,782,Nugegoda Avenue 31,4,4,High,Main Road,Close
+1023,742,702,Nugegoda Road 32,3,4,High,Express Route,Open
+1024,702,742,Nugegoda Road 32,3,4,High,Express Route,Open
+1025,702,662,Nugegoda Mawatha 33,4,4,High,Main Road,Open
+1026,662,702,Nugegoda Mawatha 33,4,4,High,Main Road,Open
+1027,662,622,Nugegoda Connector 34,4,4,High,Main Road,Open
+1028,622,662,Nugegoda Connector 34,4,4,High,Main Road,Close
+1029,622,582,Nugegoda-Narahenpita Link,3,2,Low,Main Road,Open
+1030,582,622,Nugegoda-Narahenpita Link,3,2,Low,Main Road,Close
+1031,582,542,Narahenpita Avenue 36,4,3,Moderate,Main Road,Open
+1032,542,582,Narahenpita Avenue 36,4,3,Moderate,Main Road,Open
+1033,542,502,Narahenpita Road 37,4,4,High,Main Road,Open
+1034,502,542,Narahenpita Road 37,4,4,High,Main Road,Open
+1035,502,462,Narahenpita Mawatha 38,5,4,High,Mountain Road,Open
+1036,462,502,Narahenpita Mawatha 38,5,4,High,Mountain Road,Open
+1037,462,422,Narahenpita Connector 39,3,2,Low,Main Road,Open
+1038,422,462,Narahenpita Connector 39,3,2,Low,Main Road,Close
+1039,422,382,Narahenpita-Borella Link,3,2,Low,Main Road,Open
+1040,382,422,Narahenpita-Borella Link,3,2,Low,Main Road,Close
+1041,382,342,Borella Avenue 01,4,4,High,Main Road,Open
+1042,342,382,Borella Avenue 01,4,4,High,Main Road,Close
+1043,342,302,Borella Road 02,4,3,Moderate,Main Road,Open
+1044,302,342,Borella Road 02,4,3,Moderate,Main Road,Close
+1045,302,262,Borella Mawatha 03,4,3,Moderate,Main Road,Open
+1046,262,302,Borella Mawatha 03,4,3,Moderate,Main Road,Open
+1047,262,222,Borella Connector 04,4,4,High,Main Road,Open
+1048,222,262,Borella Connector 04,4,4,High,Main Road,Open
+1049,222,182,Borella-Grandpass Link,4,3,Moderate,Mountain Road,Open
+1050,182,222,Borella-Grandpass Link,4,3,Moderate,Mountain Road,Close
+1051,182,142,Grandpass Avenue 06,4,4,High,Main Road,Open
+1052,142,182,Grandpass Avenue 06,4,4,High,Main Road,Close
+1053,142,102,Grandpass Road 07,4,4,High,Main Road,Open
+1054,102,142,Grandpass Road 07,4,4,High,Main Road,Close
+1055,102,62,Grandpass Mawatha 08,4,3,Moderate,Main Road,Open
+1056,62,102,Grandpass Mawatha 08,4,3,Moderate,Main Road,Open
+1057,62,63,Grandpass Connector 09,3,4,High,Main Road,Open
+1058,63,62,Grandpass Connector 09,3,4,High,Main Road,Open
+1059,63,103,Grandpass Link 10,3,2,Low,Main Road,Open
+1060,103,63,Grandpass Link 10,3,2,Low,Main Road,Open
+1061,103,143,Grandpass Avenue 11,2,2,Low,Express Route,Open
+1062,143,103,Grandpass Avenue 11,2,2,Low,Express Route,Open
+1063,143,183,Grandpass Road 12,4,4,High,Main Road,Open
+1064,183,143,Grandpass Road 12,4,4,High,Main Road,Close
+1065,183,223,Grandpass-Borella Link,4,4,High,Main Road,Open
+1066,223,183,Grandpass-Borella Link,4,4,High,Main Road,Close
+1067,223,263,Borella Connector 14,4,3,Moderate,Main Road,Open
+1068,263,223,Borella Connector 14,4,3,Moderate,Main Road,Close
+1069,263,303,Borella Link 15,4,3,Moderate,Main Road,Open
+1070,303,263,Borella Link 15,4,3,Moderate,Main Road,Close
+1071,303,343,Borella Avenue 16,3,4,High,Express Route,Open
+1072,343,303,Borella Avenue 16,3,4,High,Express Route,Open
+1073,343,383,Borella Road 17,4,4,High,Main Road,Open
+1074,383,343,Borella Road 17,4,4,High,Main Road,Open
+1075,383,423,Borella-Narahenpita Link,3,2,Low,Main Road,Open
+1076,423,383,Borella-Narahenpita Link,3,2,Low,Main Road,Close
+1077,423,463,Narahenpita Connector 19,4,4,High,Main Road,Open
+1078,463,423,Narahenpita Connector 19,4,4,High,Main Road,Open
+1079,463,503,Narahenpita Link 20,4,2,Low,Main Road,Open
+1080,503,463,Narahenpita Link 20,4,2,Low,Main Road,Close
+1081,503,543,Narahenpita Avenue 21,3,2,Low,Main Road,Open
+1082,543,503,Narahenpita Avenue 21,3,2,Low,Main Road,Close
+1083,543,583,Narahenpita Road 22,4,3,Moderate,Main Road,Open
+1084,583,543,Narahenpita Road 22,4,3,Moderate,Main Road,Close
+1085,583,623,Narahenpita-Nugegoda Link,3,2,Low,Main Road,Open
+1086,623,583,Narahenpita-Nugegoda Link,3,2,Low,Main Road,Close
+1087,623,663,Nugegoda Connector 24,4,4,High,Main Road,Open
+1088,663,623,Nugegoda Connector 24,4,4,High,Main Road,Close
+1089,663,703,Nugegoda Link 25,4,2,Low,Main Road,Open
+1090,703,663,Nugegoda Link 25,4,2,Low,Main Road,Open
+1091,703,743,Nugegoda Avenue 26,4,4,High,Main Road,Open
+1092,743,703,Nugegoda Avenue 26,4,4,High,Main Road,Close
+1093,743,783,Nugegoda Road 27,4,4,High,Main Road,Open
+1094,783,743,Nugegoda Road 27,4,4,High,Main Road,Open
+1095,783,823,Nugegoda-Boralesgamuwa Link,3,2,Low,Main Road,Open
+1096,823,783,Nugegoda-Boralesgamuwa Link,3,2,Low,Main Road,Open
+1097,823,863,Boralesgamuwa Connector 29,4,4,High,Main Road,Open
+1098,863,823,Boralesgamuwa Connector 29,4,4,High,Main Road,Close
+1099,863,903,Boralesgamuwa Link 30,4,3,Moderate,Main Road,Open
+1100,903,863,Boralesgamuwa Link 30,4,3,Moderate,Main Road,Open
+1101,903,943,Boralesgamuwa Avenue 31,4,4,High,Main Road,Open
+1102,943,903,Boralesgamuwa Avenue 31,4,4,High,Main Road,Close
+1103,943,983,Boralesgamuwa Road 32,4,3,Moderate,Main Road,Open
+1104,983,943,Boralesgamuwa Road 32,4,3,Moderate,Main Road,Open
+1105,983,984,Boralesgamuwa Mawatha 33,3,4,High,Main Road,Open
+1106,984,983,Boralesgamuwa Mawatha 33,3,4,High,Main Road,Open
+1107,984,944,Boralesgamuwa Connector 34,4,3,Moderate,Main Road,Open
+1108,944,984,Boralesgamuwa Connector 34,4,3,Moderate,Main Road,Close
+1109,944,904,Boralesgamuwa Link 35,3,2,Low,Main Road,Open
+1110,904,944,Boralesgamuwa Link 35,3,2,Low,Main Road,Close
+1111,904,864,Boralesgamuwa Avenue 36,3,2,Low,Main Road,Open
+1112,864,904,Boralesgamuwa Avenue 36,3,2,Low,Main Road,Open
+1113,864,824,Boralesgamuwa Road 37,3,3,Moderate,Main Road,Open
+1114,824,864,Boralesgamuwa Road 37,3,3,Moderate,Main Road,Close
+1115,824,784,Boralesgamuwa-Nugegoda Link,4,4,High,Main Road,Open
+1116,784,824,Boralesgamuwa-Nugegoda Link,4,4,High,Main Road,Open
+1117,784,744,Nugegoda Connector 39,4,2,Low,Main Road,Open
+1118,744,784,Nugegoda Connector 39,4,2,Low,Main Road,Open
+1119,744,704,Nugegoda Link 40,4,2,Low,Mountain Road,Open
+1120,704,744,Nugegoda Link 40,4,2,Low,Mountain Road,Close
+1121,704,664,Nugegoda Avenue 01,4,4,High,Main Road,Open
+1122,664,704,Nugegoda Avenue 01,4,4,High,Main Road,Close
+1123,664,624,Nugegoda Road 02,4,3,Moderate,Main Road,Open
+1124,624,664,Nugegoda Road 02,4,3,Moderate,Main Road,Close
+1125,624,584,Nugegoda-Narahenpita Link,4,3,Moderate,Main Road,Open
+1126,584,624,Nugegoda-Narahenpita Link,4,3,Moderate,Main Road,Close
+1127,584,544,Narahenpita Connector 04,4,3,Moderate,Main Road,Open
+1128,544,584,Narahenpita Connector 04,4,3,Moderate,Main Road,Close
+1129,544,504,Narahenpita Link 05,4,4,High,Main Road,Open
+1130,504,544,Narahenpita Link 05,4,4,High,Main Road,Close
+1131,504,464,Narahenpita Avenue 06,4,4,High,Main Road,Open
+1132,464,504,Narahenpita Avenue 06,4,4,High,Main Road,Open
+1133,464,424,Narahenpita Road 07,4,3,Moderate,Main Road,Open
+1134,424,464,Narahenpita Road 07,4,3,Moderate,Main Road,Close
+1135,424,384,Narahenpita-Borella Link,4,3,Moderate,Main Road,Open
+1136,384,424,Narahenpita-Borella Link,4,3,Moderate,Main Road,Close
+1137,384,344,Borella Connector 09,3,3,Moderate,Coastal Road,Open
+1138,344,384,Borella Connector 09,3,3,Moderate,Coastal Road,Close
+1139,344,304,Borella Link 10,3,2,Low,Coastal Road,Open
+1140,304,344,Borella Link 10,3,2,Low,Coastal Road,Close
+1141,304,264,Borella Avenue 11,4,3,Moderate,Main Road,Open
+1142,264,304,Borella Avenue 11,4,3,Moderate,Main Road,Close
+1143,264,224,Borella Road 12,3,2,Low,Main Road,Open
+1144,224,264,Borella Road 12,3,2,Low,Main Road,Close
+1145,224,184,Borella-Grandpass Link,4,4,High,Main Road,Open
+1146,184,224,Borella-Grandpass Link,4,4,High,Main Road,Close
+1147,184,144,Grandpass Connector 14,4,4,High,Main Road,Open
+1148,144,184,Grandpass Connector 14,4,4,High,Main Road,Close
+1149,144,104,Grandpass Link 15,4,3,Moderate,Main Road,Open
+1150,104,144,Grandpass Link 15,4,3,Moderate,Main Road,Open
+1151,104,64,Grandpass Avenue 16,3,2,Low,Main Road,Open
+1152,64,104,Grandpass Avenue 16,3,2,Low,Main Road,Close
+1153,64,65,Grandpass-Dematagoda Link,3,4,High,Main Road,Open
+1154,65,64,Grandpass-Dematagoda Link,3,4,High,Main Road,Close
+1155,65,105,Dematagoda Mawatha 18,4,2,Low,Main Road,Open
+1156,105,65,Dematagoda Mawatha 18,4,2,Low,Main Road,Open
+1157,105,145,Dematagoda Connector 19,4,4,High,Main Road,Open
+1158,145,105,Dematagoda Connector 19,4,4,High,Main Road,Close
+1159,145,185,Dematagoda Link 20,4,4,High,Coastal Road,Open
+1160,185,145,Dematagoda Link 20,4,4,High,Coastal Road,Close
+1161,185,225,Dematagoda-Rajagiriya Link,4,4,High,Main Road,Open
+1162,225,185,Dematagoda-Rajagiriya Link,4,4,High,Main Road,Close
+1163,225,265,Rajagiriya Road 22,4,4,High,Main Road,Open
+1164,265,225,Rajagiriya Road 22,4,4,High,Main Road,Open
+1165,265,305,Rajagiriya Mawatha 23,3,2,Low,Main Road,Open
+1166,305,265,Rajagiriya Mawatha 23,3,2,Low,Main Road,Close
+1167,305,345,Rajagiriya Connector 24,4,4,High,Main Road,Open
+1168,345,305,Rajagiriya Connector 24,4,4,High,Main Road,Close
+1169,345,385,Rajagiriya Link 25,3,3,Moderate,Main Road,Open
+1170,385,345,Rajagiriya Link 25,3,3,Moderate,Main Road,Close
+1171,385,425,Rajagiriya-Kotte Link,4,4,High,Main Road,Open
+1172,425,385,Rajagiriya-Kotte Link,4,4,High,Main Road,Close
+1173,425,465,Kotte Road 27,3,2,Low,Main Road,Open
+1174,465,425,Kotte Road 27,3,2,Low,Main Road,Close
+1175,465,505,Kotte Mawatha 28,4,4,High,Main Road,Open
+1176,505,465,Kotte Mawatha 28,4,4,High,Main Road,Close
+1177,505,545,Kotte Connector 29,4,3,Moderate,Main Road,Open
+1178,545,505,Kotte Connector 29,4,3,Moderate,Main Road,Close
+1179,545,585,Kotte Link 30,3,2,Low,Main Road,Open
+1180,585,545,Kotte Link 30,3,2,Low,Main Road,Close
+1181,585,625,Kotte-Maharagama Link,4,4,High,Main Road,Open
+1182,625,585,Kotte-Maharagama Link,4,4,High,Main Road,Close
+1183,625,665,Maharagama Road 32,4,4,High,Main Road,Open
+1184,665,625,Maharagama Road 32,4,4,High,Main Road,Close
+1185,665,705,Maharagama Mawatha 33,3,2,Low,Main Road,Open
+1186,705,665,Maharagama Mawatha 33,3,2,Low,Main Road,Close
+1187,705,745,Maharagama Connector 34,4,4,High,Main Road,Open
+1188,745,705,Maharagama Connector 34,4,4,High,Main Road,Close
+1189,745,785,Maharagama Link 35,4,4,High,Main Road,Open
+1190,785,745,Maharagama Link 35,4,4,High,Main Road,Close
+1191,785,825,Maharagama-Piliyandala Link,3,2,Low,Main Road,Open
+1192,825,785,Maharagama-Piliyandala Link,3,2,Low,Main Road,Close
+1193,825,865,Piliyandala Road 37,3,2,Low,Main Road,Open
+1194,865,825,Piliyandala Road 37,3,2,Low,Main Road,Close
+1195,865,905,Piliyandala Mawatha 38,4,4,High,Main Road,Open
+1196,905,865,Piliyandala Mawatha 38,4,4,High,Main Road,Close
+1197,905,945,Piliyandala Connector 39,3,3,Moderate,Coastal Road,Open
+1198,945,905,Piliyandala Connector 39,3,3,Moderate,Coastal Road,Close
+1199,945,985,Piliyandala Link 40,4,3,Moderate,Main Road,Open
+1200,985,945,Piliyandala Link 40,4,3,Moderate,Main Road,Close
+1201,985,986,Piliyandala Avenue 01,3,4,High,Main Road,Open
+1202,986,985,Piliyandala Avenue 01,3,4,High,Main Road,Open
+1203,986,946,Piliyandala Road 02,4,4,High,Main Road,Open
+1204,946,986,Piliyandala Road 02,4,4,High,Main Road,Open
+1205,946,906,Piliyandala Mawatha 03,3,4,High,Express Route,Open
+1206,906,946,Piliyandala Mawatha 03,3,4,High,Express Route,Close
+1207,906,866,Piliyandala Connector 04,4,4,High,Coastal Road,Open
+1208,866,906,Piliyandala Connector 04,4,4,High,Coastal Road,Close
+1209,866,826,Piliyandala Link 05,3,3,Moderate,Coastal Road,Open
+1210,826,866,Piliyandala Link 05,3,3,Moderate,Coastal Road,Close
+1211,826,786,Piliyandala-Maharagama Link,3,3,Moderate,Main Road,Open
+1212,786,826,Piliyandala-Maharagama Link,3,3,Moderate,Main Road,Open
+1213,786,746,Maharagama Road 07,3,2,Low,Main Road,Open
+1214,746,786,Maharagama Road 07,3,2,Low,Main Road,Close
+1215,746,706,Maharagama Mawatha 08,4,4,High,Coastal Road,Open
+1216,706,746,Maharagama Mawatha 08,4,4,High,Coastal Road,Open
+1217,706,666,Maharagama Connector 09,4,3,Moderate,Main Road,Open
+1218,666,706,Maharagama Connector 09,4,3,Moderate,Main Road,Open
+1219,666,626,Maharagama Link 10,4,4,High,Main Road,Open
+1220,626,666,Maharagama Link 10,4,4,High,Main Road,Close
+1221,626,586,Maharagama-Kotte Link,4,3,Moderate,Main Road,Open
+1222,586,626,Maharagama-Kotte Link,4,3,Moderate,Main Road,Close
+1223,586,546,Kotte Road 12,4,3,Moderate,Main Road,Open
+1224,546,586,Kotte Road 12,4,3,Moderate,Main Road,Open
+1225,546,506,Kotte Mawatha 13,4,4,High,Main Road,Open
+1226,506,546,Kotte Mawatha 13,4,4,High,Main Road,Close
+1227,506,466,Kotte Connector 14,3,2,Low,Main Road,Open
+1228,466,506,Kotte Connector 14,3,2,Low,Main Road,Close
+1229,466,426,Kotte Link 15,3,2,Low,Main Road,Open
+1230,426,466,Kotte Link 15,3,2,Low,Main Road,Close
+1231,426,386,Kotte-Rajagiriya Link,4,3,Moderate,Main Road,Open
+1232,386,426,Kotte-Rajagiriya Link,4,3,Moderate,Main Road,Open
+1233,386,346,Rajagiriya Road 17,4,3,Moderate,Main Road,Open
+1234,346,386,Rajagiriya Road 17,4,3,Moderate,Main Road,Close
+1235,346,306,Rajagiriya Mawatha 18,4,3,Moderate,Main Road,Open
+1236,306,346,Rajagiriya Mawatha 18,4,3,Moderate,Main Road,Close
+1237,306,266,Rajagiriya Connector 19,3,3,Moderate,Main Road,Open
+1238,266,306,Rajagiriya Connector 19,3,3,Moderate,Main Road,Open
+1239,266,226,Rajagiriya Link 20,5,3,Moderate,Mountain Road,Open
+1240,226,266,Rajagiriya Link 20,5,3,Moderate,Mountain Road,Close
+1241,226,186,Rajagiriya-Dematagoda Link,4,3,Moderate,Main Road,Open
+1242,186,226,Rajagiriya-Dematagoda Link,4,3,Moderate,Main Road,Close
+1243,186,146,Dematagoda Road 22,4,4,High,Main Road,Open
+1244,146,186,Dematagoda Road 22,4,4,High,Main Road,Close
+1245,146,106,Dematagoda Mawatha 23,4,4,High,Main Road,Open
+1246,106,146,Dematagoda Mawatha 23,4,4,High,Main Road,Close
+1247,106,66,Dematagoda Connector 24,3,2,Low,Main Road,Open
+1248,66,106,Dematagoda Connector 24,3,2,Low,Main Road,Close
+1249,66,67,Dematagoda Link 25,2,2,Low,Main Road,Open
+1250,67,66,Dematagoda Link 25,2,2,Low,Main Road,Close
+1251,67,107,Dematagoda Avenue 26,4,4,High,Main Road,Open
+1252,107,67,Dematagoda Avenue 26,4,4,High,Main Road,Close
+1253,107,147,Dematagoda Road 27,4,4,High,Coastal Road,Open
+1254,147,107,Dematagoda Road 27,4,4,High,Coastal Road,Close
+1255,147,187,Dematagoda Mawatha 28,3,2,Low,Main Road,Open
+1256,187,147,Dematagoda Mawatha 28,3,2,Low,Main Road,Open
+1257,187,227,Dematagoda-Rajagiriya Link,3,4,High,Express Route,Open
+1258,227,187,Dematagoda-Rajagiriya Link,3,4,High,Express Route,Close
+1259,227,267,Rajagiriya Link 30,4,3,Moderate,Coastal Road,Open
+1260,267,227,Rajagiriya Link 30,4,3,Moderate,Coastal Road,Close
+1261,267,307,Rajagiriya Avenue 31,3,4,High,Express Route,Open
+1262,307,267,Rajagiriya Avenue 31,3,4,High,Express Route,Open
+1263,307,347,Rajagiriya Road 32,4,4,High,Main Road,Open
+1264,347,307,Rajagiriya Road 32,4,4,High,Main Road,Close
+1265,347,387,Rajagiriya Mawatha 33,3,3,Moderate,Main Road,Open
+1266,387,347,Rajagiriya Mawatha 33,3,3,Moderate,Main Road,Close
+1267,387,427,Rajagiriya-Kotte Link,4,3,Moderate,Main Road,Open
+1268,427,387,Rajagiriya-Kotte Link,4,3,Moderate,Main Road,Close
+1269,427,467,Kotte Link 35,4,4,High,Main Road,Open
+1270,467,427,Kotte Link 35,4,4,High,Main Road,Open
+1271,467,507,Kotte Avenue 36,3,2,Low,Main Road,Open
+1272,507,467,Kotte Avenue 36,3,2,Low,Main Road,Close
+1273,507,547,Kotte Road 37,4,3,Moderate,Main Road,Open
+1274,547,507,Kotte Road 37,4,3,Moderate,Main Road,Close
+1275,547,587,Kotte Mawatha 38,4,3,Moderate,Main Road,Open
+1276,587,547,Kotte Mawatha 38,4,3,Moderate,Main Road,Close
+1277,587,627,Kotte-Maharagama Link,3,2,Low,Main Road,Open
+1278,627,587,Kotte-Maharagama Link,3,2,Low,Main Road,Close
+1279,627,667,Maharagama Link 40,4,4,High,Coastal Road,Open
+1280,667,627,Maharagama Link 40,4,4,High,Coastal Road,Close
+1281,667,707,Maharagama Avenue 01,3,2,Low,Main Road,Open
+1282,707,667,Maharagama Avenue 01,3,2,Low,Main Road,Open
+1283,707,747,Maharagama Road 02,4,3,Moderate,Main Road,Open
+1284,747,707,Maharagama Road 02,4,3,Moderate,Main Road,Close
+1285,747,787,Maharagama Mawatha 03,3,3,Moderate,Main Road,Open
+1286,787,747,Maharagama Mawatha 03,3,3,Moderate,Main Road,Close
+1287,787,827,Maharagama-Piliyandala Link,4,4,High,Main Road,Open
+1288,827,787,Maharagama-Piliyandala Link,4,4,High,Main Road,Close
+1289,827,867,Piliyandala Link 05,4,3,Moderate,Mountain Road,Open
+1290,867,827,Piliyandala Link 05,4,3,Moderate,Mountain Road,Close
+1291,867,907,Piliyandala Avenue 06,4,4,High,Main Road,Open
+1292,907,867,Piliyandala Avenue 06,4,4,High,Main Road,Open
+1293,907,947,Piliyandala Road 07,4,4,High,Main Road,Open
+1294,947,907,Piliyandala Road 07,4,4,High,Main Road,Open
+1295,947,987,Piliyandala Mawatha 08,4,3,Moderate,Main Road,Open
+1296,987,947,Piliyandala Mawatha 08,4,3,Moderate,Main Road,Close
+1297,987,988,Piliyandala Connector 09,3,3,Moderate,Main Road,Open
+1298,988,987,Piliyandala Connector 09,3,3,Moderate,Main Road,Open
+1299,988,948,Piliyandala Link 10,3,4,High,Express Route,Open
+1300,948,988,Piliyandala Link 10,3,4,High,Express Route,Close
+1301,948,908,Piliyandala Avenue 11,4,4,High,Main Road,Open
+1302,908,948,Piliyandala Avenue 11,4,4,High,Main Road,Close
+1303,908,868,Piliyandala Road 12,4,4,High,Main Road,Open
+1304,868,908,Piliyandala Road 12,4,4,High,Main Road,Close
+1305,868,828,Piliyandala Mawatha 13,4,3,Moderate,Main Road,Open
+1306,828,868,Piliyandala Mawatha 13,4,3,Moderate,Main Road,Close
+1307,828,788,Piliyandala-Maharagama Link,3,2,Low,Main Road,Open
+1308,788,828,Piliyandala-Maharagama Link,3,2,Low,Main Road,Close
+1309,788,748,Maharagama Link 15,4,3,Moderate,Mountain Road,Open
+1310,748,788,Maharagama Link 15,4,3,Moderate,Mountain Road,Open
+1311,748,708,Maharagama Avenue 16,2,2,Low,Express Route,Open
+1312,708,748,Maharagama Avenue 16,2,2,Low,Express Route,Close
+1313,708,668,Maharagama Road 17,3,2,Low,Main Road,Open
+1314,668,708,Maharagama Road 17,3,2,Low,Main Road,Close
+1315,668,628,Maharagama Mawatha 18,3,3,Moderate,Express Route,Open
+1316,628,668,Maharagama Mawatha 18,3,3,Moderate,Express Route,Open
+1317,628,588,Maharagama-Kotte Link,3,4,High,Express Route,Open
+1318,588,628,Maharagama-Kotte Link,3,4,High,Express Route,Close
+1319,588,548,Kotte Link 20,3,2,Low,Coastal Road,Open
+1320,548,588,Kotte Link 20,3,2,Low,Coastal Road,Close
+1321,548,508,Kotte Avenue 21,4,4,High,Main Road,Open
+1322,508,548,Kotte Avenue 21,4,4,High,Main Road,Close
+1323,508,468,Kotte Road 22,3,2,Low,Main Road,Open
+1324,468,508,Kotte Road 22,3,2,Low,Main Road,Close
+1325,468,428,Kotte Mawatha 23,3,2,Low,Main Road,Open
+1326,428,468,Kotte Mawatha 23,3,2,Low,Main Road,Close
+1327,428,388,Kotte-Rajagiriya Link,4,2,Low,Main Road,Open
+1328,388,428,Kotte-Rajagiriya Link,4,2,Low,Main Road,Close
+1329,388,348,Rajagiriya Link 25,4,4,High,Main Road,Open
+1330,348,388,Rajagiriya Link 25,4,4,High,Main Road,Close
+1331,348,308,Rajagiriya Avenue 26,4,3,Moderate,Main Road,Open
+1332,308,348,Rajagiriya Avenue 26,4,3,Moderate,Main Road,Open
+1333,308,268,Rajagiriya Road 27,4,4,High,Main Road,Open
+1334,268,308,Rajagiriya Road 27,4,4,High,Main Road,Close
+1335,268,228,Rajagiriya Mawatha 28,3,4,High,Express Route,Open
+1336,228,268,Rajagiriya Mawatha 28,3,4,High,Express Route,Open
+1337,228,188,Rajagiriya-Dematagoda Link,4,3,Moderate,Main Road,Open
+1338,188,228,Rajagiriya-Dematagoda Link,4,3,Moderate,Main Road,Close
+1339,188,148,Dematagoda Link 30,3,2,Low,Coastal Road,Open
+1340,148,188,Dematagoda Link 30,3,2,Low,Coastal Road,Close
+1341,148,108,Dematagoda Avenue 31,4,3,Moderate,Main Road,Open
+1342,108,148,Dematagoda Avenue 31,4,3,Moderate,Main Road,Open
+1343,108,68,Dematagoda Road 32,3,2,Low,Main Road,Open
+1344,68,108,Dematagoda Road 32,3,2,Low,Main Road,Open
+1345,68,69,Dematagoda Mawatha 33,3,3,Moderate,Main Road,Open
+1346,69,68,Dematagoda Mawatha 33,3,3,Moderate,Main Road,Close
+1347,69,109,Dematagoda Connector 34,4,4,High,Main Road,Open
+1348,109,69,Dematagoda Connector 34,4,4,High,Main Road,Open
+1349,109,149,Dematagoda Link 35,3,3,Moderate,Main Road,Open
+1350,149,109,Dematagoda Link 35,3,3,Moderate,Main Road,Close
+1351,149,189,Dematagoda Avenue 36,3,2,Low,Main Road,Open
+1352,189,149,Dematagoda Avenue 36,3,2,Low,Main Road,Open
+1353,189,229,Dematagoda-Rajagiriya Link,4,4,High,Main Road,Open
+1354,229,189,Dematagoda-Rajagiriya Link,4,4,High,Main Road,Open
+1355,229,269,Rajagiriya Mawatha 38,4,3,Moderate,Main Road,Open
+1356,269,229,Rajagiriya Mawatha 38,4,3,Moderate,Main Road,Close
+1357,269,309,Rajagiriya Connector 39,4,4,High,Main Road,Open
+1358,309,269,Rajagiriya Connector 39,4,4,High,Main Road,Close
+1359,309,349,Rajagiriya Link 40,2,2,Low,Express Route,Open
+1360,349,309,Rajagiriya Link 40,2,2,Low,Express Route,Close
+1361,349,389,Rajagiriya Avenue 01,4,2,Low,Main Road,Open
+1362,389,349,Rajagiriya Avenue 01,4,2,Low,Main Road,Close
+1363,389,429,Rajagiriya-Kotte Link,4,3,Moderate,Mountain Road,Open
+1364,429,389,Rajagiriya-Kotte Link,4,3,Moderate,Mountain Road,Open
+1365,429,469,Kotte Mawatha 03,4,4,High,Main Road,Open
+1366,469,429,Kotte Mawatha 03,4,4,High,Main Road,Close
+1367,469,509,Kotte Connector 04,4,4,High,Main Road,Open
+1368,509,469,Kotte Connector 04,4,4,High,Main Road,Close
+1369,509,549,Kotte Link 05,3,2,Low,Main Road,Open
+1370,549,509,Kotte Link 05,3,2,Low,Main Road,Close
+1371,549,589,Kotte Avenue 06,4,2,Low,Main Road,Open
+1372,589,549,Kotte Avenue 06,4,2,Low,Main Road,Open
+1373,589,629,Kotte-Maharagama Link,3,2,Low,Main Road,Open
+1374,629,589,Kotte-Maharagama Link,3,2,Low,Main Road,Close
+1375,629,669,Maharagama Mawatha 08,4,4,High,Main Road,Open
+1376,669,629,Maharagama Mawatha 08,4,4,High,Main Road,Close
+1377,669,709,Maharagama Connector 09,3,3,Moderate,Main Road,Open
+1378,709,669,Maharagama Connector 09,3,3,Moderate,Main Road,Open
+1379,709,749,Maharagama Link 10,3,4,High,Express Route,Open
+1380,749,709,Maharagama Link 10,3,4,High,Express Route,Open
+1381,749,789,Maharagama Avenue 11,4,4,High,Main Road,Open
+1382,789,749,Maharagama Avenue 11,4,4,High,Main Road,Close
+1383,789,829,Maharagama-Piliyandala Link,4,2,Low,Mountain Road,Open
+1384,829,789,Maharagama-Piliyandala Link,4,2,Low,Mountain Road,Close
+1385,829,869,Piliyandala Mawatha 13,3,2,Low,Main Road,Open
+1386,869,829,Piliyandala Mawatha 13,3,2,Low,Main Road,Close
+1387,869,909,Piliyandala Connector 14,4,4,High,Coastal Road,Open
+1388,909,869,Piliyandala Connector 14,4,4,High,Coastal Road,Close
+1389,909,949,Piliyandala Link 15,4,4,High,Main Road,Open
+1390,949,909,Piliyandala Link 15,4,4,High,Main Road,Close
+1391,949,989,Piliyandala Avenue 16,3,2,Low,Main Road,Open
+1392,989,949,Piliyandala Avenue 16,3,2,Low,Main Road,Close
+1393,989,990,Piliyandala Road 17,3,4,High,Main Road,Open
+1394,990,989,Piliyandala Road 17,3,4,High,Main Road,Open
+1395,990,950,Piliyandala Mawatha 18,4,3,Moderate,Main Road,Open
+1396,950,990,Piliyandala Mawatha 18,4,3,Moderate,Main Road,Open
+1397,950,910,Piliyandala Connector 19,4,4,High,Main Road,Open
+1398,910,950,Piliyandala Connector 19,4,4,High,Main Road,Close
+1399,910,870,Piliyandala Link 20,4,4,High,Main Road,Open
+1400,870,910,Piliyandala Link 20,4,4,High,Main Road,Close
+1401,870,830,Piliyandala Avenue 21,4,4,High,Main Road,Open
+1402,830,870,Piliyandala Avenue 21,4,4,High,Main Road,Close
+1403,830,790,Piliyandala-Maharagama Link,4,4,High,Main Road,Open
+1404,790,830,Piliyandala-Maharagama Link,4,4,High,Main Road,Close
+1405,790,750,Maharagama Mawatha 23,4,4,High,Main Road,Open
+1406,750,790,Maharagama Mawatha 23,4,4,High,Main Road,Close
+1407,750,710,Maharagama Connector 24,4,3,Moderate,Main Road,Open
+1408,710,750,Maharagama Connector 24,4,3,Moderate,Main Road,Close
+1409,710,670,Maharagama Link 25,3,2,Low,Main Road,Open
+1410,670,710,Maharagama Link 25,3,2,Low,Main Road,Close
+1411,670,630,Maharagama Avenue 26,4,4,High,Main Road,Open
+1412,630,670,Maharagama Avenue 26,4,4,High,Main Road,Open
+1413,630,590,Maharagama-Kotte Link,3,2,Low,Main Road,Open
+1414,590,630,Maharagama-Kotte Link,3,2,Low,Main Road,Close
+1415,590,550,Kotte Mawatha 28,3,3,Moderate,Express Route,Open
+1416,550,590,Kotte Mawatha 28,3,3,Moderate,Express Route,Close
+1417,550,510,Kotte Connector 29,4,3,Moderate,Main Road,Open
+1418,510,550,Kotte Connector 29,4,3,Moderate,Main Road,Open
+1419,510,470,Kotte Link 30,4,3,Moderate,Main Road,Open
+1420,470,510,Kotte Link 30,4,3,Moderate,Main Road,Close
+1421,470,430,Kotte Avenue 31,4,4,High,Main Road,Open
+1422,430,470,Kotte Avenue 31,4,4,High,Main Road,Open
+1423,430,390,Kotte-Rajagiriya Link,3,3,Moderate,Express Route,Open
+1424,390,430,Kotte-Rajagiriya Link,3,3,Moderate,Express Route,Close
+1425,390,350,Rajagiriya Mawatha 33,4,3,Moderate,Main Road,Open
+1426,350,390,Rajagiriya Mawatha 33,4,3,Moderate,Main Road,Open
+1427,350,310,Rajagiriya Connector 34,4,4,High,Coastal Road,Open
+1428,310,350,Rajagiriya Connector 34,4,4,High,Coastal Road,Open
+1429,310,270,Rajagiriya Link 35,4,3,Moderate,Main Road,Open
+1430,270,310,Rajagiriya Link 35,4,3,Moderate,Main Road,Close
+1431,270,230,Rajagiriya Avenue 36,3,2,Low,Main Road,Open
+1432,230,270,Rajagiriya Avenue 36,3,2,Low,Main Road,Close
+1433,230,190,Rajagiriya-Dematagoda Link,4,4,High,Main Road,Open
+1434,190,230,Rajagiriya-Dematagoda Link,4,4,High,Main Road,Close
+1435,190,150,Dematagoda Mawatha 38,4,2,Low,Main Road,Open
+1436,150,190,Dematagoda Mawatha 38,4,2,Low,Main Road,Close
+1437,150,110,Dematagoda Connector 39,4,2,Low,Mountain Road,Open
+1438,110,150,Dematagoda Connector 39,4,2,Low,Mountain Road,Close
+1439,110,70,Dematagoda Link 40,4,2,Low,Mountain Road,Open
+1440,70,110,Dematagoda Link 40,4,2,Low,Mountain Road,Close
+1441,70,71,Dematagoda Avenue 01,3,3,Moderate,Main Road,Open
+1442,71,70,Dematagoda Avenue 01,3,3,Moderate,Main Road,Close
+1443,71,111,Dematagoda Road 02,3,2,Low,Main Road,Open
+1444,111,71,Dematagoda Road 02,3,2,Low,Main Road,Close
+1445,111,151,Dematagoda Mawatha 03,4,4,High,Main Road,Open
+1446,151,111,Dematagoda Mawatha 03,4,4,High,Main Road,Close
+1447,151,191,Dematagoda Connector 04,4,3,Moderate,Main Road,Open
+1448,191,151,Dematagoda Connector 04,4,3,Moderate,Main Road,Close
+1449,191,231,Dematagoda-Rajagiriya Link,4,3,Moderate,Main Road,Open
+1450,231,191,Dematagoda-Rajagiriya Link,4,3,Moderate,Main Road,Close
+1451,231,271,Rajagiriya Avenue 06,4,3,Moderate,Coastal Road,Open
+1452,271,231,Rajagiriya Avenue 06,4,3,Moderate,Coastal Road,Close
+1453,271,311,Rajagiriya Road 07,4,4,High,Main Road,Open
+1454,311,271,Rajagiriya Road 07,4,4,High,Main Road,Close
+1455,311,351,Rajagiriya Mawatha 08,4,4,High,Main Road,Open
+1456,351,311,Rajagiriya Mawatha 08,4,4,High,Main Road,Open
+1457,351,391,Rajagiriya Connector 09,3,2,Low,Coastal Road,Open
+1458,391,351,Rajagiriya Connector 09,3,2,Low,Coastal Road,Close
+1459,391,431,Rajagiriya-Kotte Link,3,2,Low,Main Road,Open
+1460,431,391,Rajagiriya-Kotte Link,3,2,Low,Main Road,Close
+1461,431,471,Kotte Avenue 11,3,3,Moderate,Coastal Road,Open
+1462,471,431,Kotte Avenue 11,3,3,Moderate,Coastal Road,Open
+1463,471,511,Kotte Road 12,4,3,Moderate,Main Road,Open
+1464,511,471,Kotte Road 12,4,3,Moderate,Main Road,Open
+1465,511,551,Kotte Mawatha 13,3,3,Moderate,Coastal Road,Open
+1466,551,511,Kotte Mawatha 13,3,3,Moderate,Coastal Road,Close
+1467,551,591,Kotte Connector 14,4,3,Moderate,Main Road,Open
+1468,591,551,Kotte Connector 14,4,3,Moderate,Main Road,Close
+1469,591,631,Kotte-Maharagama Link,4,4,High,Main Road,Open
+1470,631,591,Kotte-Maharagama Link,4,4,High,Main Road,Close
+1471,631,671,Maharagama Avenue 16,3,2,Low,Main Road,Open
+1472,671,631,Maharagama Avenue 16,3,2,Low,Main Road,Close
+1473,671,711,Maharagama Road 17,4,3,Moderate,Main Road,Open
+1474,711,671,Maharagama Road 17,4,3,Moderate,Main Road,Close
+1475,711,751,Maharagama Mawatha 18,4,4,High,Main Road,Open
+1476,751,711,Maharagama Mawatha 18,4,4,High,Main Road,Close
+1477,751,791,Maharagama Connector 19,4,4,High,Main Road,Open
+1478,791,751,Maharagama Connector 19,4,4,High,Main Road,Open
+1479,791,831,Maharagama-Piliyandala Link,3,2,Low,Main Road,Open
+1480,831,791,Maharagama-Piliyandala Link,3,2,Low,Main Road,Close
+1481,831,871,Piliyandala Avenue 21,4,3,Moderate,Main Road,Open
+1482,871,831,Piliyandala Avenue 21,4,3,Moderate,Main Road,Close
+1483,871,911,Piliyandala Road 22,4,3,Moderate,Main Road,Open
+1484,911,871,Piliyandala Road 22,4,3,Moderate,Main Road,Close
+1485,911,951,Piliyandala Mawatha 23,4,4,High,Main Road,Open
+1486,951,911,Piliyandala Mawatha 23,4,4,High,Main Road,Close
+1487,951,991,Piliyandala Connector 24,4,4,High,Main Road,Open
+1488,991,951,Piliyandala Connector 24,4,4,High,Main Road,Open
+1489,991,992,Piliyandala Link 25,3,3,Moderate,Main Road,Open
+1490,992,991,Piliyandala Link 25,3,3,Moderate,Main Road,Close
+1491,992,952,Piliyandala Avenue 26,4,4,High,Main Road,Open
+1492,952,992,Piliyandala Avenue 26,4,4,High,Main Road,Close
+1493,952,912,Piliyandala Road 27,4,3,Moderate,Main Road,Open
+1494,912,952,Piliyandala Road 27,4,3,Moderate,Main Road,Close
+1495,912,872,Piliyandala Mawatha 28,4,3,Moderate,Main Road,Open
+1496,872,912,Piliyandala Mawatha 28,4,3,Moderate,Main Road,Open
+1497,872,832,Piliyandala Connector 29,4,4,High,Main Road,Open
+1498,832,872,Piliyandala Connector 29,4,4,High,Main Road,Close
+1499,832,792,Piliyandala-Maharagama Link,2,2,Low,Express Route,Open
+1500,792,832,Piliyandala-Maharagama Link,2,2,Low,Express Route,Close
+1501,792,752,Maharagama Avenue 31,3,2,Low,Main Road,Open
+1502,752,792,Maharagama Avenue 31,3,2,Low,Main Road,Close
+1503,752,712,Maharagama Road 32,3,3,Moderate,Express Route,Open
+1504,712,752,Maharagama Road 32,3,3,Moderate,Express Route,Close
+1505,712,672,Maharagama Mawatha 33,3,3,Moderate,Coastal Road,Open
+1506,672,712,Maharagama Mawatha 33,3,3,Moderate,Coastal Road,Close
+1507,672,632,Maharagama Connector 34,3,3,Moderate,Main Road,Open
+1508,632,672,Maharagama Connector 34,3,3,Moderate,Main Road,Close
+1509,632,592,Maharagama-Kotte Link,3,2,Low,Main Road,Open
+1510,592,632,Maharagama-Kotte Link,3,2,Low,Main Road,Close
+1511,592,552,Kotte Avenue 36,4,4,High,Main Road,Open
+1512,552,592,Kotte Avenue 36,4,4,High,Main Road,Close
+1513,552,512,Kotte Road 37,4,3,Moderate,Main Road,Open
+1514,512,552,Kotte Road 37,4,3,Moderate,Main Road,Close
+1515,512,472,Kotte Mawatha 38,3,2,Low,Main Road,Open
+1516,472,512,Kotte Mawatha 38,3,2,Low,Main Road,Close
+1517,472,432,Kotte Connector 39,4,4,High,Coastal Road,Open
+1518,432,472,Kotte Connector 39,4,4,High,Coastal Road,Open
+1519,432,392,Kotte-Rajagiriya Link,4,4,High,Main Road,Open
+1520,392,432,Kotte-Rajagiriya Link,4,4,High,Main Road,Close
+1521,392,352,Rajagiriya Avenue 01,3,2,Low,Main Road,Open
+1522,352,392,Rajagiriya Avenue 01,3,2,Low,Main Road,Open
+1523,352,312,Rajagiriya Road 02,4,4,High,Main Road,Open
+1524,312,352,Rajagiriya Road 02,4,4,High,Main Road,Close
+1525,312,272,Rajagiriya Mawatha 03,3,2,Low,Main Road,Open
+1526,272,312,Rajagiriya Mawatha 03,3,2,Low,Main Road,Close
+1527,272,232,Rajagiriya Connector 04,5,3,Moderate,Mountain Road,Open
+1528,232,272,Rajagiriya Connector 04,5,3,Moderate,Mountain Road,Close
+1529,232,192,Rajagiriya-Dematagoda Link,3,2,Low,Main Road,Open
+1530,192,232,Rajagiriya-Dematagoda Link,3,2,Low,Main Road,Close
+1531,192,152,Dematagoda Avenue 06,4,3,Moderate,Main Road,Open
+1532,152,192,Dematagoda Avenue 06,4,3,Moderate,Main Road,Close
+1533,152,112,Dematagoda Road 07,4,4,High,Main Road,Open
+1534,112,152,Dematagoda Road 07,4,4,High,Main Road,Close
+1535,112,72,Dematagoda Mawatha 08,3,2,Low,Main Road,Open
+1536,72,112,Dematagoda Mawatha 08,3,2,Low,Main Road,Close
+1537,72,73,Dematagoda-Kelaniya Link,3,3,Moderate,Main Road,Open
+1538,73,72,Dematagoda-Kelaniya Link,3,3,Moderate,Main Road,Close
+1539,73,113,Kelaniya Link 10,4,4,High,Main Road,Open
+1540,113,73,Kelaniya Link 10,4,4,High,Main Road,Close
+1541,113,153,Kelaniya Avenue 11,3,2,Low,Main Road,Open
+1542,153,113,Kelaniya Avenue 11,3,2,Low,Main Road,Close
+1543,153,193,Kelaniya Road 12,4,3,Moderate,Main Road,Open
+1544,193,153,Kelaniya Road 12,4,3,Moderate,Main Road,Close
+1545,193,233,Kelaniya-Battaramulla Link,4,4,High,Main Road,Open
+1546,233,193,Kelaniya-Battaramulla Link,4,4,High,Main Road,Open
+1547,233,273,Battaramulla Connector 14,4,4,High,Main Road,Open
+1548,273,233,Battaramulla Connector 14,4,4,High,Main Road,Close
+1549,273,313,Battaramulla Link 15,4,4,High,Main Road,Open
+1550,313,273,Battaramulla Link 15,4,4,High,Main Road,Close
+1551,313,353,Battaramulla Avenue 16,4,3,Moderate,Main Road,Open
+1552,353,313,Battaramulla Avenue 16,4,3,Moderate,Main Road,Close
+1553,353,393,Battaramulla Road 17,4,4,High,Main Road,Open
+1554,393,353,Battaramulla Road 17,4,4,High,Main Road,Close
+1555,393,433,Battaramulla-Malabe Link,4,3,Moderate,Main Road,Open
+1556,433,393,Battaramulla-Malabe Link,4,3,Moderate,Main Road,Close
+1557,433,473,Malabe Connector 19,4,3,Moderate,Main Road,Open
+1558,473,433,Malabe Connector 19,4,3,Moderate,Main Road,Close
+1559,473,513,Malabe Link 20,4,4,High,Main Road,Open
+1560,513,473,Malabe Link 20,4,4,High,Main Road,Close
+1561,513,553,Malabe Avenue 21,4,4,High,Coastal Road,Open
+1562,553,513,Malabe Avenue 21,4,4,High,Coastal Road,Close
+1563,553,593,Malabe Road 22,3,2,Low,Main Road,Open
+1564,593,553,Malabe Road 22,3,2,Low,Main Road,Close
+1565,593,633,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Open
+1566,633,593,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Open
+1567,633,673,Kaduwela Connector 24,3,2,Low,Main Road,Open
+1568,673,633,Kaduwela Connector 24,3,2,Low,Main Road,Close
+1569,673,713,Kaduwela Link 25,4,4,High,Main Road,Open
+1570,713,673,Kaduwela Link 25,4,4,High,Main Road,Close
+1571,713,753,Kaduwela Avenue 26,4,4,High,Main Road,Open
+1572,753,713,Kaduwela Avenue 26,4,4,High,Main Road,Close
+1573,753,793,Kaduwela Road 27,3,2,Low,Main Road,Open
+1574,793,753,Kaduwela Road 27,3,2,Low,Main Road,Close
+1575,793,833,Kaduwela-Homagama Link,3,2,Low,Main Road,Open
+1576,833,793,Kaduwela-Homagama Link,3,2,Low,Main Road,Open
+1577,833,873,Homagama Connector 29,3,4,High,Express Route,Open
+1578,873,833,Homagama Connector 29,3,4,High,Express Route,Open
+1579,873,913,Homagama Link 30,3,3,Moderate,Coastal Road,Open
+1580,913,873,Homagama Link 30,3,3,Moderate,Coastal Road,Close
+1581,913,953,Homagama Avenue 31,4,3,Moderate,Main Road,Open
+1582,953,913,Homagama Avenue 31,4,3,Moderate,Main Road,Close
+1583,953,993,Homagama Road 32,4,4,High,Main Road,Open
+1584,993,953,Homagama Road 32,4,4,High,Main Road,Open
+1585,993,994,Homagama Mawatha 33,3,2,Low,Main Road,Open
+1586,994,993,Homagama Mawatha 33,3,2,Low,Main Road,Open
+1587,994,954,Homagama Connector 34,3,2,Low,Main Road,Open
+1588,954,994,Homagama Connector 34,3,2,Low,Main Road,Close
+1589,954,914,Homagama Link 35,3,2,Low,Main Road,Open
+1590,914,954,Homagama Link 35,3,2,Low,Main Road,Open
+1591,914,874,Homagama Avenue 36,4,3,Moderate,Main Road,Open
+1592,874,914,Homagama Avenue 36,4,3,Moderate,Main Road,Close
+1593,874,834,Homagama Road 37,4,4,High,Main Road,Open
+1594,834,874,Homagama Road 37,4,4,High,Main Road,Close
+1595,834,794,Homagama-Kaduwela Link,4,3,Moderate,Main Road,Open
+1596,794,834,Homagama-Kaduwela Link,4,3,Moderate,Main Road,Close
+1597,794,754,Kaduwela Connector 39,4,3,Moderate,Main Road,Open
+1598,754,794,Kaduwela Connector 39,4,3,Moderate,Main Road,Close
+1599,754,714,Kaduwela Link 40,4,4,High,Main Road,Open
+1600,714,754,Kaduwela Link 40,4,4,High,Main Road,Close
+1601,714,674,Kaduwela Avenue 01,4,4,High,Main Road,Open
+1602,674,714,Kaduwela Avenue 01,4,4,High,Main Road,Open
+1603,674,634,Kaduwela Road 02,4,4,High,Main Road,Open
+1604,634,674,Kaduwela Road 02,4,4,High,Main Road,Open
+1605,634,594,Kaduwela-Malabe Link,3,2,Low,Main Road,Open
+1606,594,634,Kaduwela-Malabe Link,3,2,Low,Main Road,Close
+1607,594,554,Malabe Connector 04,4,4,High,Main Road,Open
+1608,554,594,Malabe Connector 04,4,4,High,Main Road,Open
+1609,554,514,Malabe Link 05,4,4,High,Main Road,Open
+1610,514,554,Malabe Link 05,4,4,High,Main Road,Close
+1611,514,474,Malabe Avenue 06,4,3,Moderate,Main Road,Open
+1612,474,514,Malabe Avenue 06,4,3,Moderate,Main Road,Open
+1613,474,434,Malabe Road 07,3,3,Moderate,Coastal Road,Open
+1614,434,474,Malabe Road 07,3,3,Moderate,Coastal Road,Close
+1615,434,394,Malabe-Battaramulla Link,4,3,Moderate,Main Road,Open
+1616,394,434,Malabe-Battaramulla Link,4,3,Moderate,Main Road,Close
+1617,394,354,Battaramulla Connector 09,3,2,Low,Main Road,Open
+1618,354,394,Battaramulla Connector 09,3,2,Low,Main Road,Open
+1619,354,314,Battaramulla Link 10,4,4,High,Coastal Road,Open
+1620,314,354,Battaramulla Link 10,4,4,High,Coastal Road,Open
+1621,314,274,Battaramulla Avenue 11,4,4,High,Coastal Road,Open
+1622,274,314,Battaramulla Avenue 11,4,4,High,Coastal Road,Close
+1623,274,234,Battaramulla Road 12,4,4,High,Main Road,Open
+1624,234,274,Battaramulla Road 12,4,4,High,Main Road,Close
+1625,234,194,Battaramulla-Kelaniya Link,5,4,High,Mountain Road,Open
+1626,194,234,Battaramulla-Kelaniya Link,5,4,High,Mountain Road,Close
+1627,194,154,Kelaniya Connector 14,4,4,High,Main Road,Open
+1628,154,194,Kelaniya Connector 14,4,4,High,Main Road,Open
+1629,154,114,Kelaniya Link 15,4,3,Moderate,Main Road,Open
+1630,114,154,Kelaniya Link 15,4,3,Moderate,Main Road,Open
+1631,114,74,Kelaniya Avenue 16,4,3,Moderate,Main Road,Open
+1632,74,114,Kelaniya Avenue 16,4,3,Moderate,Main Road,Close
+1633,74,75,Kelaniya Road 17,4,4,High,Mountain Road,Open
+1634,75,74,Kelaniya Road 17,4,4,High,Mountain Road,Close
+1635,75,115,Kelaniya Mawatha 18,4,3,Moderate,Main Road,Open
+1636,115,75,Kelaniya Mawatha 18,4,3,Moderate,Main Road,Close
+1637,115,155,Kelaniya Connector 19,3,3,Moderate,Express Route,Open
+1638,155,115,Kelaniya Connector 19,3,3,Moderate,Express Route,Close
+1639,155,195,Kelaniya Link 20,4,3,Moderate,Main Road,Open
+1640,195,155,Kelaniya Link 20,4,3,Moderate,Main Road,Close
+1641,195,235,Kelaniya-Battaramulla Link,4,3,Moderate,Main Road,Open
+1642,235,195,Kelaniya-Battaramulla Link,4,3,Moderate,Main Road,Close
+1643,235,275,Battaramulla Road 22,3,2,Low,Main Road,Open
+1644,275,235,Battaramulla Road 22,3,2,Low,Main Road,Close
+1645,275,315,Battaramulla Mawatha 23,2,2,Low,Express Route,Open
+1646,315,275,Battaramulla Mawatha 23,2,2,Low,Express Route,Open
+1647,315,355,Battaramulla Connector 24,3,2,Low,Main Road,Open
+1648,355,315,Battaramulla Connector 24,3,2,Low,Main Road,Open
+1649,355,395,Battaramulla Link 25,4,4,High,Main Road,Open
+1650,395,355,Battaramulla Link 25,4,4,High,Main Road,Close
+1651,395,435,Battaramulla-Malabe Link,4,2,Low,Mountain Road,Open
+1652,435,395,Battaramulla-Malabe Link,4,2,Low,Mountain Road,Open
+1653,435,475,Malabe Road 27,4,3,Moderate,Main Road,Open
+1654,475,435,Malabe Road 27,4,3,Moderate,Main Road,Open
+1655,475,515,Malabe Mawatha 28,4,2,Low,Main Road,Open
+1656,515,475,Malabe Mawatha 28,4,2,Low,Main Road,Close
+1657,515,555,Malabe Connector 29,4,4,High,Main Road,Open
+1658,555,515,Malabe Connector 29,4,4,High,Main Road,Close
+1659,555,595,Malabe Link 30,4,4,High,Main Road,Open
+1660,595,555,Malabe Link 30,4,4,High,Main Road,Close
+1661,595,635,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Open
+1662,635,595,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Close
+1663,635,675,Kaduwela Road 32,3,3,Moderate,Coastal Road,Open
+1664,675,635,Kaduwela Road 32,3,3,Moderate,Coastal Road,Close
+1665,675,715,Kaduwela Mawatha 33,3,2,Low,Main Road,Open
+1666,715,675,Kaduwela Mawatha 33,3,2,Low,Main Road,Close
+1667,715,755,Kaduwela Connector 34,4,4,High,Main Road,Open
+1668,755,715,Kaduwela Connector 34,4,4,High,Main Road,Open
+1669,755,795,Kaduwela Link 35,4,3,Moderate,Main Road,Open
+1670,795,755,Kaduwela Link 35,4,3,Moderate,Main Road,Close
+1671,795,835,Kaduwela-Homagama Link,3,2,Low,Main Road,Open
+1672,835,795,Kaduwela-Homagama Link,3,2,Low,Main Road,Close
+1673,835,875,Homagama Road 37,4,3,Moderate,Main Road,Open
+1674,875,835,Homagama Road 37,4,3,Moderate,Main Road,Open
+1675,875,915,Homagama Mawatha 38,4,2,Low,Mountain Road,Open
+1676,915,875,Homagama Mawatha 38,4,2,Low,Mountain Road,Close
+1677,915,955,Homagama Connector 39,4,3,Moderate,Main Road,Open
+1678,955,915,Homagama Connector 39,4,3,Moderate,Main Road,Open
+1679,955,995,Homagama Link 40,4,4,High,Main Road,Open
+1680,995,955,Homagama Link 40,4,4,High,Main Road,Close
+1681,995,996,Homagama Avenue 01,3,3,Moderate,Main Road,Open
+1682,996,995,Homagama Avenue 01,3,3,Moderate,Main Road,Close
+1683,996,956,Homagama Road 02,4,4,High,Coastal Road,Open
+1684,956,996,Homagama Road 02,4,4,High,Coastal Road,Open
+1685,956,916,Homagama Mawatha 03,4,4,High,Main Road,Open
+1686,916,956,Homagama Mawatha 03,4,4,High,Main Road,Close
+1687,916,876,Homagama Connector 04,4,2,Low,Mountain Road,Open
+1688,876,916,Homagama Connector 04,4,2,Low,Mountain Road,Close
+1689,876,836,Homagama Link 05,4,4,High,Main Road,Open
+1690,836,876,Homagama Link 05,4,4,High,Main Road,Open
+1691,836,796,Homagama-Kaduwela Link,3,3,Moderate,Main Road,Open
+1692,796,836,Homagama-Kaduwela Link,3,3,Moderate,Main Road,Close
+1693,796,756,Kaduwela Road 07,4,3,Moderate,Main Road,Open
+1694,756,796,Kaduwela Road 07,4,3,Moderate,Main Road,Open
+1695,756,716,Kaduwela Mawatha 08,4,3,Moderate,Main Road,Open
+1696,716,756,Kaduwela Mawatha 08,4,3,Moderate,Main Road,Open
+1697,716,676,Kaduwela Connector 09,4,4,High,Main Road,Open
+1698,676,716,Kaduwela Connector 09,4,4,High,Main Road,Close
+1699,676,636,Kaduwela Link 10,4,4,High,Main Road,Open
+1700,636,676,Kaduwela Link 10,4,4,High,Main Road,Close
+1701,636,596,Kaduwela-Malabe Link,3,3,Moderate,Main Road,Open
+1702,596,636,Kaduwela-Malabe Link,3,3,Moderate,Main Road,Close
+1703,596,556,Malabe Road 12,4,3,Moderate,Main Road,Open
+1704,556,596,Malabe Road 12,4,3,Moderate,Main Road,Close
+1705,556,516,Malabe Mawatha 13,4,4,High,Main Road,Open
+1706,516,556,Malabe Mawatha 13,4,4,High,Main Road,Open
+1707,516,476,Malabe Connector 14,4,4,High,Main Road,Open
+1708,476,516,Malabe Connector 14,4,4,High,Main Road,Close
+1709,476,436,Malabe Link 15,5,3,Moderate,Mountain Road,Open
+1710,436,476,Malabe Link 15,5,3,Moderate,Mountain Road,Open
+1711,436,396,Malabe-Battaramulla Link,3,2,Low,Main Road,Open
+1712,396,436,Malabe-Battaramulla Link,3,2,Low,Main Road,Close
+1713,396,356,Battaramulla Road 17,4,4,High,Main Road,Open
+1714,356,396,Battaramulla Road 17,4,4,High,Main Road,Close
+1715,356,316,Battaramulla Mawatha 18,4,4,High,Main Road,Open
+1716,316,356,Battaramulla Mawatha 18,4,4,High,Main Road,Close
+1717,316,276,Battaramulla Connector 19,4,3,Moderate,Main Road,Open
+1718,276,316,Battaramulla Connector 19,4,3,Moderate,Main Road,Close
+1719,276,236,Battaramulla Link 20,2,2,Low,Express Route,Open
+1720,236,276,Battaramulla Link 20,2,2,Low,Express Route,Close
+1721,236,196,Battaramulla-Kelaniya Link,4,4,High,Main Road,Open
+1722,196,236,Battaramulla-Kelaniya Link,4,4,High,Main Road,Close
+1723,196,156,Kelaniya Road 22,4,3,Moderate,Coastal Road,Open
+1724,156,196,Kelaniya Road 22,4,3,Moderate,Coastal Road,Close
+1725,156,116,Kelaniya Mawatha 23,3,3,Moderate,Main Road,Open
+1726,116,156,Kelaniya Mawatha 23,3,3,Moderate,Main Road,Close
+1727,116,76,Kelaniya Connector 24,3,2,Low,Main Road,Open
+1728,76,116,Kelaniya Connector 24,3,2,Low,Main Road,Close
+1729,76,77,Kelaniya Link 25,3,4,High,Main Road,Open
+1730,77,76,Kelaniya Link 25,3,4,High,Main Road,Close
+1731,77,117,Kelaniya Avenue 26,3,2,Low,Main Road,Open
+1732,117,77,Kelaniya Avenue 26,3,2,Low,Main Road,Close
+1733,117,157,Kelaniya Road 27,5,4,High,Mountain Road,Open
+1734,157,117,Kelaniya Road 27,5,4,High,Mountain Road,Close
+1735,157,197,Kelaniya Mawatha 28,4,4,High,Main Road,Open
+1736,197,157,Kelaniya Mawatha 28,4,4,High,Main Road,Close
+1737,197,237,Kelaniya-Battaramulla Link,3,2,Low,Main Road,Open
+1738,237,197,Kelaniya-Battaramulla Link,3,2,Low,Main Road,Close
+1739,237,277,Battaramulla Link 30,4,3,Moderate,Main Road,Open
+1740,277,237,Battaramulla Link 30,4,3,Moderate,Main Road,Close
+1741,277,317,Battaramulla Avenue 31,4,3,Moderate,Main Road,Open
+1742,317,277,Battaramulla Avenue 31,4,3,Moderate,Main Road,Close
+1743,317,357,Battaramulla Road 32,4,4,High,Main Road,Open
+1744,357,317,Battaramulla Road 32,4,4,High,Main Road,Close
+1745,357,397,Battaramulla Mawatha 33,4,4,High,Main Road,Open
+1746,397,357,Battaramulla Mawatha 33,4,4,High,Main Road,Open
+1747,397,437,Battaramulla-Malabe Link,4,3,Moderate,Main Road,Open
+1748,437,397,Battaramulla-Malabe Link,4,3,Moderate,Main Road,Close
+1749,437,477,Malabe Link 35,3,2,Low,Main Road,Open
+1750,477,437,Malabe Link 35,3,2,Low,Main Road,Close
+1751,477,517,Malabe Avenue 36,3,4,High,Express Route,Open
+1752,517,477,Malabe Avenue 36,3,4,High,Express Route,Close
+1753,517,557,Malabe Road 37,3,2,Low,Main Road,Open
+1754,557,517,Malabe Road 37,3,2,Low,Main Road,Close
+1755,557,597,Malabe Mawatha 38,4,4,High,Main Road,Open
+1756,597,557,Malabe Mawatha 38,4,4,High,Main Road,Close
+1757,597,637,Malabe-Kaduwela Link,3,3,Moderate,Main Road,Open
+1758,637,597,Malabe-Kaduwela Link,3,3,Moderate,Main Road,Close
+1759,637,677,Kaduwela Link 40,4,4,High,Main Road,Open
+1760,677,637,Kaduwela Link 40,4,4,High,Main Road,Close
+1761,677,717,Kaduwela Avenue 01,3,2,Low,Main Road,Open
+1762,717,677,Kaduwela Avenue 01,3,2,Low,Main Road,Open
+1763,717,757,Kaduwela Road 02,4,4,High,Main Road,Open
+1764,757,717,Kaduwela Road 02,4,4,High,Main Road,Open
+1765,757,797,Kaduwela Mawatha 03,4,3,Moderate,Main Road,Open
+1766,797,757,Kaduwela Mawatha 03,4,3,Moderate,Main Road,Open
+1767,797,837,Kaduwela-Homagama Link,3,3,Moderate,Main Road,Open
+1768,837,797,Kaduwela-Homagama Link,3,3,Moderate,Main Road,Close
+1769,837,877,Homagama Link 05,4,4,High,Main Road,Open
+1770,877,837,Homagama Link 05,4,4,High,Main Road,Close
+1771,877,917,Homagama Avenue 06,4,2,Low,Mountain Road,Open
+1772,917,877,Homagama Avenue 06,4,2,Low,Mountain Road,Open
+1773,917,957,Homagama Road 07,4,4,High,Main Road,Open
+1774,957,917,Homagama Road 07,4,4,High,Main Road,Close
+1775,957,997,Homagama Mawatha 08,4,4,High,Coastal Road,Open
+1776,997,957,Homagama Mawatha 08,4,4,High,Coastal Road,Close
+1777,997,998,Homagama Connector 09,2,3,Moderate,Main Road,Open
+1778,998,997,Homagama Connector 09,2,3,Moderate,Main Road,Close
+1779,998,958,Homagama Link 10,4,4,High,Main Road,Open
+1780,958,998,Homagama Link 10,4,4,High,Main Road,Open
+1781,958,918,Homagama Avenue 11,3,2,Low,Main Road,Open
+1782,918,958,Homagama Avenue 11,3,2,Low,Main Road,Close
+1783,918,878,Homagama Road 12,4,3,Moderate,Mountain Road,Open
+1784,878,918,Homagama Road 12,4,3,Moderate,Mountain Road,Close
+1785,878,838,Homagama Mawatha 13,4,4,High,Main Road,Open
+1786,838,878,Homagama Mawatha 13,4,4,High,Main Road,Close
+1787,838,798,Homagama-Kaduwela Link,3,3,Moderate,Main Road,Open
+1788,798,838,Homagama-Kaduwela Link,3,3,Moderate,Main Road,Close
+1789,798,758,Kaduwela Link 15,4,3,Moderate,Main Road,Open
+1790,758,798,Kaduwela Link 15,4,3,Moderate,Main Road,Close
+1791,758,718,Kaduwela Avenue 16,5,4,High,Mountain Road,Open
+1792,718,758,Kaduwela Avenue 16,5,4,High,Mountain Road,Close
+1793,718,678,Kaduwela Road 17,4,4,High,Main Road,Open
+1794,678,718,Kaduwela Road 17,4,4,High,Main Road,Open
+1795,678,638,Kaduwela Mawatha 18,4,4,High,Main Road,Open
+1796,638,678,Kaduwela Mawatha 18,4,4,High,Main Road,Close
+1797,638,598,Kaduwela-Malabe Link,4,4,High,Coastal Road,Open
+1798,598,638,Kaduwela-Malabe Link,4,4,High,Coastal Road,Close
+1799,598,558,Malabe Link 20,3,2,Low,Main Road,Open
+1800,558,598,Malabe Link 20,3,2,Low,Main Road,Close
+1801,558,518,Malabe Avenue 21,4,3,Moderate,Main Road,Open
+1802,518,558,Malabe Avenue 21,4,3,Moderate,Main Road,Close
+1803,518,478,Malabe Road 22,4,4,High,Main Road,Open
+1804,478,518,Malabe Road 22,4,4,High,Main Road,Open
+1805,478,438,Malabe Mawatha 23,4,4,High,Main Road,Open
+1806,438,478,Malabe Mawatha 23,4,4,High,Main Road,Close
+1807,438,398,Malabe-Battaramulla Link,3,3,Moderate,Express Route,Open
+1808,398,438,Malabe-Battaramulla Link,3,3,Moderate,Express Route,Open
+1809,398,358,Battaramulla Link 25,3,2,Low,Main Road,Open
+1810,358,398,Battaramulla Link 25,3,2,Low,Main Road,Close
+1811,358,318,Battaramulla Avenue 26,3,2,Low,Main Road,Open
+1812,318,358,Battaramulla Avenue 26,3,2,Low,Main Road,Close
+1813,318,278,Battaramulla Road 27,3,2,Low,Main Road,Open
+1814,278,318,Battaramulla Road 27,3,2,Low,Main Road,Close
+1815,278,238,Battaramulla Mawatha 28,3,4,High,Express Route,Open
+1816,238,278,Battaramulla Mawatha 28,3,4,High,Express Route,Open
+1817,238,198,Battaramulla-Kelaniya Link,3,2,Low,Main Road,Open
+1818,198,238,Battaramulla-Kelaniya Link,3,2,Low,Main Road,Close
+1819,198,158,Kelaniya Link 30,4,3,Moderate,Main Road,Open
+1820,158,198,Kelaniya Link 30,4,3,Moderate,Main Road,Open
+1821,158,118,Kelaniya Avenue 31,3,2,Low,Main Road,Open
+1822,118,158,Kelaniya Avenue 31,3,2,Low,Main Road,Open
+1823,118,78,Kelaniya Road 32,4,4,High,Main Road,Open
+1824,78,118,Kelaniya Road 32,4,4,High,Main Road,Close
+1825,78,79,Kelaniya Mawatha 33,3,3,Moderate,Main Road,Open
+1826,79,78,Kelaniya Mawatha 33,3,3,Moderate,Main Road,Open
+1827,79,119,Kelaniya Connector 34,4,4,High,Main Road,Open
+1828,119,79,Kelaniya Connector 34,4,4,High,Main Road,Close
+1829,119,159,Kelaniya Link 35,4,4,High,Main Road,Open
+1830,159,119,Kelaniya Link 35,4,4,High,Main Road,Close
+1831,159,199,Kelaniya Avenue 36,4,4,High,Main Road,Open
+1832,199,159,Kelaniya Avenue 36,4,4,High,Main Road,Close
+1833,199,239,Kelaniya-Battaramulla Link,4,4,High,Main Road,Open
+1834,239,199,Kelaniya-Battaramulla Link,4,4,High,Main Road,Open
+1835,239,279,Battaramulla Mawatha 38,4,2,Low,Mountain Road,Open
+1836,279,239,Battaramulla Mawatha 38,4,2,Low,Mountain Road,Open
+1837,279,319,Battaramulla Connector 39,4,4,High,Main Road,Open
+1838,319,279,Battaramulla Connector 39,4,4,High,Main Road,Open
+1839,319,359,Battaramulla Link 40,4,2,Low,Mountain Road,Open
+1840,359,319,Battaramulla Link 40,4,2,Low,Mountain Road,Open
+1841,359,399,Battaramulla Avenue 01,3,2,Low,Coastal Road,Open
+1842,399,359,Battaramulla Avenue 01,3,2,Low,Coastal Road,Close
+1843,399,439,Battaramulla-Malabe Link,4,4,High,Main Road,Open
+1844,439,399,Battaramulla-Malabe Link,4,4,High,Main Road,Close
+1845,439,479,Malabe Mawatha 03,4,3,Moderate,Main Road,Open
+1846,479,439,Malabe Mawatha 03,4,3,Moderate,Main Road,Close
+1847,479,519,Malabe Connector 04,3,2,Low,Main Road,Open
+1848,519,479,Malabe Connector 04,3,2,Low,Main Road,Open
+1849,519,559,Malabe Link 05,4,4,High,Main Road,Open
+1850,559,519,Malabe Link 05,4,4,High,Main Road,Open
+1851,559,599,Malabe Avenue 06,4,4,High,Coastal Road,Open
+1852,599,559,Malabe Avenue 06,4,4,High,Coastal Road,Open
+1853,599,639,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Open
+1854,639,599,Malabe-Kaduwela Link,4,3,Moderate,Main Road,Close
+1855,639,679,Kaduwela Mawatha 08,4,3,Moderate,Main Road,Open
+1856,679,639,Kaduwela Mawatha 08,4,3,Moderate,Main Road,Close
+1857,679,719,Kaduwela Connector 09,4,3,Moderate,Main Road,Open
+1858,719,679,Kaduwela Connector 09,4,3,Moderate,Main Road,Open
+1859,719,759,Kaduwela Link 10,4,3,Moderate,Main Road,Open
+1860,759,719,Kaduwela Link 10,4,3,Moderate,Main Road,Open
+1861,759,799,Kaduwela Avenue 11,3,2,Low,Main Road,Open
+1862,799,759,Kaduwela Avenue 11,3,2,Low,Main Road,Close
+1863,799,839,Kaduwela-Homagama Link,4,4,High,Main Road,Open
+1864,839,799,Kaduwela-Homagama Link,4,4,High,Main Road,Open
+1865,839,879,Homagama Mawatha 13,4,4,High,Main Road,Open
+1866,879,839,Homagama Mawatha 13,4,4,High,Main Road,Close
+1867,879,919,Homagama Connector 14,4,4,High,Main Road,Open
+1868,919,879,Homagama Connector 14,4,4,High,Main Road,Close
+1869,919,959,Homagama Link 15,5,3,Moderate,Mountain Road,Open
+1870,959,919,Homagama Link 15,5,3,Moderate,Mountain Road,Open
+1871,959,999,Homagama Avenue 16,4,3,Moderate,Main Road,Open
+1872,999,959,Homagama Avenue 16,4,3,Moderate,Main Road,Close
+1873,999,1000,Homagama Road 17,3,3,Moderate,Main Road,Open
+1874,1000,999,Homagama Road 17,3,3,Moderate,Main Road,Close
+1875,1000,960,Homagama Mawatha 18,4,4,High,Main Road,Open
+1876,960,1000,Homagama Mawatha 18,4,4,High,Main Road,Close
+1877,960,920,Homagama Connector 19,3,2,Low,Main Road,Open
+1878,920,960,Homagama Connector 19,3,2,Low,Main Road,Close
+1879,920,880,Homagama Link 20,4,4,High,Main Road,Open
+1880,880,920,Homagama Link 20,4,4,High,Main Road,Close
+1881,880,840,Homagama Avenue 21,5,4,High,Mountain Road,Open
+1882,840,880,Homagama Avenue 21,5,4,High,Mountain Road,Open
+1883,840,800,Homagama-Kaduwela Link,4,3,Moderate,Main Road,Open
+1884,800,840,Homagama-Kaduwela Link,4,3,Moderate,Main Road,Close
+1885,800,760,Kaduwela Mawatha 23,4,3,Moderate,Main Road,Open
+1886,760,800,Kaduwela Mawatha 23,4,3,Moderate,Main Road,Open
+1887,760,720,Kaduwela Connector 24,5,4,High,Mountain Road,Open
+1888,720,760,Kaduwela Connector 24,5,4,High,Mountain Road,Open
+1889,720,680,Kaduwela Link 25,3,2,Low,Main Road,Open
+1890,680,720,Kaduwela Link 25,3,2,Low,Main Road,Close
+1891,680,640,Kaduwela Avenue 26,4,3,Moderate,Main Road,Open
+1892,640,680,Kaduwela Avenue 26,4,3,Moderate,Main Road,Close
+1893,640,600,Kaduwela-Malabe Link,3,3,Moderate,Main Road,Open
+1894,600,640,Kaduwela-Malabe Link,3,3,Moderate,Main Road,Open
+1895,600,560,Malabe Mawatha 28,4,4,High,Main Road,Open
+1896,560,600,Malabe Mawatha 28,4,4,High,Main Road,Close
+1897,560,520,Malabe Connector 29,4,3,Moderate,Main Road,Open
+1898,520,560,Malabe Connector 29,4,3,Moderate,Main Road,Close
+1899,520,480,Malabe Link 30,4,3,Moderate,Main Road,Open
+1900,480,520,Malabe Link 30,4,3,Moderate,Main Road,Close
+1901,480,440,Malabe Avenue 31,4,4,High,Main Road,Open
+1902,440,480,Malabe Avenue 31,4,4,High,Main Road,Close
+1903,440,400,Malabe-Battaramulla Link,4,3,Moderate,Main Road,Open
+1904,400,440,Malabe-Battaramulla Link,4,3,Moderate,Main Road,Open
+1905,400,360,Battaramulla Mawatha 33,4,3,Moderate,Main Road,Open
+1906,360,400,Battaramulla Mawatha 33,4,3,Moderate,Main Road,Close
+1907,360,320,Battaramulla Connector 34,4,4,High,Main Road,Open
+1908,320,360,Battaramulla Connector 34,4,4,High,Main Road,Close
+1909,320,280,Battaramulla Link 35,4,4,High,Main Road,Open
+1910,280,320,Battaramulla Link 35,4,4,High,Main Road,Close
+1911,280,240,Battaramulla Avenue 36,3,3,Moderate,Coastal Road,Open
+1912,240,280,Battaramulla Avenue 36,3,3,Moderate,Coastal Road,Close
+1913,240,200,Battaramulla-Kelaniya Link,3,2,Low,Main Road,Open
+1914,200,240,Battaramulla-Kelaniya Link,3,2,Low,Main Road,Close
+1915,200,160,Kelaniya Mawatha 38,4,3,Moderate,Main Road,Open
+1916,160,200,Kelaniya Mawatha 38,4,3,Moderate,Main Road,Close
+1917,160,120,Kelaniya Connector 39,4,4,High,Main Road,Open
+1918,120,160,Kelaniya Connector 39,4,4,High,Main Road,Close
+1919,120,80,Kelaniya Link 40,3,2,Low,Main Road,Open
+1920,80,120,Kelaniya Link 40,3,2,Low,Main Road,Close
+1921,80,40,Kelaniya Avenue 01,4,4,High,Main Road,Open
+1922,40,80,Kelaniya Avenue 01,4,4,High,Main Road,Open
+1923,40,39,Kelaniya Road 02,3,3,Moderate,Main Road,Open
+1924,39,40,Kelaniya Road 02,3,3,Moderate,Main Road,Close
+1925,39,38,Kelaniya Mawatha 03,2,2,Low,Main Road,Open
+1926,38,39,Kelaniya Mawatha 03,2,2,Low,Main Road,Close
+1927,38,37,Kelaniya Connector 04,2,2,Low,Main Road,Open
+1928,37,38,Kelaniya Connector 04,2,2,Low,Main Road,Close
+1929,37,36,Kelaniya Link 05,3,4,High,Main Road,Open
+1930,36,37,Kelaniya Link 05,3,4,High,Main Road,Close
+1931,36,35,Kelaniya Avenue 06,3,4,High,Main Road,Open
+1932,35,36,Kelaniya Avenue 06,3,4,High,Main Road,Close
+1933,35,34,Kelaniya Road 07,3,4,High,Main Road,Open
+1934,34,35,Kelaniya Road 07,3,4,High,Main Road,Close
+1935,34,33,Kelaniya Mawatha 08,3,3,Moderate,Main Road,Open
+1936,33,34,Kelaniya Mawatha 08,3,3,Moderate,Main Road,Close
+1937,33,32,Kelaniya-Dematagoda Link,3,2,Low,Main Road,Open
+1938,32,33,Kelaniya-Dematagoda Link,3,2,Low,Main Road,Close
+1939,32,31,Dematagoda Link 10,2,2,Low,Main Road,Open
+1940,31,32,Dematagoda Link 10,2,2,Low,Main Road,Close
+1941,31,30,Dematagoda Avenue 11,3,4,High,Main Road,Open
+1942,30,31,Dematagoda Avenue 11,3,4,High,Main Road,Close
+1943,30,29,Dematagoda Road 12,3,2,Low,Main Road,Open
+1944,29,30,Dematagoda Road 12,3,2,Low,Main Road,Close
+1945,29,28,Dematagoda Mawatha 13,3,4,High,Main Road,Open
+1946,28,29,Dematagoda Mawatha 13,3,4,High,Main Road,Close
+1947,28,27,Dematagoda Connector 14,3,3,Moderate,Main Road,Open
+1948,27,28,Dematagoda Connector 14,3,3,Moderate,Main Road,Close
+1949,27,26,Dematagoda Link 15,2,2,Low,Main Road,Open
+1950,26,27,Dematagoda Link 15,2,2,Low,Main Road,Close
+1951,26,25,Dematagoda Avenue 16,3,2,Low,Main Road,Open
+1952,25,26,Dematagoda Avenue 16,3,2,Low,Main Road,Close
+1953,25,24,Dematagoda-Grandpass Link,3,3,Moderate,Main Road,Open
+1954,24,25,Dematagoda-Grandpass Link,3,3,Moderate,Main Road,Close
+1955,24,23,Grandpass Mawatha 18,2,2,Low,Main Road,Open
+1956,23,24,Grandpass Mawatha 18,2,2,Low,Main Road,Close
+1957,23,22,Grandpass Connector 19,3,3,Moderate,Main Road,Open
+1958,22,23,Grandpass Connector 19,3,3,Moderate,Main Road,Open
+1959,22,21,Grandpass Link 20,2,2,Low,Main Road,Open
+1960,21,22,Grandpass Link 20,2,2,Low,Main Road,Close
+1961,21,20,Grandpass Avenue 21,3,4,High,Main Road,Open
+1962,20,21,Grandpass Avenue 21,3,4,High,Main Road,Open
+1963,20,19,Grandpass Road 22,2,3,Moderate,Express Route,Open
+1964,19,20,Grandpass Road 22,2,3,Moderate,Express Route,Open
+1965,19,18,Grandpass Mawatha 23,3,4,High,Main Road,Open
+1966,18,19,Grandpass Mawatha 23,3,4,High,Main Road,Open
+1967,18,17,Grandpass Connector 24,3,4,High,Main Road,Open
+1968,17,18,Grandpass Connector 24,3,4,High,Main Road,Close
+1969,17,16,Grandpass-Pettah Link,2,2,Low,Main Road,Open
+1970,16,17,Grandpass-Pettah Link,2,2,Low,Main Road,Close
+1971,16,15,Pettah Avenue 26,3,4,High,Main Road,Open
+1972,15,16,Pettah Avenue 26,3,4,High,Main Road,Open
+1973,15,14,Pettah Road 27,3,3,Moderate,Main Road,Open
+1974,14,15,Pettah Road 27,3,3,Moderate,Main Road,Open
+1975,14,13,Pettah Mawatha 28,3,3,Moderate,Main Road,Open
+1976,13,14,Pettah Mawatha 28,3,3,Moderate,Main Road,Close
+1977,13,12,Pettah Connector 29,3,4,High,Main Road,Open
+1978,12,13,Pettah Connector 29,3,4,High,Main Road,Close
+1979,12,11,Pettah Link 30,3,4,High,Main Road,Open
+1980,11,12,Pettah Link 30,3,4,High,Main Road,Close
+1981,11,10,Pettah Avenue 31,3,3,Moderate,Main Road,Open
+1982,10,11,Pettah Avenue 31,3,3,Moderate,Main Road,Close
+1983,10,9,Pettah Road 32,3,3,Moderate,Main Road,Open
+1984,9,10,Pettah Road 32,3,3,Moderate,Main Road,Close
+1985,9,8,Pettah-Fort Link,3,3,Moderate,Main Road,Open
+1986,8,9,Pettah-Fort Link,3,3,Moderate,Main Road,Close
+1987,8,7,Fort Connector 34,2,2,Low,Main Road,Open
+1988,7,8,Fort Connector 34,2,2,Low,Main Road,Open
+1989,7,6,Fort Link 35,3,4,High,Main Road,Open
+1990,6,7,Fort Link 35,3,4,High,Main Road,Close
+1991,6,5,Fort Avenue 36,3,4,High,Main Road,Open
+1992,5,6,Fort Avenue 36,3,4,High,Main Road,Open
+1993,5,4,Fort Road 37,3,4,High,Main Road,Open
+1994,4,5,Fort Road 37,3,4,High,Main Road,Close
+1995,4,3,Fort Mawatha 38,3,3,Moderate,Main Road,Open
+1996,3,4,Fort Mawatha 38,3,3,Moderate,Main Road,Open
+1997,3,2,Fort Connector 39,2,3,Moderate,Main Road,Open
+1998,2,3,Fort Connector 39,2,3,Moderate,Main Road,Close
+1999,2,1,Fort Link 40,3,2,Low,Main Road,Open
+2000,1,2,Fort Link 40,3,2,Low,Main Road,Close
+2001,801,802,Dehiwala Avenue 01,3,4,High,Main Road,Open
+2002,802,801,Dehiwala Avenue 01,3,4,High,Main Road,Close
+2003,365,366,Galle Face Road 02,3,4,High,Main Road,Close
+2004,366,365,Galle Face Road 02,3,4,High,Main Road,Open
+2005,604,605,Wellawatte Mawatha 03,2,4,High,Express Route,Open
+2006,605,604,Wellawatte Mawatha 03,2,4,High,Express Route,Close
+2007,73,74,Kelaniya Connector 04,3,3,Moderate,Main Road,Open
+2008,74,73,Kelaniya Connector 04,3,3,Moderate,Main Road,Open
+2009,644,645,Wellawatte Link 05,3,2,Low,Mountain Road,Open
+2010,645,644,Wellawatte Link 05,3,2,Low,Mountain Road,Open
+2011,984,985,Boralesgamuwa-Piliyandala Link,2,2,Low,Main Road,Open
+2012,985,984,Boralesgamuwa-Piliyandala Link,2,2,Low,Main Road,Close
+2013,806,807,Dehiwala Road 07,3,4,High,Main Road,Close
+2014,807,806,Dehiwala Road 07,3,4,High,Main Road,Open
+2015,205,206,Galle Face Mawatha 08,3,3,Moderate,Main Road,Open
+2016,206,205,Galle Face Mawatha 08,3,3,Moderate,Main Road,Open
+2017,276,277,Battaramulla Connector 09,3,3,Moderate,Main Road,Open
+2018,277,276,Battaramulla Connector 09,3,3,Moderate,Main Road,Open
+2019,454,455,Bambalapitiya Link 10,2,2,Low,Main Road,Close
+2020,455,454,Bambalapitiya Link 10,2,2,Low,Main Road,Open
+2021,785,786,Maharagama Avenue 11,3,4,High,Main Road,Close
+2022,786,785,Maharagama Avenue 11,3,4,High,Main Road,Open
+2023,128,129,Fort-Pettah Link,2,2,Low,Express Route,Open
+2024,129,128,Fort-Pettah Link,2,2,Low,Express Route,Open
+2025,244,245,Galle Face Mawatha 13,3,2,Low,Main Road,Open
+2026,245,244,Galle Face Mawatha 13,3,2,Low,Main Road,Close
+2027,199,200,Kelaniya Connector 14,3,4,High,Main Road,Open
+2028,200,199,Kelaniya Connector 14,3,4,High,Main Road,Open
+2029,738,739,Nugegoda Link 15,3,4,High,Main Road,Open
+2030,739,738,Nugegoda Link 15,3,4,High,Main Road,Open
+2031,839,840,Homagama Avenue 16,3,3,Moderate,Main Road,Open
+2032,840,839,Homagama Avenue 16,3,3,Moderate,Main Road,Open
+2033,992,993,Piliyandala-Homagama Link,2,2,Low,Main Road,Close
+2034,993,992,Piliyandala-Homagama Link,2,2,Low,Main Road,Open
+2035,451,452,Bambalapitiya Mawatha 18,2,4,High,Express Route,Open
+2036,452,451,Bambalapitiya Mawatha 18,2,4,High,Express Route,Close
+2037,798,799,Kaduwela Connector 19,3,4,High,Main Road,Open
+2038,799,798,Kaduwela Connector 19,3,4,High,Main Road,Close
+2039,659,660,Nugegoda Link 20,2,2,Low,Main Road,Open
+2040,660,659,Nugegoda Link 20,2,2,Low,Main Road,Close
+2041,939,940,Boralesgamuwa Avenue 21,2,3,Moderate,Main Road,Open
+2042,940,939,Boralesgamuwa Avenue 21,2,3,Moderate,Main Road,Open
+2043,866,867,Piliyandala Road 22,3,4,High,Mountain Road,Open
+2044,867,866,Piliyandala Road 22,3,4,High,Mountain Road,Open
+2045,722,723,Wellawatte Mawatha 23,2,2,Low,Main Road,Open
+2046,723,722,Wellawatte Mawatha 23,2,2,Low,Main Road,Open
+2047,835,836,Homagama Connector 24,3,3,Moderate,Main Road,Open
+2048,836,835,Homagama Connector 24,3,3,Moderate,Main Road,Close
+2049,241,242,Galle Face Link 25,4,4,High,Mountain Road,Open
+2050,242,241,Galle Face Link 25,4,4,High,Mountain Road,Open
+2051,590,591,Kotte Avenue 26,3,3,Moderate,Main Road,Open
+2052,591,590,Kotte Avenue 26,3,3,Moderate,Main Road,Close
+2053,403,404,Kollupitiya Road 27,3,3,Moderate,Main Road,Open
+2054,404,403,Kollupitiya Road 27,3,3,Moderate,Main Road,Close
+2055,764,765,Wellawatte Mawatha 28,3,4,High,Main Road,Open
+2056,765,764,Wellawatte Mawatha 28,3,4,High,Main Road,Open
+2057,143,144,Grandpass Connector 29,3,3,Moderate,Main Road,Open
+2058,144,143,Grandpass Connector 29,3,3,Moderate,Main Road,Open
+2059,827,828,Piliyandala Link 30,3,4,High,Main Road,Open
+2060,828,827,Piliyandala Link 30,3,4,High,Main Road,Close
+2061,654,655,Kirulapone Avenue 31,3,3,Moderate,Main Road,Open
+2062,655,654,Kirulapone Avenue 31,3,3,Moderate,Main Road,Open
+2063,568,569,Kollupitiya-Bambalapitiya Link,2,2,Low,Main Road,Open
+2064,569,568,Kollupitiya-Bambalapitiya Link,2,2,Low,Main Road,Open
+2065,313,314,Battaramulla Mawatha 33,2,2,Low,Main Road,Open
+2066,314,313,Battaramulla Mawatha 33,2,2,Low,Main Road,Close
+2067,148,149,Dematagoda Connector 34,2,2,Low,Main Road,Open
+2068,149,148,Dematagoda Connector 34,2,2,Low,Main Road,Close
+2069,744,745,Nugegoda-Maharagama Link,3,3,Moderate,Main Road,Open
+2070,745,744,Nugegoda-Maharagama Link,3,3,Moderate,Main Road,Open
+2071,639,640,Kaduwela Avenue 36,2,2,Low,Main Road,Open
+2072,640,639,Kaduwela Avenue 36,2,2,Low,Main Road,Open
+2073,100,101,Grandpass Road 37,2,2,Low,Main Road,Open
+2074,101,100,Grandpass Road 37,2,2,Low,Main Road,Open
+2075,413,414,Bambalapitiya Mawatha 38,4,4,High,Mountain Road,Open
+2076,414,413,Bambalapitiya Mawatha 38,4,4,High,Mountain Road,Open
+2077,906,907,Piliyandala Connector 39,3,4,High,Main Road,Open
+2078,907,906,Piliyandala Connector 39,3,4,High,Main Road,Open
+2079,121,122,Fort Link 40,3,3,Moderate,Main Road,Open
+2080,122,121,Fort Link 40,3,3,Moderate,Main Road,Close
+2081,588,589,Kotte Avenue 01,3,4,High,Main Road,Open
+2082,589,588,Kotte Avenue 01,3,4,High,Main Road,Open
+2083,235,236,Battaramulla Road 02,2,4,High,Express Route,Open
+2084,236,235,Battaramulla Road 02,2,4,High,Express Route,Open
+2085,214,215,Maradana Mawatha 03,3,3,Moderate,Main Road,Open
+2086,215,214,Maradana Mawatha 03,3,3,Moderate,Main Road,Close
+2087,361,362,Galle Face Connector 04,3,4,High,Main Road,Open
+2088,362,361,Galle Face Connector 04,3,4,High,Main Road,Open
+2089,860,861,Boralesgamuwa Link 05,3,3,Moderate,Main Road,Open
+2090,861,860,Boralesgamuwa Link 05,3,3,Moderate,Main Road,Close
+2091,733,734,Kirulapone Avenue 06,2,4,High,Express Route,Close
+2092,734,733,Kirulapone Avenue 06,2,4,High,Express Route,Open
+2093,226,227,Rajagiriya Road 07,3,4,High,Main Road,Open
+2094,227,226,Rajagiriya Road 07,3,4,High,Main Road,Close
+2095,488,489,Kollupitiya-Bambalapitiya Link,2,2,Low,Main Road,Open
+2096,489,488,Kollupitiya-Bambalapitiya Link,2,2,Low,Main Road,Open
+2097,731,732,Kirulapone Connector 09,3,3,Moderate,Main Road,Open
+2098,732,731,Kirulapone Connector 09,3,3,Moderate,Main Road,Open
+2099,900,901,Boralesgamuwa Link 10,3,4,High,Main Road,Open
+2100,901,900,Boralesgamuwa Link 10,3,4,High,Main Road,Open
+2101,24,64,Grandpass Avenue 11,3,2,Low,Main Road,Close
+2102,64,24,Grandpass Avenue 11,3,2,Low,Main Road,Open
+2103,528,529,Kollupitiya-Bambalapitiya Link,2,3,Moderate,Main Road,Close
+2104,529,528,Kollupitiya-Bambalapitiya Link,2,3,Moderate,Main Road,Open
+2105,952,953,Piliyandala-Homagama Link,3,2,Low,Mountain Road,Close
+2106,953,952,Piliyandala-Homagama Link,3,2,Low,Mountain Road,Open
+2107,106,107,Dematagoda Connector 14,3,3,Moderate,Main Road,Open
+2108,107,106,Dematagoda Connector 14,3,3,Moderate,Main Road,Open
+2109,508,509,Kotte Link 15,3,3,Moderate,Main Road,Open
+2110,509,508,Kotte Link 15,3,3,Moderate,Main Road,Open
+2111,407,408,Kollupitiya Avenue 16,3,4,High,Main Road,Open
+2112,408,407,Kollupitiya Avenue 16,3,4,High,Main Road,Open
+2113,398,399,Battaramulla Road 17,3,3,Moderate,Coastal Road,Close
+2114,399,398,Battaramulla Road 17,3,3,Moderate,Coastal Road,Open
+2115,169,170,Pettah Mawatha 18,3,3,Moderate,Main Road,Close
+2116,170,169,Pettah Mawatha 18,3,3,Moderate,Main Road,Open
+2117,146,147,Dematagoda Connector 19,3,4,High,Main Road,Open
+2118,147,146,Dematagoda Connector 19,3,4,High,Main Road,Open
+2119,123,124,Fort Link 20,3,4,High,Main Road,Open
+2120,124,123,Fort Link 20,3,4,High,Main Road,Open
+2121,734,735,Kirulapone Avenue 21,3,4,High,Main Road,Close
+2122,735,734,Kirulapone Avenue 21,3,4,High,Main Road,Open
+2123,299,300,Borella Road 22,3,4,High,Main Road,Open
+2124,300,299,Borella Road 22,3,4,High,Main Road,Close
+2125,611,612,Kirulapone Mawatha 23,3,2,Low,Mountain Road,Open
+2126,612,611,Kirulapone Mawatha 23,3,2,Low,Mountain Road,Close
+2127,237,238,Battaramulla Connector 24,2,3,Moderate,Express Route,Open
+2128,238,237,Battaramulla Connector 24,2,3,Moderate,Express Route,Open
+2129,689,690,Kirulapone Link 25,3,4,High,Main Road,Open
+2130,690,689,Kirulapone Link 25,3,4,High,Main Road,Open
+2131,395,396,Battaramulla Avenue 26,3,3,Moderate,Main Road,Open
+2132,396,395,Battaramulla Avenue 26,3,3,Moderate,Main Road,Open
+2133,819,820,Boralesgamuwa Road 27,3,3,Moderate,Main Road,Open
+2134,820,819,Boralesgamuwa Road 27,3,3,Moderate,Main Road,Open
+2135,754,755,Kaduwela Mawatha 28,3,4,High,Main Road,Open
+2136,755,754,Kaduwela Mawatha 28,3,4,High,Main Road,Open
+2137,951,952,Piliyandala Connector 29,2,2,Low,Main Road,Open
+2138,952,951,Piliyandala Connector 29,2,2,Low,Main Road,Close
+2139,672,673,Maharagama-Kaduwela Link,3,4,High,Main Road,Open
+2140,673,672,Maharagama-Kaduwela Link,3,4,High,Main Road,Close
+2141,626,627,Maharagama Avenue 31,2,2,Low,Coastal Road,Open
+2142,627,626,Maharagama Avenue 31,2,2,Low,Coastal Road,Open
+2143,445,446,Kollupitiya Road 32,3,3,Moderate,Main Road,Open
+2144,446,445,Kollupitiya Road 32,3,3,Moderate,Main Road,Close
+2145,890,891,Ratmalana Mawatha 33,3,3,Moderate,Main Road,Close
+2146,891,890,Ratmalana Mawatha 33,3,3,Moderate,Main Road,Open
+2147,555,556,Malabe Connector 34,3,4,High,Main Road,Open
+2148,556,555,Malabe Connector 34,3,4,High,Main Road,Open
+2149,474,475,Malabe Link 35,3,3,Moderate,Main Road,Open
+2150,475,474,Malabe Link 35,3,3,Moderate,Main Road,Close
+2151,978,979,Boralesgamuwa Avenue 36,2,2,Low,Main Road,Open
+2152,979,978,Boralesgamuwa Avenue 36,2,2,Low,Main Road,Close
+2153,529,530,Bambalapitiya Road 37,4,4,High,Mountain Road,Open
+2154,530,529,Bambalapitiya Road 37,4,4,High,Mountain Road,Open
+2155,295,296,Maradana Mawatha 38,3,3,Moderate,Coastal Road,Close
+2156,296,295,Maradana Mawatha 38,3,3,Moderate,Coastal Road,Open
+2157,22,62,Grandpass Connector 39,4,4,High,Main Road,Open
+2158,62,22,Grandpass Connector 39,4,4,High,Main Road,Open
+2159,573,574,Bambalapitiya Link 40,2,2,Low,Main Road,Open
+2160,574,573,Bambalapitiya Link 40,2,2,Low,Main Road,Close
+2161,949,950,Piliyandala Avenue 01,2,2,Low,Main Road,Open
+2162,950,949,Piliyandala Avenue 01,2,2,Low,Main Road,Open
+2163,552,553,Kotte-Malabe Link,2,2,Low,Main Road,Open
+2164,553,552,Kotte-Malabe Link,2,2,Low,Main Road,Close
+2165,3,43,Fort Mawatha 03,4,4,High,Main Road,Open
+2166,43,3,Fort Mawatha 03,4,4,High,Main Road,Open
+2167,475,476,Malabe Connector 04,2,2,Low,Express Route,Open
+2168,476,475,Malabe Connector 04,2,2,Low,Express Route,Open
+2169,392,393,Rajagiriya-Battaramulla Link,3,4,High,Main Road,Open
+2170,393,392,Rajagiriya-Battaramulla Link,3,4,High,Main Road,Open
+2171,442,443,Kollupitiya Avenue 06,3,3,Moderate,Main Road,Open
+2172,443,442,Kollupitiya Avenue 06,3,3,Moderate,Main Road,Open
+2173,942,943,Boralesgamuwa Road 07,3,4,High,Main Road,Open
+2174,943,942,Boralesgamuwa Road 07,3,4,High,Main Road,Close
+2175,776,777,Kirulapone-Nugegoda Link,3,3,Moderate,Main Road,Open
+2176,777,776,Kirulapone-Nugegoda Link,3,3,Moderate,Main Road,Open
+2177,109,110,Dematagoda Connector 09,2,2,Low,Main Road,Close
+2178,110,109,Dematagoda Connector 09,2,2,Low,Main Road,Open
+2179,673,674,Kaduwela Link 10,3,4,High,Main Road,Open
+2180,674,673,Kaduwela Link 10,3,4,High,Main Road,Close
+2181,587,588,Kotte Avenue 11,3,4,High,Main Road,Close
+2182,588,587,Kotte Avenue 11,3,4,High,Main Road,Open
+2183,634,635,Kaduwela Road 12,4,4,High,Mountain Road,Open
+2184,635,634,Kaduwela Road 12,4,4,High,Mountain Road,Open
+2185,603,604,Wellawatte Mawatha 13,3,4,High,Main Road,Close
+2186,604,603,Wellawatte Mawatha 13,3,4,High,Main Road,Open
+2187,807,808,Dehiwala Connector 14,2,3,Moderate,Main Road,Open
+2188,808,807,Dehiwala Connector 14,2,3,Moderate,Main Road,Close
+2189,345,346,Rajagiriya Link 15,2,3,Moderate,Express Route,Open
+2190,346,345,Rajagiriya Link 15,2,3,Moderate,Express Route,Open
+2191,246,247,Galle Face Avenue 16,3,4,High,Main Road,Open
+2192,247,246,Galle Face Avenue 16,3,4,High,Main Road,Close
+2193,882,883,Dehiwala Road 17,2,2,Low,Main Road,Close
+2194,883,882,Dehiwala Road 17,2,2,Low,Main Road,Open
+2195,279,280,Battaramulla Mawatha 18,3,3,Moderate,Coastal Road,Open
+2196,280,279,Battaramulla Mawatha 18,3,3,Moderate,Coastal Road,Open
+2197,911,912,Piliyandala Connector 19,3,3,Moderate,Main Road,Open
+2198,912,911,Piliyandala Connector 19,3,3,Moderate,Main Road,Open
+2199,887,888,Dehiwala Link 20,2,2,Low,Main Road,Open
+2200,888,887,Dehiwala Link 20,2,2,Low,Main Road,Open
+2201,93,94,Pettah Avenue 21,3,4,High,Mountain Road,Close
+2202,94,93,Pettah Avenue 21,3,4,High,Mountain Road,Open
+2203,511,512,Kotte Road 22,3,4,High,Main Road,Open
+2204,512,511,Kotte Road 22,3,4,High,Main Road,Open
+2205,41,42,Fort Mawatha 23,3,3,Moderate,Main Road,Close
+2206,42,41,Fort Mawatha 23,3,3,Moderate,Main Road,Open
+2207,236,237,Battaramulla Connector 24,3,4,High,Main Road,Close
+2208,237,236,Battaramulla Connector 24,3,4,High,Main Road,Open
+2209,717,718,Kaduwela Link 25,3,4,High,Main Road,Open
+2210,718,717,Kaduwela Link 25,3,4,High,Main Road,Open
+2211,599,600,Malabe Avenue 26,2,2,Low,Main Road,Open
+2212,600,599,Malabe Avenue 26,2,2,Low,Main Road,Close
+2213,826,827,Piliyandala Road 27,2,2,Low,Main Road,Open
+2214,827,826,Piliyandala Road 27,2,2,Low,Main Road,Close
+2215,988,989,Piliyandala Mawatha 28,3,4,High,Main Road,Open
+2216,989,988,Piliyandala Mawatha 28,3,4,High,Main Road,Open
+2217,35,75,Kelaniya Connector 29,3,2,Low,Main Road,Open
+2218,75,35,Kelaniya Connector 29,3,2,Low,Main Road,Close
+2219,614,615,Kirulapone Link 30,2,4,High,Express Route,Open
+2220,615,614,Kirulapone Link 30,2,4,High,Express Route,Open
+2221,145,146,Dematagoda Avenue 31,3,4,High,Main Road,Open
+2222,146,145,Dematagoda Avenue 31,3,4,High,Main Road,Open
+2223,815,816,Ratmalana Road 32,2,2,Low,Main Road,Open
+2224,816,815,Ratmalana Road 32,2,2,Low,Main Road,Open
+2225,616,617,Kirulapone-Nugegoda Link,3,2,Low,Main Road,Open
+2226,617,616,Kirulapone-Nugegoda Link,3,2,Low,Main Road,Close
+2227,730,731,Kirulapone Connector 34,3,3,Moderate,Main Road,Open
+2228,731,730,Kirulapone Connector 34,3,3,Moderate,Main Road,Open
+2229,683,684,Wellawatte Link 35,2,3,Moderate,Main Road,Open
+2230,684,683,Wellawatte Link 35,2,3,Moderate,Main Road,Open
+2231,958,959,Homagama Avenue 36,2,4,High,Express Route,Open
+2232,959,958,Homagama Avenue 36,2,4,High,Express Route,Close
+2233,264,265,Borella-Rajagiriya Link,3,3,Moderate,Main Road,Open
+2234,265,264,Borella-Rajagiriya Link,3,3,Moderate,Main Road,Open
+2235,325,326,Galle Face Mawatha 38,3,3,Moderate,Main Road,Open
+2236,326,325,Galle Face Mawatha 38,3,3,Moderate,Main Road,Open
+2237,289,290,Maradana Connector 39,3,3,Moderate,Main Road,Open
+2238,290,289,Maradana Connector 39,3,3,Moderate,Main Road,Open
+2239,287,288,Galle Face Link 40,2,2,Low,Main Road,Close
+2240,288,287,Galle Face Link 40,2,2,Low,Main Road,Open
+2241,757,758,Kaduwela Avenue 01,2,2,Low,Main Road,Open
+2242,758,757,Kaduwela Avenue 01,2,2,Low,Main Road,Open
+2243,676,677,Kaduwela Road 02,3,3,Moderate,Main Road,Open
+2244,677,676,Kaduwela Road 02,3,3,Moderate,Main Road,Open
+2245,383,384,Borella Mawatha 03,3,3,Moderate,Main Road,Open
+2246,384,383,Borella Mawatha 03,3,3,Moderate,Main Road,Close
+2247,202,203,Galle Face Connector 04,2,4,High,Main Road,Open
+2248,203,202,Galle Face Connector 04,2,4,High,Main Road,Open
+2249,393,394,Battaramulla Link 05,2,3,Moderate,Coastal Road,Open
+2250,394,393,Battaramulla Link 05,2,3,Moderate,Coastal Road,Open
+2251,373,374,Maradana Avenue 06,3,2,Low,Main Road,Open
+2252,374,373,Maradana Avenue 06,3,2,Low,Main Road,Open
+2253,152,153,Dematagoda-Kelaniya Link,2,3,Moderate,Express Route,Open
+2254,153,152,Dematagoda-Kelaniya Link,2,3,Moderate,Express Route,Open
+2255,10,50,Pettah Mawatha 08,4,4,High,Main Road,Open
+2256,50,10,Pettah Mawatha 08,4,4,High,Main Road,Close
+2257,772,773,Kirulapone Connector 09,3,4,High,Coastal Road,Open
+2258,773,772,Kirulapone Connector 09,3,4,High,Coastal Road,Open
+2259,341,342,Borella Link 10,3,3,Moderate,Mountain Road,Open
+2260,342,341,Borella Link 10,3,3,Moderate,Mountain Road,Open
+2261,347,348,Rajagiriya Avenue 11,3,3,Moderate,Main Road,Close
+2262,348,347,Rajagiriya Avenue 11,3,3,Moderate,Main Road,Open
+2263,33,73,Kelaniya Road 12,4,3,Moderate,Main Road,Open
+2264,73,33,Kelaniya Road 12,4,3,Moderate,Main Road,Open
+2265,326,327,Galle Face Mawatha 13,3,3,Moderate,Main Road,Open
+2266,327,326,Galle Face Mawatha 13,3,3,Moderate,Main Road,Open
+2267,620,621,Nugegoda Connector 14,3,3,Moderate,Mountain Road,Close
+2268,621,620,Nugegoda Connector 14,3,3,Moderate,Mountain Road,Open
+2269,749,750,Maharagama Link 15,2,4,High,Express Route,Open
+2270,750,749,Maharagama Link 15,2,4,High,Express Route,Close
+2271,147,148,Dematagoda Avenue 16,2,2,Low,Main Road,Open
+2272,148,147,Dematagoda Avenue 16,2,2,Low,Main Road,Open
+2273,675,676,Kaduwela Road 17,3,4,High,Main Road,Open
+2274,676,675,Kaduwela Road 17,3,4,High,Main Road,Open
+2275,391,392,Rajagiriya Mawatha 18,3,4,High,Main Road,Open
+2276,392,391,Rajagiriya Mawatha 18,3,4,High,Main Road,Close
+2277,723,724,Wellawatte Connector 19,3,2,Low,Main Road,Open
+2278,724,723,Wellawatte Connector 19,3,2,Low,Main Road,Close
+2279,678,679,Kaduwela Link 20,3,3,Moderate,Main Road,Open
+2280,679,678,Kaduwela Link 20,3,3,Moderate,Main Road,Open
+2281,631,632,Maharagama Avenue 21,3,4,High,Main Road,Open
+2282,632,631,Maharagama Avenue 21,3,4,High,Main Road,Open
+2283,366,367,Galle Face Road 22,3,3,Moderate,Main Road,Open
+2284,367,366,Galle Face Road 22,3,3,Moderate,Main Road,Open
+2285,332,333,Maradana Mawatha 23,3,4,High,Main Road,Open
+2286,333,332,Maradana Mawatha 23,3,4,High,Main Road,Open
+2287,254,255,Maradana Connector 24,3,3,Moderate,Main Road,Open
+2288,255,254,Maradana Connector 24,3,3,Moderate,Main Road,Close
+2289,401,402,Kollupitiya Link 25,2,2,Low,Main Road,Open
+2290,402,401,Kollupitiya Link 25,2,2,Low,Main Road,Open
+2291,658,659,Nugegoda Avenue 26,2,3,Moderate,Express Route,Open
+2292,659,658,Nugegoda Avenue 26,2,3,Moderate,Express Route,Open
+2293,4,44,Fort Road 27,4,4,High,Main Road,Close
+2294,44,4,Fort Road 27,4,4,High,Main Road,Open
+2295,227,228,Rajagiriya Mawatha 28,3,2,Low,Mountain Road,Close
+2296,228,227,Rajagiriya Mawatha 28,3,2,Low,Mountain Road,Open
+2297,194,195,Kelaniya Connector 29,3,3,Moderate,Main Road,Close
+2298,195,194,Kelaniya Connector 29,3,3,Moderate,Main Road,Open
+2299,570,571,Bambalapitiya Link 30,2,2,Low,Main Road,Open
+2300,571,570,Bambalapitiya Link 30,2,2,Low,Main Road,Open
+2301,363,364,Galle Face Avenue 31,3,4,High,Main Road,Open
+2302,364,363,Galle Face Avenue 31,3,4,High,Main Road,Close
+2303,592,593,Kotte-Malabe Link,3,4,High,Main Road,Close
+2304,593,592,Kotte-Malabe Link,3,4,High,Main Road,Open
+2305,11,51,Pettah Mawatha 33,4,3,Moderate,Main Road,Close
+2306,51,11,Pettah Mawatha 33,4,3,Moderate,Main Road,Open
+2307,223,224,Borella Connector 34,3,3,Moderate,Main Road,Open
+2308,224,223,Borella Connector 34,3,3,Moderate,Main Road,Open
+2309,578,579,Narahenpita Link 35,3,4,High,Main Road,Close
+2310,579,578,Narahenpita Link 35,3,4,High,Main Road,Open
+2311,108,109,Dematagoda Avenue 36,3,3,Moderate,Main Road,Open
+2312,109,108,Dematagoda Avenue 36,3,3,Moderate,Main Road,Close
+2313,389,390,Rajagiriya Road 37,3,4,High,Main Road,Open
+2314,390,389,Rajagiriya Road 37,3,4,High,Main Road,Close
+2315,808,809,Dehiwala-Ratmalana Link,3,4,High,Main Road,Open
+2316,809,808,Dehiwala-Ratmalana Link,3,4,High,Main Road,Close
+2317,549,550,Kotte Connector 39,2,3,Moderate,Express Route,Open
+2318,550,549,Kotte Connector 39,2,3,Moderate,Express Route,Close
+2319,690,691,Kirulapone Link 40,3,4,High,Main Road,Close
+2320,691,690,Kirulapone Link 40,3,4,High,Main Road,Open
+2321,485,486,Kollupitiya Avenue 01,3,3,Moderate,Main Road,Open
+2322,486,485,Kollupitiya Avenue 01,3,3,Moderate,Main Road,Open
+2323,642,643,Wellawatte Road 02,3,4,High,Main Road,Close
+2324,643,642,Wellawatte Road 02,3,4,High,Main Road,Open
+2325,894,895,Ratmalana Mawatha 03,2,3,Moderate,Main Road,Open
+2326,895,894,Ratmalana Mawatha 03,2,3,Moderate,Main Road,Open
+2327,18,58,Grandpass Connector 04,4,3,Moderate,Main Road,Open
+2328,58,18,Grandpass Connector 04,4,3,Moderate,Main Road,Close
+2329,647,648,Wellawatte Link 05,2,2,Low,Main Road,Open
+2330,648,647,Wellawatte Link 05,2,2,Low,Main Road,Open
+2331,89,90,Pettah Avenue 06,3,4,High,Main Road,Open
+2332,90,89,Pettah Avenue 06,3,4,High,Main Road,Open
+2333,612,613,Kirulapone Road 07,2,2,Low,Main Road,Open
+2334,613,612,Kirulapone Road 07,2,2,Low,Main Road,Open
+2335,45,46,Fort Mawatha 08,2,3,Moderate,Main Road,Open
+2336,46,45,Fort Mawatha 08,2,3,Moderate,Main Road,Close
+2337,381,382,Borella Connector 09,2,2,Low,Main Road,Open
+2338,382,381,Borella Connector 09,2,2,Low,Main Road,Close
+2339,789,790,Maharagama Link 10,3,4,High,Main Road,Close
+2340,790,789,Maharagama Link 10,3,4,High,Main Road,Open
+2341,198,199,Kelaniya Avenue 11,2,2,Low,Main Road,Close
+2342,199,198,Kelaniya Avenue 11,2,2,Low,Main Road,Open
+2343,382,383,Borella Road 12,2,2,Low,Main Road,Open
+2344,383,382,Borella Road 12,2,2,Low,Main Road,Open
+2345,602,603,Wellawatte Mawatha 13,3,4,High,Main Road,Open
+2346,603,602,Wellawatte Mawatha 13,3,4,High,Main Road,Open
+2347,585,586,Kotte Connector 14,3,3,Moderate,Main Road,Open
+2348,586,585,Kotte Connector 14,3,3,Moderate,Main Road,Open
+2349,874,875,Homagama Link 15,3,2,Low,Main Road,Open
+2350,875,874,Homagama Link 15,3,2,Low,Main Road,Open
+2351,255,256,Maradana Avenue 16,2,2,Low,Main Road,Close
+2352,256,255,Maradana Avenue 16,2,2,Low,Main Road,Open
+2353,250,251,Maradana Road 17,3,4,High,Main Road,Open
+2354,251,250,Maradana Road 17,3,4,High,Main Road,Open
+2355,881,882,Dehiwala Mawatha 18,3,3,Moderate,Main Road,Open
+2356,882,881,Dehiwala Mawatha 18,3,3,Moderate,Main Road,Open
+2357,164,165,Fort Connector 19,2,3,Moderate,Main Road,Open
+2358,165,164,Fort Connector 19,2,3,Moderate,Main Road,Open
+2359,666,667,Maharagama Link 20,2,4,High,Coastal Road,Close
+2360,667,666,Maharagama Link 20,2,4,High,Coastal Road,Open
+2361,251,252,Maradana Avenue 21,3,4,High,Main Road,Open
+2362,252,251,Maradana Avenue 21,3,4,High,Main Road,Open
+2363,197,198,Kelaniya Road 22,3,4,High,Main Road,Open
+2364,198,197,Kelaniya Road 22,3,4,High,Main Road,Close
+2365,142,143,Grandpass Mawatha 23,3,3,Moderate,Main Road,Open
+2366,143,142,Grandpass Mawatha 23,3,3,Moderate,Main Road,Open
+2367,428,429,Kotte Connector 24,3,4,High,Main Road,Open
+2368,429,428,Kotte Connector 24,3,4,High,Main Road,Open
+2369,317,318,Battaramulla Link 25,3,2,Low,Main Road,Open
+2370,318,317,Battaramulla Link 25,3,2,Low,Main Road,Close
+2371,151,152,Dematagoda Avenue 26,2,4,High,Express Route,Open
+2372,152,151,Dematagoda Avenue 26,2,4,High,Express Route,Close
+2373,353,354,Battaramulla Road 27,2,3,Moderate,Main Road,Open
+2374,354,353,Battaramulla Road 27,2,3,Moderate,Main Road,Close
+2375,427,428,Kotte Mawatha 28,3,3,Moderate,Main Road,Open
+2376,428,427,Kotte Mawatha 28,3,3,Moderate,Main Road,Open
+2377,863,864,Boralesgamuwa Connector 29,3,4,High,Main Road,Open
+2378,864,863,Boralesgamuwa Connector 29,3,4,High,Main Road,Open
+2379,895,896,Ratmalana Link 30,3,4,High,Main Road,Close
+2380,896,895,Ratmalana Link 30,3,4,High,Main Road,Open
+2381,190,191,Dematagoda Avenue 31,2,3,Moderate,Main Road,Open
+2382,191,190,Dematagoda Avenue 31,2,3,Moderate,Main Road,Close
+2383,37,77,Kelaniya Road 32,3,4,High,Express Route,Close
+2384,77,37,Kelaniya Road 32,3,4,High,Express Route,Open
+2385,725,726,Wellawatte Mawatha 33,3,3,Moderate,Main Road,Open
+2386,726,725,Wellawatte Mawatha 33,3,3,Moderate,Main Road,Open
+2387,834,835,Homagama Connector 34,2,2,Low,Main Road,Close
+2388,835,834,Homagama Connector 34,2,2,Low,Main Road,Open
+2389,581,582,Narahenpita Link 35,2,2,Low,Main Road,Open
+2390,582,581,Narahenpita Link 35,2,2,Low,Main Road,Close
+2391,79,80,Kelaniya Avenue 36,2,2,Low,Express Route,Open
+2392,80,79,Kelaniya Avenue 36,2,2,Low,Express Route,Close
+2393,671,672,Maharagama Road 37,2,4,High,Express Route,Open
+2394,672,671,Maharagama Road 37,2,4,High,Express Route,Close
+2395,367,368,Galle Face Mawatha 38,3,4,High,Main Road,Open
+2396,368,367,Galle Face Mawatha 38,3,4,High,Main Road,Close
+2397,114,115,Kelaniya Connector 39,2,2,Low,Main Road,Open
+2398,115,114,Kelaniya Connector 39,2,2,Low,Main Road,Close
+2399,105,106,Dematagoda Link 40,3,3,Moderate,Main Road,Close
+2400,106,105,Dematagoda Link 40,3,3,Moderate,Main Road,Open
